@@ -4,4 +4,4 @@ Consolig is a version of Consolas that supports ligatures. Unlike other similar 
 
 Because Consolas cannot be redistributed, this project provides the tools to append the ligature glyphs and features to your personal copy of Consolas, generating a copy of Consolig.
 
-Glyph substitution logic was taken directly from [Fira Code](https://github.com/tonsky/FiraCode).
+Glyph substitution logic was taken directly from [Fira Code](https://github.com/tonsky/FiraCode). The current version of Consolig is based on:<br>[https://github.com/tonsky/FiraCode/releases/tag/2](https://github.com/tonsky/FiraCode/releases/tag/2)

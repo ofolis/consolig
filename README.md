@@ -1,4 +1,4 @@
-# consolig
+# Consolig
 
 Consolig is a version of Consolas that supports ligatures. All ligatures were made by hand from the original Consolas glyphs (they are not just a copy from Fira Code).
 

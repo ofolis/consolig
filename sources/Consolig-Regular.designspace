@@ -6,7 +6,7 @@
     </axis>
   </axes>
   <sources>
-    <source filename="CascadiaCode-Regular.ufo" name="Cascadia Code Regular" familyname="Cascadia Code" stylename="Regular">
+    <source filename="Consolig-Regular.ufo" name="Consolig Regular" familyname="Consolig" stylename="Regular">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -17,7 +17,7 @@
     </source>
   </sources>
   <instances>
-    <instance name="Cascadia Code Regular" familyname="Cascadia Code" stylename="Regular" filename="instance_ufos/CascadiaCode-Regular.ufo" stylemapfamilyname="Cascadia Code" stylemapstylename="regular">
+    <instance name="Consolig Regular" familyname="Consolig" stylename="Regular" filename="instance_ufos/Consolig-Regular.ufo" stylemapfamilyname="Consolig" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="100"/>
       </location>

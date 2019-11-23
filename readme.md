@@ -5,3 +5,8 @@ Consolig is a version of Consolas that supports ligatures. Unlike other similar 
 Because Consolas cannot be redistributed, this project provides the tools to append the ligature glyphs and features to your personal copy of Consolas, generating a copy of Consolig.
 
 Glyph substitution and font build logic was taken directly from [Cascadia Code](https://github.com/microsoft/cascadia-code).
+
+# Python Dependencies
+
+- `defcon`
+- `ufo-extractor`

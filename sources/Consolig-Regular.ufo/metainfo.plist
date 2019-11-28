@@ -2,10 +2,9 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
-    <key>public.glyphOrder</key>
-    <array>
-      <string>hyphen_hyphen_greater.liga</string>
-      <string>LIG</string>
-    </array>
+    <key>creator</key>
+    <string>com.github.fonttools.ufoLib</string>
+    <key>formatVersion</key>
+    <integer>3</integer>
   </dict>
 </plist>

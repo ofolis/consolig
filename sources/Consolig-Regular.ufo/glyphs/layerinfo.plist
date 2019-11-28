@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>lib</key>
+    <dict>
+      <key>com.schriftgestaltung.layerId</key>
+      <string>6cfc925f-9911-4cb0-b376-4d783468e72e</string>
+      <key>com.schriftgestaltung.layerOrderInGlyph.hyphen_hyphen_greater.liga</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.LIG</key>
+      <integer>0</integer>
+    </dict>
+  </dict>
+</plist>

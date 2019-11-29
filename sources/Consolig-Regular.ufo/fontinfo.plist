@@ -274,7 +274,7 @@
         <key>platformID</key>
         <integer>0</integer>
         <key>string</key>
-        <string>Version 7.00</string>
+        <string>Version 1.00</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -286,7 +286,7 @@
         <key>platformID</key>
         <integer>1</integer>
         <key>string</key>
-        <string>Version 7.00</string>
+        <string>Version 1.00</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -298,7 +298,7 @@
         <key>platformID</key>
         <integer>3</integer>
         <key>string</key>
-        <string>Version 7.00</string>
+        <string>Version 1.00</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -592,7 +592,7 @@
     <key>openTypeNameUniqueID</key>
     <string>Schism: Consolig</string>
     <key>openTypeNameVersion</key>
-    <string>Version 7.00</string>
+    <string>Version 1.00</string>
     <key>openTypeOS2CodePageRanges</key>
     <array>
       <integer>0</integer>
@@ -733,7 +733,7 @@
     <key>unitsPerEm</key>
     <integer>2048</integer>
     <key>versionMajor</key>
-    <integer>7</integer>
+    <integer>1</integer>
     <key>versionMinor</key>
     <integer>0</integer>
     <key>xHeight</key>

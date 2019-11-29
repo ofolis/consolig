@@ -46,7 +46,7 @@ def step_merge_glyphs_from_ufo(path):
         for glyph in ufo.glyphOrder:
             if glyph not in instance.glyphOrder and glyph not in added_glyphs:
                 instance.addGlyph(ufo[glyph])
-                added_glyphs.append(ufo[glyph].name)
+                added_glyphs.append(glyph)
     return _merge
 
 
@@ -62,10 +62,9 @@ def step_set_feature_file(n):
 
 def build_font_instance(generator, instance_descriptor, *steps):
     instance = generator.generate_instance(instance_descriptor)
-    added_glyphs = []
+    added_glyphs = copy.deepcopy(instance.glyphOrder)
     for step in steps:
         step(instance, added_glyphs)
-    print(f"All steps complete. Added the following glyphs:\n", *added_glyphs)
     setattr(instance.info, "openTypeOS2Panose",
             [2, 11, 6, 9, 2, 0, 0, 2, 0, 4])
     instance.info.openTypeGaspRangeRecords = [
@@ -119,7 +118,7 @@ if __name__ == "__main__":
                 f"Cannot process instance. Style name \"{instance_descriptor.styleName}\" is not defined in map.")
             continue
         font_file = INPUT_STYLE_MAP[instance_descriptor.styleName]["font_file"]
-        print(f"Attempting to extract UFO for \"{font_file}\".")
+        print(f"Attempting to extract UFO from \"{font_file}\".")
         if os.path.exists(INPUT_DIR / font_file):
             ufo = defcon.Font()
             extractor.extractUFO(

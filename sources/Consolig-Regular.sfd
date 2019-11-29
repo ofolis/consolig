@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1575066624
-ModificationTime: 1575068125
+ModificationTime: 1575068412
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -76,7 +76,7 @@ DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
 WinInfo: 80 16 6
-BeginChars: 172 172
+BeginChars: 173 173
 
 StartChar: ampersand_ampersand.liga
 Encoding: 0 -1 0
@@ -2543,158 +2543,226 @@ EndChar
 
 StartChar: zeroinferior
 Encoding: 152 -1 152
+GlifName: zeroinferior
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: oneinferior
 Encoding: 153 -1 153
+GlifName: oneinferior
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: twoinferior
 Encoding: 154 -1 154
+GlifName: twoinferior
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: threeinferior
 Encoding: 155 -1 155
+GlifName: threeinferior
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: fourinferior
 Encoding: 156 -1 156
+GlifName: fourinferior
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: fiveinferior
 Encoding: 157 -1 157
+GlifName: fiveinferior
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: sixinferior
 Encoding: 158 -1 158
+GlifName: sixinferior
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: seveninferior
 Encoding: 159 -1 159
+GlifName: seveninferior
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: eightinferior
 Encoding: 160 -1 160
+GlifName: eightinferior
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: nineinferior
 Encoding: 161 -1 161
+GlifName: nineinferior
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: zerosuperior
 Encoding: 162 -1 162
+GlifName: zerosuperior
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: onesuperior
 Encoding: 163 -1 163
+GlifName: onesuperior
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: twosuperior
 Encoding: 164 -1 164
+GlifName: twosuperior
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: threesuperior
 Encoding: 165 -1 165
+GlifName: threesuperior
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: foursuperior
 Encoding: 166 -1 166
+GlifName: foursuperior
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: fivesuperior
 Encoding: 167 -1 167
+GlifName: fivesuperior
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: sixsuperior
 Encoding: 168 -1 168
+GlifName: sixsuperior
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: sevensuperior
 Encoding: 169 -1 169
+GlifName: sevensuperior
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: eightsuperior
 Encoding: 170 -1 170
+GlifName: eightsuperior
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: ninesuperior
 Encoding: 171 -1 171
+GlifName: ninesuperior
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Validated: 1
+EndChar
+
+StartChar: zero.zero
+Encoding: 172 -1 172
 Width: 1126
 VWidth: 0
 Flags: HW

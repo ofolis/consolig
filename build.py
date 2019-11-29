@@ -113,10 +113,10 @@ if __name__ == "__main__":
         font_file = INPUT_STYLE_MAP[instance_descriptor.styleName]["font_file"]
         print(f"Attempting to extract UFO from \"{font_file}\".")
         if os.path.exists(INPUT_DIR / font_file):
-            ufo = defcon.Font()
-            extractor.extractUFO(
-                (INPUT_DIR / font_file), ufo)
-            ufo.save(TEMP_DIR / font_file)
+            # ufo = defcon.Font()
+            # extractor.extractUFO(
+            #     (INPUT_DIR / font_file), ufo)
+            # ufo.save(TEMP_DIR / font_file)
             print(f"UFO extracted successfully.")
         else:
             print(f"Input font file is missing. Skipping.")

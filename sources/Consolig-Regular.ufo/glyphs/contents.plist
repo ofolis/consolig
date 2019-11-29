@@ -2,9 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>ampersand_ampersand.liga</key>
+    <string>ampersand_ampersand.liga.glif</string>
+    <key>asciicircum_equal.liga</key>
+    <string>asciicircum_equal.liga.glif</string>
     <key>hyphen_hyphen_greater.liga</key>
     <string>hyphen_hyphen_greater.liga.glif</string>
+    <key>less_slash_greater.liga</key>
+    <string>less_slash_greater.liga.glif</string>
     <key>LIG</key>
-    <string>LIG.glif</string>
+    <string>L_I_G_.glif</string>
+    <key>slash_greater.liga</key>
+    <string>slash_greater.liga.glif</string>
   </dict>
 </plist>

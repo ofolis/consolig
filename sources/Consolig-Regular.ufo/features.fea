@@ -45,7 +45,9 @@
 	\question_question.liga \semicolon_semicolon.liga \slash_asterisk.liga 
 	\slash_equal.liga \slash_equal_equal.liga \slash_greater.liga 
 	\slash_slash.liga \slash_slash_slash.liga \tilde_tilde_greater.liga 
-	\underscore_bar_underscore.liga \underscore_underscore.liga \w_w_w.liga ];
+	\underscore_bar_underscore.liga \underscore_underscore.liga \w_w_w.liga 
+	\zero.dnom \one.dnom \two.dnom \three.dnom \four.dnom \five.dnom \six.dnom 
+	\seven.dnom \eight.dnom \nine.dnom ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , , ;

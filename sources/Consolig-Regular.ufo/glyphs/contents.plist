@@ -266,5 +266,25 @@
     <string>underscore_underscore.liga.glif</string>
     <key>w_w_w.liga</key>
     <string>w_w_w.liga.glif</string>
+    <key>zero.dnom</key>
+    <string>zero.dnom.glif</string>
+    <key>one.dnom</key>
+    <string>one.dnom.glif</string>
+    <key>two.dnom</key>
+    <string>two.dnom.glif</string>
+    <key>three.dnom</key>
+    <string>three.dnom.glif</string>
+    <key>four.dnom</key>
+    <string>four.dnom.glif</string>
+    <key>five.dnom</key>
+    <string>five.dnom.glif</string>
+    <key>six.dnom</key>
+    <string>six.dnom.glif</string>
+    <key>seven.dnom</key>
+    <string>seven.dnom.glif</string>
+    <key>eight.dnom</key>
+    <string>eight.dnom.glif</string>
+    <key>nine.dnom</key>
+    <string>nine.dnom.glif</string>
   </dict>
 </plist>

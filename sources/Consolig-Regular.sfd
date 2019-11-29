@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1575066624
-ModificationTime: 1575067945
+ModificationTime: 1575068125
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -75,8 +75,8 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 64 16 6
-BeginChars: 152 152
+WinInfo: 80 16 6
+BeginChars: 172 172
 
 StartChar: ampersand_ampersand.liga
 Encoding: 0 -1 0
@@ -2433,78 +2433,268 @@ EndChar
 
 StartChar: zero.numr
 Encoding: 142 -1 142
+GlifName: zero.numr
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: one.numr
 Encoding: 143 -1 143
+GlifName: one.numr
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: two.numr
 Encoding: 144 -1 144
+GlifName: two.numr
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: three.numr
 Encoding: 145 -1 145
+GlifName: three.numr
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: four.numr
 Encoding: 146 -1 146
+GlifName: four.numr
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: five.numr
 Encoding: 147 -1 147
+GlifName: five.numr
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: six.numr
 Encoding: 148 -1 148
+GlifName: six.numr
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: seven.numr
 Encoding: 149 -1 149
+GlifName: seven.numr
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: eight.numr
 Encoding: 150 -1 150
+GlifName: eight.numr
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Validated: 1
+EndChar
+
+StartChar: nine.numr
+Encoding: 151 -1 151
+GlifName: nine.numr
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Validated: 1
+EndChar
+
+StartChar: zeroinferior
+Encoding: 152 -1 152
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: nine.numr
-Encoding: 151 -1 151
+StartChar: oneinferior
+Encoding: 153 -1 153
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: twoinferior
+Encoding: 154 -1 154
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: threeinferior
+Encoding: 155 -1 155
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: fourinferior
+Encoding: 156 -1 156
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: fiveinferior
+Encoding: 157 -1 157
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: sixinferior
+Encoding: 158 -1 158
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: seveninferior
+Encoding: 159 -1 159
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: eightinferior
+Encoding: 160 -1 160
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: nineinferior
+Encoding: 161 -1 161
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: zerosuperior
+Encoding: 162 -1 162
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: onesuperior
+Encoding: 163 -1 163
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: twosuperior
+Encoding: 164 -1 164
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: threesuperior
+Encoding: 165 -1 165
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: foursuperior
+Encoding: 166 -1 166
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: fivesuperior
+Encoding: 167 -1 167
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: sixsuperior
+Encoding: 168 -1 168
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: sevensuperior
+Encoding: 169 -1 169
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: eightsuperior
+Encoding: 170 -1 170
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: ninesuperior
+Encoding: 171 -1 171
 Width: 1126
 VWidth: 0
 Flags: HW

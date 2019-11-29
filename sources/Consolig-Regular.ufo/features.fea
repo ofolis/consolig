@@ -48,7 +48,11 @@
 	\underscore_bar_underscore.liga \underscore_underscore.liga \w_w_w.liga 
 	\zero.dnom \one.dnom \two.dnom \three.dnom \four.dnom \five.dnom \six.dnom 
 	\seven.dnom \eight.dnom \nine.dnom \zero.numr \one.numr \two.numr \three.numr 
-	\four.numr \five.numr \six.numr \seven.numr \eight.numr \nine.numr ];
+	\four.numr \five.numr \six.numr \seven.numr \eight.numr \nine.numr 
+	\zeroinferior \oneinferior \twoinferior \threeinferior \fourinferior 
+	\fiveinferior \sixinferior \seveninferior \eightinferior \nineinferior 
+	\zerosuperior \onesuperior \twosuperior \threesuperior \foursuperior 
+	\fivesuperior \sixsuperior \sevensuperior \eightsuperior \ninesuperior ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , , ;

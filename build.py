@@ -1,7 +1,6 @@
 from pathlib import Path
 
 import argparse
-import copy
 import extractor
 import fontmake.instantiator
 import fontTools.designspaceLib
@@ -18,19 +17,15 @@ DESIGNSPACE_FILE = "Consolig.designspace"
 INPUT_DIR = Path("input/")
 INPUT_STYLE_MAP = {
     "Bold": {
-        "cascadia_ufo": "CascadiaCode-Regular.ufo",
         "font_file": "consolab.ttf"
     },
     "Bold Italic": {
-        "cascadia_ufo": "CascadiaCode-Regular.ufo",
         "font_file": "consolaz.ttf"
     },
     "Italic": {
-        "cascadia_ufo": "CascadiaCode-Regular.ufo",
         "font_file": "consolai.ttf"
     },
     "Regular": {
-        "cascadia_ufo": "CascadiaCode-Regular.ufo",
         "font_file": "consola.ttf"
     }
 }
@@ -39,21 +34,20 @@ TEMP_DIR = Path("temp/")
 
 
 def step_merge_glyphs_from_ufo(path):
-    def _merge(instance, added_glyphs):
+    def _merge(instance):
         ufo = ufoLib2.Font.open(path)
         print(
             f"[{instance.info.familyName} {instance.info.styleName}] Merging glyphs from \"{path}\".")
         for glyph in ufo.glyphOrder:
-            if glyph not in instance.glyphOrder and glyph not in added_glyphs:
+            if glyph not in instance.glyphOrder:
                 instance.addGlyph(ufo[glyph])
-                added_glyphs.append(glyph)
     return _merge
 
 
 def step_set_feature_file(n):
     fea = n.read_text()
 
-    def _set(instance, added_glyphs):
+    def _set(instance):
         print(
             f"[{instance.info.familyName} {instance.info.styleName}] Setting feature file from \"{n}\".")
         instance.features.text = fea
@@ -62,9 +56,8 @@ def step_set_feature_file(n):
 
 def build_font_instance(generator, instance_descriptor, *steps):
     instance = generator.generate_instance(instance_descriptor)
-    added_glyphs = copy.deepcopy(instance.glyphOrder)
     for step in steps:
-        step(instance, added_glyphs)
+        step(instance)
     setattr(instance.info, "openTypeOS2Panose",
             [2, 11, 6, 9, 2, 0, 0, 2, 0, 4])
     instance.info.openTypeGaspRangeRecords = [
@@ -132,11 +125,9 @@ if __name__ == "__main__":
             f"Beginning build for style \"{instance_descriptor.styleName}\".")
         # Define steps
         step_merge_consolas = step_merge_glyphs_from_ufo(TEMP_DIR / font_file)
-        step_merge_cascadia = step_merge_glyphs_from_ufo(
-            SOURCES_DIR / INPUT_STYLE_MAP[instance_descriptor.styleName]["cascadia_ufo"])
         # Build font
         build_font_instance(generator, instance_descriptor,
-                            step_merge_consolas, step_merge_cascadia, step_add_features)
+                            step_merge_consolas, step_add_features)
         print(
             f"Completed build for style \"{instance_descriptor.styleName}\".")
         print("*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***")

@@ -286,5 +286,25 @@
     <string>eight.dnom.glif</string>
     <key>nine.dnom</key>
     <string>nine.dnom.glif</string>
+    <key>zero.numr</key>
+    <string>zero.numr.glif</string>
+    <key>one.numr</key>
+    <string>one.numr.glif</string>
+    <key>two.numr</key>
+    <string>two.numr.glif</string>
+    <key>three.numr</key>
+    <string>three.numr.glif</string>
+    <key>four.numr</key>
+    <string>four.numr.glif</string>
+    <key>five.numr</key>
+    <string>five.numr.glif</string>
+    <key>six.numr</key>
+    <string>six.numr.glif</string>
+    <key>seven.numr</key>
+    <string>seven.numr.glif</string>
+    <key>eight.numr</key>
+    <string>eight.numr.glif</string>
+    <key>nine.numr</key>
+    <string>nine.numr.glif</string>
   </dict>
 </plist>

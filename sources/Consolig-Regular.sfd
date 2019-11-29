@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1575066624
-ModificationTime: 1575067557
+ModificationTime: 1575067945
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -75,8 +75,8 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 48 16 6
-BeginChars: 142 142
+WinInfo: 64 16 6
+BeginChars: 152 152
 
 StartChar: ampersand_ampersand.liga
 Encoding: 0 -1 0
@@ -2308,6 +2308,7 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
+Validated: 1
 PickledDataWithLists: "(dp0
 Vcom.schriftgestaltung.Glyphs.glyph.rightMetricsKey
 p1
@@ -2322,78 +2323,188 @@ EndChar
 
 StartChar: zero.dnom
 Encoding: 132 -1 132
+GlifName: zero.dnom
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: one.dnom
 Encoding: 133 -1 133
+GlifName: one.dnom
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: two.dnom
 Encoding: 134 -1 134
+GlifName: two.dnom
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: three.dnom
 Encoding: 135 -1 135
+GlifName: three.dnom
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: four.dnom
 Encoding: 136 -1 136
+GlifName: four.dnom
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: five.dnom
 Encoding: 137 -1 137
+GlifName: five.dnom
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: six.dnom
 Encoding: 138 -1 138
+GlifName: six.dnom
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: seven.dnom
 Encoding: 139 -1 139
+GlifName: seven.dnom
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: eight.dnom
 Encoding: 140 -1 140
+GlifName: eight.dnom
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Validated: 1
+EndChar
+
+StartChar: nine.dnom
+Encoding: 141 -1 141
+GlifName: nine.dnom
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Validated: 1
+EndChar
+
+StartChar: zero.numr
+Encoding: 142 -1 142
 Width: 1126
 VWidth: 0
 Flags: HW
 LayerCount: 2
 EndChar
 
-StartChar: nine.dnom
-Encoding: 141 -1 141
+StartChar: one.numr
+Encoding: 143 -1 143
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: two.numr
+Encoding: 144 -1 144
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: three.numr
+Encoding: 145 -1 145
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: four.numr
+Encoding: 146 -1 146
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: five.numr
+Encoding: 147 -1 147
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: six.numr
+Encoding: 148 -1 148
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: seven.numr
+Encoding: 149 -1 149
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: eight.numr
+Encoding: 150 -1 150
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: nine.numr
+Encoding: 151 -1 151
 Width: 1126
 VWidth: 0
 Flags: HW

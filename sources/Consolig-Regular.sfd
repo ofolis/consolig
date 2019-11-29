@@ -1,0 +1,2191 @@
+SplineFontDB: 3.2
+FontName: Consolig-Regular
+FullName: Consolig Regular
+FamilyName: Consolig
+Weight: Regular
+Copyright: (c) 2019 Schism Studios
+Version: 1.0
+StyleMapFamilyName: Consolig
+ItalicAngle: 0
+UnderlinePosition: -266
+UnderlineWidth: 144
+Ascent: 1521
+Descent: 527
+InvalidEm: 0
+UFOAscent: 1521
+UFODescent: -527
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "public.default" 0 "glyphs"
+StyleMap: 0x0040
+FSType: 8
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 0
+CreationTime: 1575066624
+ModificationTime: 1575066649
+PfmFamily: 16
+TTFWeight: 400
+TTFWidth: 5
+LineGap: 350
+VLineGap: 0
+Panose: 2 11 6 9 2 2 4 3 2 4
+OS2TypoAscent: 1521
+OS2TypoAOffset: 0
+OS2TypoDescent: -527
+OS2TypoDOffset: 0
+OS2TypoLinegap: 350
+OS2WinAscent: 1884
+OS2WinAOffset: 0
+OS2WinDescent: 514
+OS2WinDOffset: 0
+HheadAscent: 1521
+HheadAOffset: 0
+HheadDescent: -527
+HheadDOffset: 0
+OS2SubXSize: 1434
+OS2SubYSize: 1331
+OS2SubXOff: 0
+OS2SubYOff: 287
+OS2SupXSize: 1434
+OS2SupYSize: 1331
+OS2SupXOff: 0
+OS2SupYOff: 977
+OS2StrikeYSize: 102
+OS2StrikeYPos: 512
+OS2CapHeight: 1307
+OS2XHeight: 1004
+OS2Vendor: 'SS  '
+OS2CodePages: 6000019f.dfd70000
+OS2UnicodeRanges: e00006ff.0000fcff.00000001.00000000
+DEI: 91125
+LangName: 1033 "+AKkA 2019 Schism Studios" "" "" "Schism: Consolig" "" "Version 1.00" "" "Consolig is not trademarked. It is a not-so-clever combination of two other words, one of which is a trademark of Microsoft." "Schism Studios" "Josh Jones" "" "http://www.schism.co" "http://josh-jones.com" "SIL OPEN FONT LICENSE (OFL-1.1)" "https://opensource.org/licenses/OFL-1.1"
+PickledDataWithLists: "(dp0
+Vpublic.glyphOrder
+p1
+(lp2
+Vhyphen_hyphen_greater.liga
+p3
+aVLIG
+p4
+as."
+Encoding: Custom
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 0 34 11
+BeginChars: 132 132
+
+StartChar: ampersand_ampersand.liga
+Encoding: 0 -1 0
+GlifName: ampersand_ampersand.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:07:02
+p2
+s."
+EndChar
+
+StartChar: asciicircum_equal.liga
+Encoding: 1 -1 1
+GlifName: asciicircum_equal.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: asciitilde_asciitilde.liga
+Encoding: 2 -1 2
+GlifName: asciitilde_asciitilde.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: asciitilde_at.liga
+Encoding: 3 -1 3
+GlifName: asciitilde_at.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:07:02
+p2
+s."
+EndChar
+
+StartChar: asciitilde_equal.liga
+Encoding: 4 -1 4
+GlifName: asciitilde_equal.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: asciitilde_greater.liga
+Encoding: 5 -1 5
+GlifName: asciitilde_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:07:02
+p2
+s."
+EndChar
+
+StartChar: asciitilde_hyphen.liga
+Encoding: 6 -1 6
+GlifName: asciitilde_hyphen.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: asterisk_asterisk.liga
+Encoding: 7 -1 7
+GlifName: asterisk_asterisk.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: asterisk_asterisk_asterisk.liga
+Encoding: 8 -1 8
+GlifName: asterisk_asterisk_asterisk.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: asterisk_greater.liga
+Encoding: 9 -1 9
+GlifName: asterisk_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: asterisk_slash.liga
+Encoding: 10 -1 10
+GlifName: asterisk_slash.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: bar_bar.liga
+Encoding: 11 -1 11
+GlifName: bar_bar.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: bar_bar_bar_greater.liga
+Encoding: 12 -1 12
+GlifName: bar_bar_bar_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: bar_bar_equal.liga
+Encoding: 13 -1 13
+GlifName: bar_bar_equal.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: bar_bar_greater.liga
+Encoding: 14 -1 14
+GlifName: bar_bar_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: bar_braceright.liga
+Encoding: 15 -1 15
+GlifName: bar_braceright.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:07:02
+p2
+s."
+EndChar
+
+StartChar: bar_bracketright.liga
+Encoding: 16 -1 16
+GlifName: bar_bracketright.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: bar_equal.liga
+Encoding: 17 -1 17
+GlifName: bar_equal.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: bar_greater.liga
+Encoding: 18 -1 18
+GlifName: bar_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: bar_hyphen.liga
+Encoding: 19 -1 19
+GlifName: bar_hyphen.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: braceleft_bar.liga
+Encoding: 20 -1 20
+GlifName: braceleft_bar.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:07:02
+p2
+s."
+EndChar
+
+StartChar: braceright_numbersign.liga
+Encoding: 21 -1 21
+GlifName: braceright_numbersign.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:07:02
+p2
+s."
+EndChar
+
+StartChar: bracketleft_bar.liga
+Encoding: 22 -1 22
+GlifName: bracketleft_bar.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: bracketright_numbersign.liga
+Encoding: 23 -1 23
+GlifName: bracketright_numbersign.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: colon_colon.liga
+Encoding: 24 -1 24
+GlifName: colon_colon.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: colon_colon_colon.liga
+Encoding: 25 -1 25
+GlifName: colon_colon_colon.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: colon_colon_equal.liga
+Encoding: 26 -1 26
+GlifName: colon_colon_equal.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: colon_equal.liga
+Encoding: 27 -1 27
+GlifName: colon_equal.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: colon_greater.liga
+Encoding: 28 -1 28
+GlifName: colon_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: colon_less.liga
+Encoding: 29 -1 29
+GlifName: colon_less.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: dollar_greater.liga
+Encoding: 30 -1 30
+GlifName: dollar_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:07:02
+p2
+s."
+EndChar
+
+StartChar: equal_colon_equal.liga
+Encoding: 31 -1 31
+GlifName: equal_colon_equal.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: equal_equal.liga
+Encoding: 32 -1 32
+GlifName: equal_equal.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: equal_equal_equal.liga
+Encoding: 33 -1 33
+GlifName: equal_equal_equal.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: equal_equal_greater.liga
+Encoding: 34 -1 34
+GlifName: equal_equal_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: equal_exclam_equal.liga
+Encoding: 35 -1 35
+GlifName: equal_exclam_equal.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: equal_greater.liga
+Encoding: 36 -1 36
+GlifName: equal_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: equal_greater_greater.liga
+Encoding: 37 -1 37
+GlifName: equal_greater_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: equal_less_less.liga
+Encoding: 38 -1 38
+GlifName: equal_less_less.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: equal_slash_equal.liga
+Encoding: 39 -1 39
+GlifName: equal_slash_equal.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: exclam_equal.liga
+Encoding: 40 -1 40
+GlifName: exclam_equal.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: exclam_equal_equal.liga
+Encoding: 41 -1 41
+GlifName: exclam_equal_equal.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: exclam_exclam.liga
+Encoding: 42 -1 42
+GlifName: exclam_exclam.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: exclam_exclam_period.liga
+Encoding: 43 -1 43
+GlifName: exclam_exclam_period.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: greater_colon.liga
+Encoding: 44 -1 44
+GlifName: greater_colon.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: greater_equal.liga
+Encoding: 45 -1 45
+GlifName: greater_equal.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: greater_equal_greater.liga
+Encoding: 46 -1 46
+GlifName: greater_equal_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: greater_greater.liga
+Encoding: 47 -1 47
+GlifName: greater_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: greater_greater_equal.liga
+Encoding: 48 -1 48
+GlifName: greater_greater_equal.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: greater_greater_greater.liga
+Encoding: 49 -1 49
+GlifName: greater_greater_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: greater_greater_hyphen.liga
+Encoding: 50 -1 50
+GlifName: greater_greater_hyphen.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: greater_hyphen.liga
+Encoding: 51 -1 51
+GlifName: greater_hyphen.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: greater_hyphen_greater.liga
+Encoding: 52 -1 52
+GlifName: greater_hyphen_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: hyphen_asciitilde.liga
+Encoding: 53 -1 53
+GlifName: hyphen_asciitilde.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:07:02
+p2
+s."
+EndChar
+
+StartChar: hyphen_bar.liga
+Encoding: 54 -1 54
+GlifName: hyphen_bar.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: hyphen_greater.liga
+Encoding: 55 -1 55
+GlifName: hyphen_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: hyphen_greater_greater.liga
+Encoding: 56 -1 56
+GlifName: hyphen_greater_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: hyphen_hyphen.liga
+Encoding: 57 -1 57
+GlifName: hyphen_hyphen.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: hyphen_hyphen_greater.liga
+Encoding: 58 -1 58
+GlifName: hyphen_hyphen_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Guideline: "" "" -4001 -80 90 0 0
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: hyphen_hyphen_hyphen.liga
+Encoding: 59 -1 59
+GlifName: hyphen_hyphen_hyphen.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: hyphen_less.liga
+Encoding: 60 -1 60
+GlifName: hyphen_less.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: hyphen_less_less.liga
+Encoding: 61 -1 61
+GlifName: hyphen_less_less.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: less_asciitilde.liga
+Encoding: 62 -1 62
+GlifName: less_asciitilde.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:07:02
+p2
+s."
+EndChar
+
+StartChar: less_asciitilde_asciitilde.liga
+Encoding: 63 -1 63
+GlifName: less_asciitilde_asciitilde.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:07:02
+p2
+s."
+EndChar
+
+StartChar: less_asciitilde_greater.liga
+Encoding: 64 -1 64
+GlifName: less_asciitilde_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: less_asterisk.liga
+Encoding: 65 -1 65
+GlifName: less_asterisk.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: less_asterisk_greater.liga
+Encoding: 66 -1 66
+GlifName: less_asterisk_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: less_bar.liga
+Encoding: 67 -1 67
+GlifName: less_bar.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: less_bar_bar.liga
+Encoding: 68 -1 68
+GlifName: less_bar_bar.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: less_bar_bar_bar.liga
+Encoding: 69 -1 69
+GlifName: less_bar_bar_bar.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: less_bar_greater.liga
+Encoding: 70 -1 70
+GlifName: less_bar_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: less_colon.liga
+Encoding: 71 -1 71
+GlifName: less_colon.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: less_dollar.liga
+Encoding: 72 -1 72
+GlifName: less_dollar.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:07:02
+p2
+s."
+EndChar
+
+StartChar: less_dollar_greater.liga
+Encoding: 73 -1 73
+GlifName: less_dollar_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: less_equal.liga
+Encoding: 74 -1 74
+GlifName: less_equal.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:07:02
+p2
+s."
+EndChar
+
+StartChar: less_equal_equal.liga
+Encoding: 75 -1 75
+GlifName: less_equal_equal.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: less_equal_equal_greater.liga
+Encoding: 76 -1 76
+GlifName: less_equal_equal_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: less_equal_greater.liga
+Encoding: 77 -1 77
+GlifName: less_equal_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: less_equal_less.liga
+Encoding: 78 -1 78
+GlifName: less_equal_less.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: less_exclam_hyphen_hyphen.liga
+Encoding: 79 -1 79
+GlifName: less_exclam_hyphen_hyphen.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: less_greater.liga
+Encoding: 80 -1 80
+GlifName: less_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: less_hyphen.liga
+Encoding: 81 -1 81
+GlifName: less_hyphen.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: less_hyphen_greater.liga
+Encoding: 82 -1 82
+GlifName: less_hyphen_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: less_hyphen_hyphen.liga
+Encoding: 83 -1 83
+GlifName: less_hyphen_hyphen.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: less_hyphen_less.liga
+Encoding: 84 -1 84
+GlifName: less_hyphen_less.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: less_less.liga
+Encoding: 85 -1 85
+GlifName: less_less.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: less_less_equal.liga
+Encoding: 86 -1 86
+GlifName: less_less_equal.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: less_less_hyphen.liga
+Encoding: 87 -1 87
+GlifName: less_less_hyphen.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: less_less_less.liga
+Encoding: 88 -1 88
+GlifName: less_less_less.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: less_plus.liga
+Encoding: 89 -1 89
+GlifName: less_plus.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: less_plus_greater.liga
+Encoding: 90 -1 90
+GlifName: less_plus_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: less_slash.liga
+Encoding: 91 -1 91
+GlifName: less_slash.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: LIG
+Encoding: 92 -1 92
+GlifName: L_I_G_
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: less_slash_greater.liga
+Encoding: 93 -1 93
+GlifName: less_slash_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: num_num_num.liga
+Encoding: 94 -1 94
+GlifName: num_num_num.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: num_num_num_num.liga
+Encoding: 95 -1 95
+GlifName: num_num_num_num.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: num_under_parenleft.liga
+Encoding: 96 -1 96
+GlifName: num_under_parenleft.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: numbersign_braceleft.liga
+Encoding: 97 -1 97
+GlifName: numbersign_braceleft.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:07:02
+p2
+s."
+EndChar
+
+StartChar: numbersign_bracketleft.liga
+Encoding: 98 -1 98
+GlifName: numbersign_bracketleft.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: numbersign_colon.liga
+Encoding: 99 -1 99
+GlifName: numbersign_colon.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: numbersign_equal.liga
+Encoding: 100 -1 100
+GlifName: numbersign_equal.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: numbersign_exclam.liga
+Encoding: 101 -1 101
+GlifName: numbersign_exclam.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: numbersign_numbersign.liga
+Encoding: 102 -1 102
+GlifName: numbersign_numbersign.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: numbersign_parenleft.liga
+Encoding: 103 -1 103
+GlifName: numbersign_parenleft.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: numbersign_question.liga
+Encoding: 104 -1 104
+GlifName: numbersign_question.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: numbersign_underscore.liga
+Encoding: 105 -1 105
+GlifName: numbersign_underscore.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: percent_percent.liga
+Encoding: 106 -1 106
+GlifName: percent_percent.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: period_equal.liga
+Encoding: 107 -1 107
+GlifName: period_equal.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: period_hyphen.liga
+Encoding: 108 -1 108
+GlifName: period_hyphen.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: period_period.liga
+Encoding: 109 -1 109
+GlifName: period_period.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: period_period_equal.liga
+Encoding: 110 -1 110
+GlifName: period_period_equal.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: period_period_less.liga
+Encoding: 111 -1 111
+GlifName: period_period_less.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: period_period_period.liga
+Encoding: 112 -1 112
+GlifName: period_period_period.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: period_question.liga
+Encoding: 113 -1 113
+GlifName: period_question.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: plus_greater.liga
+Encoding: 114 -1 114
+GlifName: plus_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: plus_plus.liga
+Encoding: 115 -1 115
+GlifName: plus_plus.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: plus_plus_plus.liga
+Encoding: 116 -1 116
+GlifName: plus_plus_plus.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: question_colon.liga
+Encoding: 117 -1 117
+GlifName: question_colon.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: question_equal.liga
+Encoding: 118 -1 118
+GlifName: question_equal.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:07:02
+p2
+s."
+EndChar
+
+StartChar: question_period.liga
+Encoding: 119 -1 119
+GlifName: question_period.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: question_question.liga
+Encoding: 120 -1 120
+GlifName: question_question.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: semicolon_semicolon.liga
+Encoding: 121 -1 121
+GlifName: semicolon_semicolon.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: slash_asterisk.liga
+Encoding: 122 -1 122
+GlifName: slash_asterisk.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: slash_equal.liga
+Encoding: 123 -1 123
+GlifName: slash_equal.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: slash_equal_equal.liga
+Encoding: 124 -1 124
+GlifName: slash_equal_equal.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: slash_greater.liga
+Encoding: 125 -1 125
+GlifName: slash_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: slash_slash.liga
+Encoding: 126 -1 126
+GlifName: slash_slash.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: slash_slash_slash.liga
+Encoding: 127 -1 127
+GlifName: slash_slash_slash.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: tilde_tilde_greater.liga
+Encoding: 128 -1 128
+GlifName: tilde_tilde_greater.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:07:02
+p2
+s."
+EndChar
+
+StartChar: underscore_bar_underscore.liga
+Encoding: 129 -1 129
+GlifName: underscore_bar_underscore.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: underscore_underscore.liga
+Encoding: 130 -1 130
+GlifName: underscore_underscore.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.lastChange
+p1
+V2019/11/18 23:05:38
+p2
+s."
+EndChar
+
+StartChar: w_w_w.liga
+Encoding: 131 -1 131
+GlifName: w_w_w.liga
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+PickledDataWithLists: "(dp0
+Vcom.schriftgestaltung.Glyphs.glyph.rightMetricsKey
+p1
+Vw
+p2
+sVcom.schriftgestaltung.Glyphs.lastChange
+p3
+V2019/11/18 23:05:38
+p4
+s."
+EndChar
+EndChars
+EndSplineFont

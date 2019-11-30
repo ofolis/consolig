@@ -53,7 +53,7 @@
 	\fiveinferior \sixinferior \seveninferior \eightinferior \nineinferior 
 	\zerosuperior \onesuperior \twosuperior \threesuperior \foursuperior 
 	\fivesuperior \sixsuperior \sevensuperior \eightsuperior \ninesuperior 
-	\zero.zero ];
+	\zero.zero \x.multiply ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , , ;

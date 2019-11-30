@@ -348,5 +348,7 @@
     <string>ninesuperior.glif</string>
     <key>zero.zero</key>
     <string>zero.zero.glif</string>
+    <key>x.multiply</key>
+    <string>x.multiply.glif</string>
   </dict>
 </plist>

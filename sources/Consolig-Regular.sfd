@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1575066624
-ModificationTime: 1575068412
+ModificationTime: 1575074152
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -76,7 +76,7 @@ DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
 WinInfo: 80 16 6
-BeginChars: 173 173
+BeginChars: 174 174
 
 StartChar: ampersand_ampersand.liga
 Encoding: 0 -1 0
@@ -2763,6 +2763,17 @@ EndChar
 
 StartChar: zero.zero
 Encoding: 172 -1 172
+GlifName: zero.zero
+Width: 1126
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+Validated: 1
+EndChar
+
+StartChar: x.multiply
+Encoding: 173 -1 173
 Width: 1126
 VWidth: 0
 Flags: HW

@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="less_plus_greater.liga" format="2">
   <advance width="1126"/>
+  <outline>
+    <contour>
+      <point x="-686" y="190" type="line"/>
+      <point x="-494" y="190" type="line"/>
+      <point x="-494" y="1228" type="line"/>
+      <point x="-686" y="1228" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1090" y="617" type="line"/>
+      <point x="-90" y="617" type="line"/>
+      <point x="-90" y="803" type="line"/>
+      <point x="-1090" y="803" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1182" y="214" type="line"/>
+      <point x="-1182" y="434" type="line"/>
+      <point x="-1922" y="700" type="line"/>
+      <point x="-1922" y="718" type="line"/>
+      <point x="-1182" y="984" type="line"/>
+      <point x="-1182" y="1204" type="line"/>
+      <point x="-2140" y="810" type="line"/>
+      <point x="-2140" y="608" type="line"/>
+    </contour>
+    <contour>
+      <point x="2" y="214" type="line"/>
+      <point x="960" y="608" type="line"/>
+      <point x="960" y="810" type="line"/>
+      <point x="2" y="1204" type="line"/>
+      <point x="2" y="984" type="line"/>
+      <point x="702" y="718" type="line"/>
+      <point x="702" y="700" type="line"/>
+      <point x="2" y="434" type="line"/>
+    </contour>
+  </outline>
   <lib>
     <dict/>
   </lib>

@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="semicolon_semicolon.liga" format="2">
   <advance width="1126"/>
+  <outline>
+    <contour>
+      <point x="484" y="784" type="curve" smooth="yes"/>
+      <point x="566" y="784"/>
+      <point x="632" y="850"/>
+      <point x="632" y="932" type="curve" smooth="yes"/>
+      <point x="632" y="1014"/>
+      <point x="566" y="1080"/>
+      <point x="484" y="1080" type="curve" smooth="yes"/>
+      <point x="402" y="1080"/>
+      <point x="336" y="1014"/>
+      <point x="336" y="932" type="curve" smooth="yes"/>
+      <point x="336" y="850"/>
+      <point x="402" y="784"/>
+    </contour>
+    <contour>
+      <point x="286" y="-436" type="line"/>
+      <point x="478" y="-436" type="line"/>
+      <point x="598" y="254" type="line"/>
+      <point x="366" y="254" type="line"/>
+    </contour>
+    <contour>
+      <point x="-434" y="784" type="curve" smooth="yes"/>
+      <point x="-352" y="784"/>
+      <point x="-286" y="850"/>
+      <point x="-286" y="932" type="curve" smooth="yes"/>
+      <point x="-286" y="1014"/>
+      <point x="-352" y="1080"/>
+      <point x="-434" y="1080" type="curve" smooth="yes"/>
+      <point x="-516" y="1080"/>
+      <point x="-582" y="1014"/>
+      <point x="-582" y="932" type="curve" smooth="yes"/>
+      <point x="-582" y="850"/>
+      <point x="-516" y="784"/>
+    </contour>
+    <contour>
+      <point x="-632" y="-436" type="line"/>
+      <point x="-440" y="-436" type="line"/>
+      <point x="-320" y="254" type="line"/>
+      <point x="-552" y="254" type="line"/>
+    </contour>
+  </outline>
   <lib>
     <dict/>
   </lib>

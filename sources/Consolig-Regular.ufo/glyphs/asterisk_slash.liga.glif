@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="asterisk_slash.liga" format="2">
   <advance width="1126"/>
+  <outline>
+    <contour>
+      <point x="46" y="-190" type="line"/>
+      <point x="258" y="-190" type="line"/>
+      <point x="1062" y="1610" type="line"/>
+      <point x="850" y="1610" type="line"/>
+    </contour>
+    <contour>
+      <point x="-314" y="258" type="line"/>
+      <point x="-148" y="398" type="line"/>
+      <point x="-484" y="744" type="line"/>
+      <point x="-596" y="648" type="line"/>
+    </contour>
+    <contour>
+      <point x="-766" y="258" type="line"/>
+      <point x="-484" y="648" type="line"/>
+      <point x="-596" y="744" type="line"/>
+      <point x="-932" y="398" type="line"/>
+    </contour>
+    <contour>
+      <point x="-566" y="626" type="line"/>
+      <point x="-514" y="766" type="line"/>
+      <point x="-954" y="962" type="line"/>
+      <point x="-1028" y="758" type="line"/>
+    </contour>
+    <contour>
+      <point x="-614" y="696" type="line"/>
+      <point x="-466" y="696" type="line"/>
+      <point x="-432" y="1176" type="line"/>
+      <point x="-648" y="1176" type="line"/>
+    </contour>
+    <contour>
+      <point x="-514" y="626" type="line"/>
+      <point x="-52" y="758" type="line"/>
+      <point x="-126" y="962" type="line"/>
+      <point x="-566" y="766" type="line"/>
+    </contour>
+  </outline>
   <lib>
     <dict/>
   </lib>

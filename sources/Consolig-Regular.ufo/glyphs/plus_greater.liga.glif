@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="plus_greater.liga" format="2">
   <advance width="1126"/>
+  <outline>
+    <contour>
+      <point x="6" y="214" type="line"/>
+      <point x="964" y="608" type="line"/>
+      <point x="964" y="810" type="line"/>
+      <point x="6" y="1204" type="line"/>
+      <point x="6" y="984" type="line"/>
+      <point x="706" y="718" type="line"/>
+      <point x="706" y="700" type="line"/>
+      <point x="6" y="434" type="line"/>
+    </contour>
+    <contour>
+      <point x="-516" y="190" type="line"/>
+      <point x="-324" y="190" type="line"/>
+      <point x="-324" y="1228" type="line"/>
+      <point x="-516" y="1228" type="line"/>
+    </contour>
+    <contour>
+      <point x="-920" y="617" type="line"/>
+      <point x="80" y="617" type="line"/>
+      <point x="80" y="803" type="line"/>
+      <point x="-920" y="803" type="line"/>
+    </contour>
+  </outline>
   <lib>
     <dict/>
   </lib>

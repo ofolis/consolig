@@ -1,6 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="equal_colon_equal.liga" format="2">
   <advance width="1126"/>
+  <outline>
+    <contour>
+      <point x="-600" y="964" type="curve" smooth="yes"/>
+      <point x="-518" y="964"/>
+      <point x="-452" y="1030"/>
+      <point x="-452" y="1112" type="curve" smooth="yes"/>
+      <point x="-452" y="1194"/>
+      <point x="-518" y="1260"/>
+      <point x="-600" y="1260" type="curve" smooth="yes"/>
+      <point x="-682" y="1260"/>
+      <point x="-748" y="1194"/>
+      <point x="-748" y="1112" type="curve" smooth="yes"/>
+      <point x="-748" y="1030"/>
+      <point x="-682" y="964"/>
+    </contour>
+    <contour>
+      <point x="-600" y="160" type="curve" smooth="yes"/>
+      <point x="-518" y="160"/>
+      <point x="-452" y="226"/>
+      <point x="-452" y="308" type="curve" smooth="yes"/>
+      <point x="-452" y="390"/>
+      <point x="-518" y="456"/>
+      <point x="-600" y="456" type="curve" smooth="yes"/>
+      <point x="-682" y="456"/>
+      <point x="-748" y="390"/>
+      <point x="-748" y="308" type="curve" smooth="yes"/>
+      <point x="-748" y="226"/>
+      <point x="-682" y="160"/>
+    </contour>
+    <contour>
+      <point x="-80" y="866" type="line"/>
+      <point x="920" y="866" type="line"/>
+      <point x="920" y="1052" type="line"/>
+      <point x="-80" y="1052" type="line"/>
+    </contour>
+    <contour>
+      <point x="-80" y="366" type="line"/>
+      <point x="920" y="366" type="line"/>
+      <point x="920" y="552" type="line"/>
+      <point x="-80" y="552" type="line"/>
+    </contour>
+    <contour>
+      <point x="-2120" y="866" type="line"/>
+      <point x="-1120" y="866" type="line"/>
+      <point x="-1120" y="1052" type="line"/>
+      <point x="-2120" y="1052" type="line"/>
+    </contour>
+    <contour>
+      <point x="-2120" y="366" type="line"/>
+      <point x="-1120" y="366" type="line"/>
+      <point x="-1120" y="552" type="line"/>
+      <point x="-2120" y="552" type="line"/>
+    </contour>
+  </outline>
   <lib>
     <dict/>
   </lib>

@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sevensuperior" format="2">
   <advance width="1126"/>
+  <outline>
+    <contour>
+      <point x="557" y="0" type="line"/>
+      <point x="723" y="0" type="line"/>
+      <point x="899" y="618" type="line"/>
+      <point x="732" y="618" type="line"/>
+    </contour>
+    <contour>
+      <point x="354" y="323" type="line"/>
+      <point x="510" y="323" type="line"/>
+      <point x="510" y="604" type="line"/>
+      <point x="354" y="604" type="line"/>
+    </contour>
+    <contour>
+      <point x="354" y="479" type="line"/>
+      <point x="836" y="479" type="line"/>
+      <point x="899" y="618" type="line"/>
+      <point x="354" y="618" type="line"/>
+    </contour>
+  </outline>
 </glyph>

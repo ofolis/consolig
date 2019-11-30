@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="plus_plus.liga" format="2">
   <advance width="1126"/>
+  <outline>
+    <contour>
+      <point x="364" y="190" type="line"/>
+      <point x="556" y="190" type="line"/>
+      <point x="556" y="1228" type="line"/>
+      <point x="364" y="1228" type="line"/>
+    </contour>
+    <contour>
+      <point x="-40" y="617" type="line"/>
+      <point x="960" y="617" type="line"/>
+      <point x="960" y="803" type="line"/>
+      <point x="-40" y="803" type="line"/>
+    </contour>
+    <contour>
+      <point x="-556" y="190" type="line"/>
+      <point x="-364" y="190" type="line"/>
+      <point x="-364" y="1228" type="line"/>
+      <point x="-556" y="1228" type="line"/>
+    </contour>
+    <contour>
+      <point x="-960" y="617" type="line"/>
+      <point x="40" y="617" type="line"/>
+      <point x="40" y="803" type="line"/>
+      <point x="-960" y="803" type="line"/>
+    </contour>
+  </outline>
   <lib>
     <dict/>
   </lib>

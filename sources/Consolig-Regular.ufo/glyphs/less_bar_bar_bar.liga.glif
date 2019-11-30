@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="less_bar_bar_bar.liga" format="2">
   <advance width="1126"/>
+  <outline>
+    <contour>
+      <point x="144" y="-310" type="line"/>
+      <point x="344" y="-310" type="line"/>
+      <point x="344" y="1730" type="line"/>
+      <point x="144" y="1730" type="line"/>
+    </contour>
+    <contour>
+      <point x="-856" y="-310" type="line"/>
+      <point x="-656" y="-310" type="line"/>
+      <point x="-656" y="1730" type="line"/>
+      <point x="-856" y="1730" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1600" y="-10" type="line"/>
+      <point x="-1600" y="230" type="line"/>
+      <point x="-2846" y="700" type="line"/>
+      <point x="-2846" y="718" type="line"/>
+      <point x="-1600" y="1190" type="line"/>
+      <point x="-1600" y="1430" type="line"/>
+      <point x="-3104" y="810" type="line"/>
+      <point x="-3104" y="608" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1600" y="-10" type="line"/>
+      <point x="-1600" y="1430" type="line"/>
+      <point x="-1800" y="1330" type="line"/>
+      <point x="-1800" y="90" type="line"/>
+    </contour>
+  </outline>
   <lib>
     <dict/>
   </lib>

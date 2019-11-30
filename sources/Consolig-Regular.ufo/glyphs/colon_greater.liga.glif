@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="colon_greater.liga" format="2">
   <advance width="1126"/>
+  <outline>
+    <contour>
+      <point x="-660" y="964" type="curve" smooth="yes"/>
+      <point x="-578" y="964"/>
+      <point x="-512" y="1030"/>
+      <point x="-512" y="1112" type="curve" smooth="yes"/>
+      <point x="-512" y="1194"/>
+      <point x="-578" y="1260"/>
+      <point x="-660" y="1260" type="curve" smooth="yes"/>
+      <point x="-742" y="1260"/>
+      <point x="-808" y="1194"/>
+      <point x="-808" y="1112" type="curve" smooth="yes"/>
+      <point x="-808" y="1030"/>
+      <point x="-742" y="964"/>
+    </contour>
+    <contour>
+      <point x="-660" y="160" type="curve" smooth="yes"/>
+      <point x="-578" y="160"/>
+      <point x="-512" y="226"/>
+      <point x="-512" y="308" type="curve" smooth="yes"/>
+      <point x="-512" y="390"/>
+      <point x="-578" y="456"/>
+      <point x="-660" y="456" type="curve" smooth="yes"/>
+      <point x="-742" y="456"/>
+      <point x="-808" y="390"/>
+      <point x="-808" y="308" type="curve" smooth="yes"/>
+      <point x="-808" y="226"/>
+      <point x="-742" y="160"/>
+    </contour>
+    <contour>
+      <point x="-156" y="214" type="line"/>
+      <point x="962" y="608" type="line"/>
+      <point x="962" y="810" type="line"/>
+      <point x="-156" y="1204" type="line"/>
+      <point x="-156" y="984" type="line"/>
+      <point x="664" y="718" type="line"/>
+      <point x="664" y="700" type="line"/>
+      <point x="-156" y="434" type="line"/>
+    </contour>
+  </outline>
   <lib>
     <dict/>
   </lib>

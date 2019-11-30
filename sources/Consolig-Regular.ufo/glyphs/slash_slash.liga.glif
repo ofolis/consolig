@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="slash_slash.liga" format="2">
   <advance width="1126"/>
+  <outline>
+    <contour>
+      <point x="-44" y="-190" type="line"/>
+      <point x="168" y="-190" type="line"/>
+      <point x="972" y="1610" type="line"/>
+      <point x="760" y="1610" type="line"/>
+    </contour>
+    <contour>
+      <point x="-926" y="-190" type="line"/>
+      <point x="-714" y="-190" type="line"/>
+      <point x="90" y="1610" type="line"/>
+      <point x="-122" y="1610" type="line"/>
+    </contour>
+  </outline>
   <lib>
     <dict/>
   </lib>

@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="x.multiply" format="2">
   <advance width="1126"/>
+  <outline>
+    <contour>
+      <point x="249" y="188" type="line"/>
+      <point x="121" y="309" type="line"/>
+      <point x="951" y="1188" type="line"/>
+      <point x="1079" y="1065" type="line"/>
+    </contour>
+    <contour>
+      <point x="951" y="188" type="line"/>
+      <point x="121" y="1065" type="line"/>
+      <point x="249" y="1188" type="line"/>
+      <point x="1079" y="309" type="line"/>
+    </contour>
+  </outline>
 </glyph>

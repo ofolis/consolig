@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="numbersign_bracketleft.liga" format="2">
   <advance width="1126"/>
+  <outline>
+    <contour>
+      <point x="336" y="-214" type="line"/>
+      <point x="536" y="-214" type="line"/>
+      <point x="536" y="1634" type="line"/>
+      <point x="336" y="1634" type="line"/>
+    </contour>
+    <contour>
+      <point x="516" y="-214" type="line"/>
+      <point x="962" y="-214" type="line"/>
+      <point x="962" y="-24" type="line"/>
+      <point x="516" y="-24" type="line"/>
+    </contour>
+    <contour>
+      <point x="516" y="1444" type="line"/>
+      <point x="962" y="1444" type="line"/>
+      <point x="962" y="1634" type="line"/>
+      <point x="516" y="1634" type="line"/>
+    </contour>
+    <contour>
+      <point x="-350" y="0" type="line"/>
+      <point x="-174" y="0" type="line"/>
+      <point x="-54" y="1420" type="line"/>
+      <point x="-230" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="-786" y="0" type="line"/>
+      <point x="-610" y="0" type="line"/>
+      <point x="-490" y="1420" type="line"/>
+      <point x="-666" y="1420" type="line"/>
+    </contour>
+    <contour>
+      <point x="-920" y="360" type="line"/>
+      <point x="440" y="360" type="line"/>
+      <point x="440" y="530" type="line"/>
+      <point x="-920" y="530" type="line"/>
+    </contour>
+    <contour>
+      <point x="-920" y="890" type="line"/>
+      <point x="440" y="890" type="line"/>
+      <point x="440" y="1060" type="line"/>
+      <point x="-920" y="1060" type="line"/>
+    </contour>
+  </outline>
   <lib>
     <dict/>
   </lib>

@@ -1,4 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oneinferior" format="2">
   <advance width="1126"/>
+  <outline>
+    <contour>
+      <point x="541" y="0" type="line"/>
+      <point x="697" y="0" type="line"/>
+      <point x="697" y="620" type="line"/>
+      <point x="541" y="620" type="line"/>
+    </contour>
+    <contour>
+      <point x="342" y="0" type="line"/>
+      <point x="549" y="0" type="line"/>
+      <point x="549" y="141" type="line"/>
+      <point x="342" y="141" type="line"/>
+    </contour>
+    <contour>
+      <point x="688" y="0" type="line"/>
+      <point x="860" y="0" type="line"/>
+      <point x="860" y="141" type="line"/>
+      <point x="688" y="141" type="line"/>
+    </contour>
+    <contour>
+      <point x="351" y="409" type="line"/>
+      <point x="541" y="460" type="line"/>
+      <point x="541" y="620" type="line"/>
+      <point x="351" y="567" type="line"/>
+    </contour>
+  </outline>
 </glyph>

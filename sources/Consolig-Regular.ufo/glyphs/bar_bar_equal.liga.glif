@@ -3,28 +3,24 @@
   <advance width="1126"/>
   <outline>
     <contour>
-      <point x="-1680" y="-310" type="line"/>
-      <point x="-1480" y="-310" type="line"/>
-      <point x="-1480" y="1730" type="line"/>
-      <point x="-1680" y="1730" type="line"/>
+      <point x="-1606" y="-410" type="line"/>
+      <point x="-1770" y="-410" type="line"/>
+      <point x="-1770" y="1638" type="line"/>
+      <point x="-1606" y="1638" type="line"/>
     </contour>
     <contour>
-      <point x="-700" y="-310" type="line"/>
-      <point x="-900" y="-310" type="line"/>
-      <point x="-900" y="1730" type="line"/>
-      <point x="-700" y="1730" type="line"/>
-    </contour>
-    <contour>
-      <point x="-760" y="866" type="line"/>
-      <point x="920" y="866" type="line"/>
-      <point x="920" y="1052" type="line"/>
-      <point x="-760" y="1052" type="line"/>
-    </contour>
-    <contour>
-      <point x="-760" y="366" type="line"/>
-      <point x="920" y="366" type="line"/>
-      <point x="920" y="552" type="line"/>
-      <point x="-760" y="552" type="line"/>
+      <point x="-1044" y="-410" type="line"/>
+      <point x="-1208" y="-410" type="line"/>
+      <point x="-1208" y="1638" type="line"/>
+      <point x="-1044" y="1638" type="line"/>
+      <point x="-1044" y="793" type="line"/>
+      <point x="993" y="793" type="line"/>
+      <point x="993" y="646" type="line"/>
+      <point x="-1044" y="646" type="line"/>
+      <point x="-1044" y="445" type="line"/>
+      <point x="993" y="445" type="line"/>
+      <point x="993" y="298" type="line"/>
+      <point x="-1044" y="298" type="line"/>
     </contour>
   </outline>
   <lib>

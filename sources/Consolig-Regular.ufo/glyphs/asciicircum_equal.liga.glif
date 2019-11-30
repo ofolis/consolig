@@ -3,29 +3,43 @@
   <advance width="1126"/>
   <outline>
     <contour>
-      <point x="-980" y="658" type="line"/>
-      <point x="-760" y="658" type="line"/>
-      <point x="-534" y="1260" type="line"/>
-      <point x="-516" y="1260" type="line"/>
-      <point x="-364" y="866" type="line"/>
-      <point x="-144" y="866" type="line"/>
-      <point x="-390" y="1420" type="line"/>
-      <point x="-660" y="1420" type="line"/>
+      <point x="993" y="298" type="line"/>
+      <point x="-277" y="298" type="line"/>
+      <point x="-277" y="445" type="line"/>
+      <point x="993" y="445" type="line"/>
     </contour>
     <contour>
-      <point x="-64" y="366" type="line"/>
-      <point x="920" y="366" type="line"/>
-      <point x="920" y="552" type="line"/>
-      <point x="-64" y="552" type="line"/>
-    </contour>
-    <contour>
-      <point x="-364" y="866" type="line"/>
-      <point x="920" y="866" type="line"/>
-      <point x="920" y="1052" type="line"/>
-      <point x="-364" y="1052" type="line"/>
+      <point x="-187" y="793" type="line"/>
+      <point x="993" y="793" type="line"/>
+      <point x="993" y="646" type="line"/>
+      <point x="-277" y="646" type="line"/>
+      <point x="-575" y="1169" type="line"/>
+      <point x="-847" y="668" type="line"/>
+      <point x="-1005" y="668" type="line"/>
+      <point x="-639" y="1307" type="line"/>
+      <point x="-497" y="1307" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict/>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>298</integer>
+            <key>width</key>
+            <integer>147</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>646</integer>
+            <key>width</key>
+            <integer>147</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
   </lib>
 </glyph>

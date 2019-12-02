@@ -3,43 +3,50 @@
   <advance width="1126"/>
   <outline>
     <contour>
-      <point x="-486" y="92" type="line"/>
-      <point x="-486" y="332" type="line"/>
-      <point x="-686" y="362" type="line"/>
-      <point x="-686" y="444" type="line"/>
-      <point x="-1146" y="700" type="line"/>
-      <point x="-1146" y="718" type="line"/>
-      <point x="-690" y="982" type="line"/>
-      <point x="-690" y="1052" type="line"/>
-      <point x="-486" y="1084" type="line"/>
-      <point x="-486" y="1324" type="line"/>
-      <point x="-1440" y="770" type="line"/>
-      <point x="-1440" y="648" type="line"/>
+      <point x="-772" y="995" type="line"/>
+      <point x="-1016" y="793" type="line"/>
+      <point x="993" y="793" type="line"/>
+      <point x="993" y="646" type="line"/>
+      <point x="-1193" y="646" type="line"/>
+      <point x="-1317" y="543" type="line"/>
+      <point x="-1198" y="445" type="line"/>
+      <point x="993" y="445" type="line"/>
+      <point x="993" y="298" type="line"/>
+      <point x="-1020" y="298" type="line"/>
+      <point x="-772" y="94" type="line"/>
+      <point x="-880" y="-16" type="line"/>
+      <point x="-1552" y="545" type="line"/>
+      <point x="-880" y="1106" type="line"/>
     </contour>
     <contour>
-      <point x="-1206" y="92" type="line"/>
-      <point x="-1206" y="332" type="line"/>
-      <point x="-1866" y="700" type="line"/>
-      <point x="-1866" y="718" type="line"/>
-      <point x="-1206" y="1084" type="line"/>
-      <point x="-1206" y="1324" type="line"/>
-      <point x="-2160" y="770" type="line"/>
-      <point x="-2160" y="648" type="line"/>
-    </contour>
-    <contour>
-      <point x="-900" y="386" type="line"/>
-      <point x="920" y="386" type="line"/>
-      <point x="920" y="572" type="line"/>
-      <point x="-1160" y="572" type="line"/>
-    </contour>
-    <contour>
-      <point x="-1020" y="846" type="line"/>
-      <point x="920" y="846" type="line"/>
-      <point x="920" y="1032" type="line"/>
-      <point x="-760" y="1032" type="line"/>
+      <point x="-1335" y="995" type="line"/>
+      <point x="-1880" y="543" type="line"/>
+      <point x="-1335" y="94" type="line"/>
+      <point x="-1443" y="-16" type="line"/>
+      <point x="-2115" y="545" type="line"/>
+      <point x="-1443" y="1106" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict/>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>298</integer>
+            <key>width</key>
+            <integer>147</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>646</integer>
+            <key>width</key>
+            <integer>147</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
   </lib>
 </glyph>

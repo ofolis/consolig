@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ampersand_ampersand.liga" format="2">
-  <advance width="0"/>
+  <advance width="1126"/>
   <outline>
     <contour>
       <point x="514" y="1237" type="curve" smooth="yes"/>
@@ -200,7 +200,7 @@
             <key>position</key>
             <integer>670</integer>
             <key>width</key>
-            <integer>176</integer>
+            <integer>178</integer>
           </dict>
           <dict>
             <key>position</key>

@@ -3,25 +3,38 @@
   <advance width="1126"/>
   <outline>
     <contour>
-      <point x="120" y="616" type="line"/>
-      <point x="920" y="616" type="line"/>
-      <point x="920" y="802" type="line"/>
-      <point x="120" y="802" type="line"/>
+      <point x="-1090" y="463" type="line"/>
+      <point x="-1688" y="463" type="line"/>
+      <point x="-1688" y="627" type="line"/>
+      <point x="-1090" y="627" type="line"/>
     </contour>
     <contour>
-      <point x="-2120" y="616" type="line"/>
-      <point x="-1340" y="616" type="line"/>
-      <point x="-1340" y="802" type="line"/>
-      <point x="-2120" y="802" type="line"/>
+      <point x="562" y="463" type="line"/>
+      <point x="-36" y="463" type="line"/>
+      <point x="-36" y="627" type="line"/>
+      <point x="562" y="627" type="line"/>
     </contour>
     <contour>
-      <point x="-1010" y="616" type="line"/>
-      <point x="-210" y="616" type="line"/>
-      <point x="-210" y="802" type="line"/>
-      <point x="-1010" y="802" type="line"/>
+      <point x="-264" y="463" type="line"/>
+      <point x="-862" y="463" type="line"/>
+      <point x="-862" y="627" type="line"/>
+      <point x="-264" y="627" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict/>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>463</integer>
+            <key>width</key>
+            <integer>164</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
   </lib>
 </glyph>

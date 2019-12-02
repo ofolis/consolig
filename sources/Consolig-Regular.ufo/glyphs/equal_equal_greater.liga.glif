@@ -3,33 +3,42 @@
   <advance width="1126"/>
   <outline>
     <contour>
-      <point x="6" y="112" type="line"/>
-      <point x="960" y="648" type="line"/>
-      <point x="960" y="770" type="line"/>
-      <point x="6" y="1304" type="line"/>
-      <point x="6" y="1084" type="line"/>
-      <point x="210" y="1052" type="line"/>
-      <point x="210" y="982" type="line"/>
-      <point x="666" y="718" type="line"/>
-      <point x="666" y="700" type="line"/>
-      <point x="206" y="444" type="line"/>
-      <point x="206" y="362" type="line"/>
-      <point x="6" y="332" type="line"/>
-    </contour>
-    <contour>
-      <point x="-2120" y="386" type="line"/>
-      <point x="420" y="386" type="line"/>
-      <point x="680" y="572" type="line"/>
-      <point x="-2120" y="572" type="line"/>
-    </contour>
-    <contour>
-      <point x="-2120" y="846" type="line"/>
-      <point x="540" y="846" type="line"/>
-      <point x="280" y="1032" type="line"/>
-      <point x="-2120" y="1032" type="line"/>
+      <point x="209" y="995" type="line"/>
+      <point x="317" y="1106" type="line"/>
+      <point x="989" y="545" type="line"/>
+      <point x="317" y="-16" type="line"/>
+      <point x="209" y="94" type="line"/>
+      <point x="457" y="298" type="line"/>
+      <point x="-2119" y="298" type="line"/>
+      <point x="-2119" y="445" type="line"/>
+      <point x="635" y="445" type="line"/>
+      <point x="754" y="543" type="line"/>
+      <point x="630" y="646" type="line"/>
+      <point x="-2119" y="646" type="line"/>
+      <point x="-2119" y="793" type="line"/>
+      <point x="453" y="793" type="line"/>
     </contour>
   </outline>
   <lib>
-    <dict/>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>298</integer>
+            <key>width</key>
+            <integer>147</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>646</integer>
+            <key>width</key>
+            <integer>147</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
   </lib>
 </glyph>

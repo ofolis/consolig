@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbersign_equal.liga" format="2">
+  <advance width="1126"/>
+  <outline>
+    <contour>
+      <point x="-312" y="497" type="line"/>
+      <point x="-277" y="847" type="line"/>
+      <point x="-533" y="847" type="line"/>
+      <point x="-568" y="497" type="line"/>
+    </contour>
+    <contour>
+      <point x="-215" y="0" type="line"/>
+      <point x="-363" y="0" type="line"/>
+      <point x="-326" y="367" type="line"/>
+      <point x="-581" y="367" type="line"/>
+      <point x="-618" y="0" type="line"/>
+      <point x="-766" y="0" type="line"/>
+      <point x="-729" y="367" type="line"/>
+      <point x="-942" y="367" type="line"/>
+      <point x="-942" y="497" type="line"/>
+      <point x="-716" y="497" type="line"/>
+      <point x="-680" y="847" type="line"/>
+      <point x="-891" y="847" type="line"/>
+      <point x="-891" y="977" type="line"/>
+      <point x="-667" y="977" type="line"/>
+      <point x="-633" y="1307" type="line"/>
+      <point x="-487" y="1307" type="line"/>
+      <point x="-520" y="977" type="line"/>
+      <point x="-264" y="977" type="line"/>
+      <point x="-230" y="1307" type="line"/>
+      <point x="-82" y="1307" type="line"/>
+      <point x="-134" y="793" type="line"/>
+      <point x="852" y="793" type="line"/>
+      <point x="852" y="646" type="line"/>
+      <point x="-149" y="646" type="line"/>
+      <point x="-170" y="445" type="line"/>
+      <point x="852" y="445" type="line"/>
+      <point x="852" y="298" type="line"/>
+      <point x="-185" y="298" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>298</integer>
+            <key>width</key>
+            <integer>147</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>367</integer>
+            <key>width</key>
+            <integer>130</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>646</integer>
+            <key>width</key>
+            <integer>147</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>847</integer>
+            <key>width</key>
+            <integer>130</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

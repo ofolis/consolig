@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_equal_greater.liga" format="2">
+  <advance width="1126"/>
+  <outline>
+    <contour>
+      <point x="-73" y="995" type="line"/>
+      <point x="35" y="1106" type="line"/>
+      <point x="707" y="545" type="line"/>
+      <point x="35" y="-16" type="line"/>
+      <point x="-73" y="94" type="line"/>
+      <point x="175" y="298" type="line"/>
+      <point x="-1297" y="298" type="line"/>
+      <point x="-1052" y="94" type="line"/>
+      <point x="-1161" y="-16" type="line"/>
+      <point x="-1833" y="545" type="line"/>
+      <point x="-1161" y="1106" type="line"/>
+      <point x="-1052" y="995" type="line"/>
+      <point x="-1298" y="793" type="line"/>
+      <point x="171" y="793" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1474" y="445" type="line"/>
+      <point x="353" y="445" type="line"/>
+      <point x="472" y="543" type="line"/>
+      <point x="348" y="646" type="line"/>
+      <point x="-1477" y="646" type="line"/>
+      <point x="-1597" y="547" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>298</integer>
+            <key>width</key>
+            <integer>147</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>646</integer>
+            <key>width</key>
+            <integer>147</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

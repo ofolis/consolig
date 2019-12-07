@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asterisk_greater.liga" format="2">
+  <advance width="1126"/>
+  <outline>
+    <contour>
+      <point x="-24" y="394" type="line"/>
+      <point x="-92" y="275" type="line"/>
+      <point x="-373" y="461" type="line"/>
+      <point x="-350" y="119" type="line"/>
+      <point x="-493" y="119" type="line"/>
+      <point x="-471" y="461" type="line"/>
+      <point x="-758" y="275" type="line"/>
+      <point x="-821" y="392" type="line"/>
+      <point x="-514" y="543" type="line"/>
+      <point x="-821" y="697" type="line"/>
+      <point x="-752" y="814" type="line"/>
+      <point x="-469" y="625" type="line"/>
+      <point x="-493" y="967" type="line"/>
+      <point x="-350" y="967" type="line"/>
+      <point x="-375" y="625" type="line"/>
+      <point x="-92" y="816" type="line"/>
+      <point x="-22" y="693" type="line"/>
+      <point x="-330" y="541" type="line"/>
+    </contour>
+    <contour>
+      <point x="-133" y="985" type="line"/>
+      <point x="-45" y="1106" type="line"/>
+      <point x="977" y="545" type="line"/>
+      <point x="-45" y="-16" type="line"/>
+      <point x="-133" y="104" type="line"/>
+      <point x="662" y="543" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict/>
+  </lib>
+</glyph>

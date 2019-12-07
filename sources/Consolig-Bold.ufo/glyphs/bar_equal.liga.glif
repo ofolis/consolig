@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bar_equal.liga" format="2">
+  <advance width="1126"/>
+  <outline>
+    <contour>
+      <point x="-340" y="-410" type="line"/>
+      <point x="-504" y="-410" type="line"/>
+      <point x="-504" y="1638" type="line"/>
+      <point x="-340" y="1638" type="line"/>
+      <point x="-340" y="793" type="line"/>
+      <point x="852" y="793" type="line"/>
+      <point x="852" y="646" type="line"/>
+      <point x="-340" y="646" type="line"/>
+      <point x="-340" y="445" type="line"/>
+      <point x="852" y="445" type="line"/>
+      <point x="852" y="298" type="line"/>
+      <point x="-340" y="298" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>298</integer>
+            <key>width</key>
+            <integer>147</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>646</integer>
+            <key>width</key>
+            <integer>147</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-504</integer>
+            <key>width</key>
+            <integer>164</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

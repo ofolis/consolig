@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="underscore_underscore.liga" format="2">
+  <advance width="1126"/>
+  <outline>
+    <contour>
+      <point x="-985" y="-266" type="line"/>
+      <point x="985" y="-266" type="line"/>
+      <point x="985" y="-410" type="line"/>
+      <point x="-985" y="-410" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-410</integer>
+            <key>width</key>
+            <integer>144</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

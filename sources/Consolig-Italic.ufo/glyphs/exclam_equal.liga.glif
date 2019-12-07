@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclam_equal.liga" format="2">
+  <advance width="1126"/>
+  <outline>
+    <contour>
+      <point x="-170" y="445" type="line"/>
+      <point x="-85" y="646" type="line"/>
+      <point x="-852" y="646" type="line"/>
+      <point x="-852" y="793" type="line"/>
+      <point x="-23" y="793" type="line"/>
+      <point x="238" y="1413" type="line"/>
+      <point x="404" y="1413" type="line"/>
+      <point x="143" y="793" type="line"/>
+      <point x="852" y="793" type="line"/>
+      <point x="852" y="646" type="line"/>
+      <point x="81" y="646" type="line"/>
+      <point x="-4" y="445" type="line"/>
+      <point x="852" y="445" type="line"/>
+      <point x="852" y="298" type="line"/>
+      <point x="-66" y="298" type="line"/>
+      <point x="-282" y="-215" type="line"/>
+      <point x="-448" y="-215" type="line"/>
+      <point x="-232" y="298" type="line"/>
+      <point x="-852" y="298" type="line"/>
+      <point x="-852" y="445" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>298</integer>
+            <key>width</key>
+            <integer>147</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>646</integer>
+            <key>width</key>
+            <integer>147</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

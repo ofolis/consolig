@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hyphen_less.liga" format="2">
+  <advance width="1126"/>
+  <outline>
+    <contour>
+      <point x="777" y="94" type="line"/>
+      <point x="668" y="-16" type="line"/>
+      <point x="94" y="463" type="line"/>
+      <point x="-721" y="463" type="line"/>
+      <point x="-721" y="627" type="line"/>
+      <point x="94" y="627" type="line"/>
+      <point x="668" y="1106" type="line"/>
+      <point x="777" y="995" type="line"/>
+      <point x="232" y="547" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>463</integer>
+            <key>width</key>
+            <integer>164</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

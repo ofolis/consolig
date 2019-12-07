@@ -6,7 +6,7 @@
     </axis>
   </axes>
   <sources>
-    <source filename="Consolig-Regular.ufo" name="Consolig Regular" familyname="Consolig" stylename="Regular">
+    <source filename="Consolig-Bold.ufo" name="Consolig Bold" familyname="Consolig" stylename="Bold">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -17,9 +17,9 @@
     </source>
   </sources>
   <instances>
-    <instance name="Consolig Regular" familyname="Consolig" stylename="Regular" filename="Consolig-Regular.ufo" stylemapfamilyname="Consolig" stylemapstylename="regular">
+    <instance name="Consolig Bold" familyname="Consolig" stylename="Bold" filename="Consolig-Bold.ufo" stylemapfamilyname="Consolig" stylemapstylename="bold">
       <location>
-        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Weight" xvalue="700"/>
       </location>
       <kerning/>
       <info/>

@@ -13,22 +13,25 @@ import fontTools
 
 # Static vars
 BUILD_DIR = Path("build/")
-DESIGNSPACE_FILE = "Consolig.designspace"
 INPUT_DIR = Path("input/")
-INPUT_STYLE_MAP = {
-    "Bold": {
-        "font_file": "consolab.ttf"
+STYLE_CONFIGS = [
+    {
+        "designspace": "Consolig-Bold.designspace",
+        "input": "consolab.ttf"
     },
-    "Bold Italic": {
-        "font_file": "consolaz.ttf"
+    {
+        "designspace": "Consolig-Bold-Italic.designspace",
+        "input": "consolaz.ttf"
     },
-    "Italic": {
-        "font_file": "consolai.ttf"
+    {
+        "designspace": "Consolig-Italic.designspace",
+        "input": "consolai.ttf"
     },
-    "Regular": {
-        "font_file": "consola.ttf"
+    {
+        "designspace": "Consolig-Regular.designspace",
+        "input": "consola.ttf"
     }
-}
+]
 SOURCES_DIR = Path("sources/")
 TEMP_DIR = Path("temp/")
 
@@ -87,49 +90,46 @@ def build_font_instance(generator, instance_descriptor, *steps):
 
 
 if __name__ == "__main__":
-    # Set up temp directory
-    TEMP_DIR.mkdir(parents=True, exist_ok=True)
-    shutil.copyfile(SOURCES_DIR / DESIGNSPACE_FILE,
-                    TEMP_DIR / DESIGNSPACE_FILE)
-    # Load Designspace and filter out instances that are marked as non-exportable.
-    designspace = fontTools.designspaceLib.DesignSpaceDocument.fromfile(
-        SOURCES_DIR / DESIGNSPACE_FILE)
-    designspace.instances = [
-        s
-        for s in designspace.instances
-        if s.lib.get("com.schriftgestaltung.export", True)
-    ]
-    # Prepare masters.
-    generator = fontmake.instantiator.Instantiator.from_designspace(
-        designspace)
-    BUILD_DIR.mkdir(parents=True, exist_ok=True)
-    step_add_features = step_set_feature_file(SOURCES_DIR / "features.fea")
-    for instance_descriptor in designspace.instances:
-        print(f"Starting style \"{instance_descriptor.styleName}\".")
-        if instance_descriptor.styleName not in INPUT_STYLE_MAP:
+    for config in STYLE_CONFIGS:
+        # Set up temp directory
+        TEMP_DIR.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(SOURCES_DIR / config["designspace"],
+                        TEMP_DIR / config["designspace"])
+        # Load Designspace and filter out instances that are marked as non-exportable.
+        designspace = fontTools.designspaceLib.DesignSpaceDocument.fromfile(
+            SOURCES_DIR / config["designspace"])
+        designspace.instances = [
+            s
+            for s in designspace.instances
+            if s.lib.get("com.schriftgestaltung.export", True)
+        ]
+        # Prepare masters.
+        generator = fontmake.instantiator.Instantiator.from_designspace(
+            designspace)
+        BUILD_DIR.mkdir(parents=True, exist_ok=True)
+        step_add_features = step_set_feature_file(SOURCES_DIR / "features.fea")
+        for instance_descriptor in designspace.instances:
+            print(f"Starting style \"{instance_descriptor.styleName}\".")
+            input_file = config["input"]
+            print(f"Attempting to extract UFO from \"{input_file}\".")
+            if os.path.exists(INPUT_DIR / input_file):
+                ufo = defcon.Font()
+                extractor.extractUFO(
+                    (INPUT_DIR / input_file), ufo)
+                ufo.save(TEMP_DIR / input_file)
+                print(f"UFO extracted successfully.")
+            else:
+                print(f"Input font file is missing. Skipping.")
+                continue
             print(
-                f"Cannot process instance. Style name \"{instance_descriptor.styleName}\" is not defined in map.")
-            continue
-        font_file = INPUT_STYLE_MAP[instance_descriptor.styleName]["font_file"]
-        print(f"Attempting to extract UFO from \"{font_file}\".")
-        if os.path.exists(INPUT_DIR / font_file):
-            ufo = defcon.Font()
-            extractor.extractUFO(
-                (INPUT_DIR / font_file), ufo)
-            ufo.save(TEMP_DIR / font_file)
-            print(f"UFO extracted successfully.")
-        else:
-            print(f"Input font file is missing. Skipping.")
-            continue
-        print(
-            f"Beginning build for style \"{instance_descriptor.styleName}\".")
-        # Define steps
-        step_merge_consolas = step_merge_glyphs_from_ufo(TEMP_DIR / font_file)
-        # Build font
-        build_font_instance(generator, instance_descriptor,
-                            step_merge_consolas, step_add_features)
-        print(
-            f"Completed build for style \"{instance_descriptor.styleName}\".")
-        print("*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***")
+                f"Beginning build for style \"{instance_descriptor.styleName}\".")
+            # Define steps
+            step_merge_consolas = step_merge_glyphs_from_ufo(TEMP_DIR / input_file)
+            # Build font
+            build_font_instance(generator, instance_descriptor,
+                                step_merge_consolas, step_add_features)
+            print(
+                f"Completed build for style \"{instance_descriptor.styleName}\".")
+            print("*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***")
     shutil.rmtree(TEMP_DIR)
     print("All build tasks are complete.")

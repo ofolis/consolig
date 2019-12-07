@@ -4,7 +4,9 @@ Consolig is a version of Consolas that supports ligatures. Unlike other efforts,
 
 Because Consolas cannot be redistributed, this project provides the tools to append the ligature glyphs and features to your personal copy of Consolas, generating a copy of Consolig.
 
-# How to build
+**NOTE: For the pre-release, all font styles use the same ligature glyphs. Making style-specific glyphs is my next goal.**
+
+## How to build
 
 1. Copy your Consolas font files into the Consolig `/input` directory. On Windows, your Consolas files are located in `/Windows/Fonts` on your OS drive. The valid filenames are:
    - `consola.ttf` - Regular
@@ -21,6 +23,6 @@ Because Consolas cannot be redistributed, this project provides the tools to app
     `py build.py`
 5. If everything goes well, you should now have Consolig font files in your `/build` directory.
 
-# Credits
+## Credits
 
 - Glyph substitution and font build logic was taken from [Cascadia Code](https://github.com/microsoft/cascadia-code).

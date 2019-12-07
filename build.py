@@ -1,15 +1,13 @@
 from pathlib import Path
 
-import argparse
+import defcon
 import extractor
 import fontmake.instantiator
 import fontTools.designspaceLib
-import defcon
 import os
 import shutil
 import ufo2ft
 import ufoLib2
-import fontTools
 
 # Static vars
 BUILD_DIR = Path("build/")

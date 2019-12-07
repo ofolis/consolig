@@ -336,3 +336,4 @@ testground.py
 converter.py
 buildTest.py
 build/
+input/*.ttf

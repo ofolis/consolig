@@ -3,24 +3,24 @@
   <advance width="1126"/>
   <outline>
     <contour>
-      <point x="-1606" y="-410" type="line"/>
-      <point x="-1770" y="-410" type="line"/>
-      <point x="-1770" y="1638" type="line"/>
-      <point x="-1606" y="1638" type="line"/>
+      <point x="-1325" y="-410" type="line"/>
+      <point x="-1489" y="-410" type="line"/>
+      <point x="-1489" y="1638" type="line"/>
+      <point x="-1325" y="1638" type="line"/>
     </contour>
     <contour>
-      <point x="-1044" y="-410" type="line"/>
-      <point x="-1208" y="-410" type="line"/>
-      <point x="-1208" y="1638" type="line"/>
-      <point x="-1044" y="1638" type="line"/>
-      <point x="-1044" y="793" type="line"/>
-      <point x="993" y="793" type="line"/>
-      <point x="993" y="646" type="line"/>
-      <point x="-1044" y="646" type="line"/>
-      <point x="-1044" y="445" type="line"/>
-      <point x="993" y="445" type="line"/>
-      <point x="993" y="298" type="line"/>
-      <point x="-1044" y="298" type="line"/>
+      <point x="-622" y="-410" type="line"/>
+      <point x="-786" y="-410" type="line"/>
+      <point x="-786" y="1638" type="line"/>
+      <point x="-622" y="1638" type="line"/>
+      <point x="-622" y="793" type="line"/>
+      <point x="711" y="793" type="line"/>
+      <point x="711" y="646" type="line"/>
+      <point x="-622" y="646" type="line"/>
+      <point x="-622" y="445" type="line"/>
+      <point x="711" y="445" type="line"/>
+      <point x="711" y="298" type="line"/>
+      <point x="-622" y="298" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -46,13 +46,13 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-1770</integer>
+            <integer>-1489</integer>
             <key>width</key>
             <integer>164</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>-1208</integer>
+            <integer>-786</integer>
             <key>width</key>
             <integer>164</integer>
           </dict>

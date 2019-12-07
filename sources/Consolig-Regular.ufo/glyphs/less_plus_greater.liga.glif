@@ -17,20 +17,20 @@
       <point x="-84" y="621" type="line"/>
     </contour>
     <contour>
-      <point x="-833" y="985" type="line"/>
-      <point x="-1628" y="543" type="line"/>
-      <point x="-833" y="104" type="line"/>
-      <point x="-921" y="-16" type="line"/>
-      <point x="-1943" y="545" type="line"/>
-      <point x="-921" y="1106" type="line"/>
+      <point x="-860" y="985" type="line"/>
+      <point x="-1655" y="543" type="line"/>
+      <point x="-860" y="104" type="line"/>
+      <point x="-948" y="-16" type="line"/>
+      <point x="-1970" y="545" type="line"/>
+      <point x="-948" y="1106" type="line"/>
     </contour>
     <contour>
-      <point x="-291" y="985" type="line"/>
-      <point x="-203" y="1106" type="line"/>
-      <point x="819" y="545" type="line"/>
-      <point x="-203" y="-16" type="line"/>
-      <point x="-291" y="104" type="line"/>
-      <point x="504" y="543" type="line"/>
+      <point x="-266" y="985" type="line"/>
+      <point x="-178" y="1106" type="line"/>
+      <point x="844" y="545" type="line"/>
+      <point x="-178" y="-16" type="line"/>
+      <point x="-266" y="104" type="line"/>
+      <point x="529" y="543" type="line"/>
     </contour>
   </outline>
   <lib>

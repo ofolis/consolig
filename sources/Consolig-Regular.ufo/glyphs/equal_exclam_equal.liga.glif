@@ -23,28 +23,28 @@
       <point x="-698" y="38"/>
     </contour>
     <contour>
-      <point x="-2119" y="646" type="line"/>
-      <point x="-2119" y="793" type="line"/>
-      <point x="-971" y="793" type="line"/>
-      <point x="-971" y="646" type="line"/>
+      <point x="-1837" y="646" type="line"/>
+      <point x="-1837" y="793" type="line"/>
+      <point x="-953" y="793" type="line"/>
+      <point x="-953" y="646" type="line"/>
     </contour>
     <contour>
-      <point x="-2119" y="298" type="line"/>
-      <point x="-2119" y="445" type="line"/>
-      <point x="-971" y="445" type="line"/>
-      <point x="-971" y="298" type="line"/>
+      <point x="-1837" y="298" type="line"/>
+      <point x="-1837" y="445" type="line"/>
+      <point x="-953" y="445" type="line"/>
+      <point x="-953" y="298" type="line"/>
     </contour>
     <contour>
-      <point x="993" y="646" type="line"/>
-      <point x="-155" y="646" type="line"/>
-      <point x="-155" y="793" type="line"/>
-      <point x="993" y="793" type="line"/>
+      <point x="711" y="646" type="line"/>
+      <point x="-179" y="646" type="line"/>
+      <point x="-179" y="793" type="line"/>
+      <point x="711" y="793" type="line"/>
     </contour>
     <contour>
-      <point x="993" y="298" type="line"/>
-      <point x="-155" y="298" type="line"/>
-      <point x="-155" y="445" type="line"/>
-      <point x="993" y="445" type="line"/>
+      <point x="711" y="298" type="line"/>
+      <point x="-179" y="298" type="line"/>
+      <point x="-179" y="445" type="line"/>
+      <point x="711" y="445" type="line"/>
     </contour>
   </outline>
   <lib>

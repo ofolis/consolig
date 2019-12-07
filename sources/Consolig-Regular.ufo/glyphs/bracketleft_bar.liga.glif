@@ -3,16 +3,16 @@
   <advance width="1126"/>
   <outline>
     <contour>
-      <point x="645" y="1448" type="line"/>
-      <point x="645" y="-410" type="line"/>
-      <point x="-781" y="-410" type="line"/>
-      <point x="-781" y="1448" type="line"/>
+      <point x="504" y="1448" type="line"/>
+      <point x="504" y="-410" type="line"/>
+      <point x="-640" y="-410" type="line"/>
+      <point x="-640" y="1448" type="line"/>
     </contour>
     <contour>
-      <point x="481" y="1308" type="line"/>
-      <point x="-615" y="1308" type="line"/>
-      <point x="-615" y="-270" type="line"/>
-      <point x="481" y="-270" type="line"/>
+      <point x="340" y="1308" type="line"/>
+      <point x="-474" y="1308" type="line"/>
+      <point x="-474" y="-270" type="line"/>
+      <point x="340" y="-270" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -38,13 +38,13 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>-781</integer>
+            <integer>-640</integer>
             <key>width</key>
             <integer>166</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>481</integer>
+            <integer>340</integer>
             <key>width</key>
             <integer>164</integer>
           </dict>

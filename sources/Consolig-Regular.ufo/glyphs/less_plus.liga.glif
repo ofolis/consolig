@@ -3,18 +3,18 @@
   <advance width="1126"/>
   <outline>
     <contour>
-      <point x="892" y="469" type="line"/>
-      <point x="499" y="469" type="line"/>
-      <point x="499" y="61" type="line"/>
-      <point x="327" y="61" type="line"/>
-      <point x="327" y="469" type="line"/>
-      <point x="-66" y="469" type="line"/>
-      <point x="-66" y="621" type="line"/>
-      <point x="327" y="621" type="line"/>
-      <point x="327" y="1026" type="line"/>
-      <point x="499" y="1026" type="line"/>
-      <point x="499" y="621" type="line"/>
-      <point x="892" y="621" type="line"/>
+      <point x="901" y="469" type="line"/>
+      <point x="508" y="469" type="line"/>
+      <point x="508" y="61" type="line"/>
+      <point x="336" y="61" type="line"/>
+      <point x="336" y="469" type="line"/>
+      <point x="-57" y="469" type="line"/>
+      <point x="-57" y="621" type="line"/>
+      <point x="336" y="621" type="line"/>
+      <point x="336" y="1026" type="line"/>
+      <point x="508" y="1026" type="line"/>
+      <point x="508" y="621" type="line"/>
+      <point x="901" y="621" type="line"/>
     </contour>
     <contour>
       <point x="143" y="985" type="line"/>
@@ -42,7 +42,7 @@
         <array>
           <dict>
             <key>position</key>
-            <integer>327</integer>
+            <integer>336</integer>
             <key>width</key>
             <integer>172</integer>
           </dict>

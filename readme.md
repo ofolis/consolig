@@ -6,8 +6,19 @@ Because Consolas cannot be redistributed, this project provides the tools to app
 
 Glyph substitution and font build logic was taken from [Cascadia Code](https://github.com/microsoft/cascadia-code).
 
-# Python Dependencies
+# How to build
 
-- `defcon`
-- `fontmake`
-- `ufo-extractor`
+1. Copy your Consolas font files into the Consolig `/input` directory. On Windows, your Consolas files are located in `/Windows/Fonts` on your OS drive. The valid filenames are:
+   - `consola.ttf` - Regular
+   - `consolab.ttf` - Bold
+   - `consolai.ttf` - Italic
+   - `consolaz.ttf` - Bold Italic
+2. Make sure that you have Python 3 and Python 3 PIP installed.
+3. Install the required Python libraries.<br>
+    `pip3 install defcon fontmake ufo-extractor`
+4. Execute the build script.
+   - Linux<br>
+    `python3 build.py`
+   - Windows<br>
+    `py build.py`
+5. If everything goes well, you should now have Consolig font files in your `/build` directory.

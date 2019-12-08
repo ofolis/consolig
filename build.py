@@ -130,7 +130,7 @@ def build_font_instance(generator, instance_descriptor, gasp, panose, *steps):
     file_path = BUILD_DIR / file_name
     print(f"[{family_name} {style_name}] Compiling font.")
     instance_font = ufo2ft.compileTTF(
-        instance, removeOverlaps=False, inplace=True)
+        instance, inplace=True, reverseDirection=False, convertCubics=False)
     print(f"[{family_name} {style_name}] Saving font.")
     instance_font.save(file_path)
     print(f"[{family_name} {style_name}] Completed font at \"{file_path}\".")

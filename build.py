@@ -9,29 +9,91 @@ import shutil
 import ufo2ft
 import ufoLib2
 
-# Static vars
+# Directories
 BUILD_DIR = Path("build/")
 INPUT_DIR = Path("input/")
+SOURCES_DIR = Path("sources/")
+TEMP_DIR = Path("temp/")
+# Configs
+CLASS_CONFIG = [8, 9]
 STYLE_CONFIGS = [
     {
         "designspace": "Consolig-Bold.designspace",
-        "input": "consolab.ttf"
+        "gasp": [
+            {
+                "rangeMaxPPEM": 10,
+                "rangeGaspBehavior": [1, 3]
+            },
+            {
+                "rangeMaxPPEM": 14,
+                "rangeGaspBehavior": [0, 1, 2]
+            },
+            {
+                "rangeMaxPPEM": 65535,
+                "rangeGaspBehavior": [0, 1, 2, 3]
+            },
+        ],
+        "input": "consolab.ttf",
+        "panose": [2, 11, 7, 9, 2, 2, 4, 3, 2, 4]
     },
     {
-        "designspace": "Consolig-Bold-Italic.designspace",
-        "input": "consolaz.ttf"
+        "designspace": "Consolig-BoldItalic.designspace",
+        "gasp": [
+            {
+                "rangeMaxPPEM": 10,
+                "rangeGaspBehavior": [1, 3]
+            },
+            {
+                "rangeMaxPPEM": 14,
+                "rangeGaspBehavior": [0, 1, 2]
+            },
+            {
+                "rangeMaxPPEM": 65535,
+                "rangeGaspBehavior": [0, 1, 2, 3]
+            },
+        ],
+        "input": "consolaz.ttf",
+        "panose": [2, 11, 7, 9, 2, 2, 4, 10, 2, 4]
     },
     {
         "designspace": "Consolig-Italic.designspace",
-        "input": "consolai.ttf"
+        "gasp": [
+            {
+                "rangeMaxPPEM": 10,
+                "rangeGaspBehavior": [1, 3]
+            },
+            {
+                "rangeMaxPPEM": 19,
+                "rangeGaspBehavior": [0, 1, 2]
+            },
+            {
+                "rangeMaxPPEM": 65535,
+                "rangeGaspBehavior": [0, 1, 2, 3]
+            },
+        ],
+        "input": "consolai.ttf",
+        "panose": [2, 11, 6, 9, 2, 2, 4, 10, 2, 4]
     },
     {
         "designspace": "Consolig-Regular.designspace",
-        "input": "consola.ttf"
+        "gasp": [
+            {
+                "rangeMaxPPEM": 10,
+                "rangeGaspBehavior": [1, 3]
+            },
+            {
+                "rangeMaxPPEM": 19,
+                "rangeGaspBehavior": [0, 1, 2]
+            },
+            {
+                "rangeMaxPPEM": 65535,
+                "rangeGaspBehavior": [0, 1, 2, 3]
+            },
+        ],
+        "input": "consola.ttf",
+        "panose": [2, 11, 6, 9, 2, 2, 4, 3, 2, 4]
     }
 ]
-SOURCES_DIR = Path("sources/")
-TEMP_DIR = Path("temp/")
 
 
 def step_merge_glyphs_from_ufo(path):
@@ -55,26 +117,13 @@ def step_set_feature_file(n):
     return _set
 
 
-def build_font_instance(generator, instance_descriptor, *steps):
+def build_font_instance(generator, instance_descriptor, gasp, panose, *steps):
     instance = generator.generate_instance(instance_descriptor)
     for step in steps:
         step(instance)
-    setattr(instance.info, "openTypeOS2Panose",
-            [2, 11, 6, 9, 2, 0, 0, 2, 0, 4])
-    instance.info.openTypeGaspRangeRecords = [
-        {
-            "rangeMaxPPEM": 9,
-            "rangeGaspBehavior": [1, 3]
-        },
-        {
-            "rangeMaxPPEM": 50,
-            "rangeGaspBehavior": [0, 1, 2, 3]
-        },
-        {
-            "rangeMaxPPEM": 65535,
-            "rangeGaspBehavior": [1, 3]
-        },
-    ]
+    setattr(instance.info, "openTypeOS2FamilyClass", CLASS_CONFIG)
+    setattr(instance.info, "openTypeOS2Panose", panose)
+    instance.info.openTypeGaspRangeRecords = gasp
     family_name = instance.info.familyName
     style_name = instance.info.styleName
     file_name = f"{family_name}-{style_name}.ttf".replace(" ", "")
@@ -122,12 +171,14 @@ if __name__ == "__main__":
             print(
                 f"Beginning build for style \"{instance_descriptor.styleName}\".")
             # Define steps
-            step_merge_consolas = step_merge_glyphs_from_ufo(TEMP_DIR / input_file)
+            step_merge_consolas = step_merge_glyphs_from_ufo(
+                TEMP_DIR / input_file)
             # Build font
-            build_font_instance(generator, instance_descriptor,
-                                step_merge_consolas, step_add_features)
+            build_font_instance(generator, instance_descriptor, config["gasp"],
+                                config["panose"], step_merge_consolas, step_add_features)
             print(
                 f"Completed build for style \"{instance_descriptor.styleName}\".")
-            print("*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***")
+            print(
+                "*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***")
     shutil.rmtree(TEMP_DIR)
     print("All build tasks are complete.")

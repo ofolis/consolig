@@ -1,4 +1,5 @@
 
+#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\ampersand_ampersand.liga \asciicircum_equal.liga 
 	\asciitilde_asciitilde.liga \asciitilde_at.liga \asciitilde_equal.liga 

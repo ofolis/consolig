@@ -34,7 +34,8 @@ STYLE_CONFIGS = [
             },
         ],
         "input": "consolab.ttf",
-        "panose": [2, 11, 7, 9, 2, 2, 4, 3, 2, 4]
+        "panose": [2, 11, 7, 9, 2, 2, 4, 3, 2, 4],
+        "underline": -217
     },
     {
         "designspace": "Consolig-BoldItalic.designspace",
@@ -53,7 +54,8 @@ STYLE_CONFIGS = [
             },
         ],
         "input": "consolaz.ttf",
-        "panose": [2, 11, 7, 9, 2, 2, 4, 10, 2, 4]
+        "panose": [2, 11, 7, 9, 2, 2, 4, 10, 2, 4],
+        "underline": -217
     },
     {
         "designspace": "Consolig-Italic.designspace",
@@ -72,7 +74,8 @@ STYLE_CONFIGS = [
             },
         ],
         "input": "consolai.ttf",
-        "panose": [2, 11, 6, 9, 2, 2, 4, 10, 2, 4]
+        "panose": [2, 11, 6, 9, 2, 2, 4, 10, 2, 4],
+        "underline": -266
     },
     {
         "designspace": "Consolig-Regular.designspace",
@@ -91,7 +94,8 @@ STYLE_CONFIGS = [
             },
         ],
         "input": "consola.ttf",
-        "panose": [2, 11, 6, 9, 2, 2, 4, 3, 2, 4]
+        "panose": [2, 11, 6, 9, 2, 2, 4, 3, 2, 4],
+        "underline": -266
     }
 ]
 
@@ -117,12 +121,14 @@ def step_set_feature_file(n):
     return _set
 
 
-def build_font_instance(generator, instance_descriptor, gasp, panose, *steps):
+def build_font_instance(generator, instance_descriptor, gasp, panose, underline, *steps):
     instance = generator.generate_instance(instance_descriptor)
     for step in steps:
         step(instance)
     setattr(instance.info, "openTypeOS2FamilyClass", CLASS_CONFIG)
     setattr(instance.info, "openTypeOS2Panose", panose)
+    setattr(instance.info, "postscriptIsFixedPitch", True)
+    setattr(instance.info, "postscriptUnderlinePosition", underline)
     instance.info.openTypeGaspRangeRecords = gasp
     family_name = instance.info.familyName
     style_name = instance.info.styleName
@@ -174,8 +180,8 @@ if __name__ == "__main__":
             step_merge_consolas = step_merge_glyphs_from_ufo(
                 TEMP_DIR / input_file)
             # Build font
-            build_font_instance(generator, instance_descriptor, config["gasp"],
-                                config["panose"], step_merge_consolas, step_add_features)
+            build_font_instance(generator, instance_descriptor,
+                                config["gasp"], config["panose"], config["underline"], step_merge_consolas, step_add_features)
             print(
                 f"Completed build for style \"{instance_descriptor.styleName}\".")
             print(

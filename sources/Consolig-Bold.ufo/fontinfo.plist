@@ -13,7 +13,7 @@
     <key>versionMajor</key>
     <integer>0</integer>
     <key>versionMinor</key>
-    <integer>1</integer>
+    <integer>2</integer>
     <key>copyright</key>
     <string>© 2019 Schism Studios</string>
     <key>trademark</key>
@@ -51,7 +51,7 @@
     <key>openTypeNameLicenseURL</key>
     <string>https://opensource.org/licenses/OFL-1.1</string>
     <key>openTypeNameVersion</key>
-    <string>0.1</string>
+    <string>0.2</string>
     <key>openTypeOS2Panose</key>
     <array>
       <integer>2</integer>

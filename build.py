@@ -1,184 +1,138 @@
+from defcon import Font
+from fontTools import merge
+from fontTools.feaLib.builder import addOpenTypeFeatures
+from fontTools.ufoLib import fontInfoAttributesVersion3, UFOReader
+from os import getcwd, path
 from pathlib import Path
-
-import defcon
-import extractor
-import fontmake.instantiator
-import fontTools.designspaceLib
-import os
-import shutil
-import ufo2ft
-import ufoLib2
+from shutil import rmtree
+from ufo2ft import compileTTF
 
 # Directories
-BUILD_DIR = Path("build/")
-INPUT_DIR = Path("input/")
-SOURCES_DIR = Path("sources/")
-TEMP_DIR = Path("temp/")
+CWD = Path(getcwd())
+BUILD_DIR = Path(CWD / "build/")
+INPUT_DIR = Path(CWD / "input/")
+SOURCES_DIR = Path(CWD / "sources/")
+TEMP_DIR = Path(CWD / "temp/")
 # Configs
-CLASS_CONFIG = [8, 9]
 STYLE_CONFIGS = [
     {
-        "designspace": "Consolig-Bold.designspace",
-        "gasp": [
-            {
-                "rangeMaxPPEM": 10,
-                "rangeGaspBehavior": [1, 3]
-            },
-            {
-                "rangeMaxPPEM": 14,
-                "rangeGaspBehavior": [0, 1, 2]
-            },
-            {
-                "rangeMaxPPEM": 65535,
-                "rangeGaspBehavior": [0, 1, 2, 3]
-            },
-        ],
-        "input": "consolab.ttf",
-        "panose": [2, 11, 7, 9, 2, 2, 4, 3, 2, 4]
+        "featureFile": "features.fea",
+        "fileName": "Consolig-Regular",
+        "inputFile": "consola.ttf"
     },
     {
-        "designspace": "Consolig-BoldItalic.designspace",
-        "gasp": [
-            {
-                "rangeMaxPPEM": 10,
-                "rangeGaspBehavior": [1, 3]
-            },
-            {
-                "rangeMaxPPEM": 14,
-                "rangeGaspBehavior": [0, 1, 2]
-            },
-            {
-                "rangeMaxPPEM": 65535,
-                "rangeGaspBehavior": [0, 1, 2, 3]
-            },
-        ],
-        "input": "consolaz.ttf",
-        "panose": [2, 11, 7, 9, 2, 2, 4, 10, 2, 4]
+        "featureFile": "features.fea",
+        "fileName": "Consolig-Bold",
+        "inputFile": "consolab.ttf"
     },
     {
-        "designspace": "Consolig-Italic.designspace",
-        "gasp": [
-            {
-                "rangeMaxPPEM": 10,
-                "rangeGaspBehavior": [1, 3]
-            },
-            {
-                "rangeMaxPPEM": 19,
-                "rangeGaspBehavior": [0, 1, 2]
-            },
-            {
-                "rangeMaxPPEM": 65535,
-                "rangeGaspBehavior": [0, 1, 2, 3]
-            },
-        ],
-        "input": "consolai.ttf",
-        "panose": [2, 11, 6, 9, 2, 2, 4, 10, 2, 4]
+        "featureFile": "features.fea",
+        "fileName": "Consolig-Italic",
+        "inputFile": "consolai.ttf"
     },
     {
-        "designspace": "Consolig-Regular.designspace",
-        "gasp": [
-            {
-                "rangeMaxPPEM": 10,
-                "rangeGaspBehavior": [1, 3]
-            },
-            {
-                "rangeMaxPPEM": 19,
-                "rangeGaspBehavior": [0, 1, 2]
-            },
-            {
-                "rangeMaxPPEM": 65535,
-                "rangeGaspBehavior": [0, 1, 2, 3]
-            },
-        ],
-        "input": "consola.ttf",
-        "panose": [2, 11, 6, 9, 2, 2, 4, 3, 2, 4]
+        "featureFile": "features.fea",
+        "fileName": "Consolig-BoldItalic",
+        "inputFile": "consolaz.ttf"
     }
 ]
+# Maps
+NAME_INFO_MAP = {
+    "0": "copyright",
+    "1": "familyName",
+    "2": "styleName",
+    "3": "postscriptUniqueID",
+    "4": "postscriptFullName",
+    "5": "openTypeNameVersion",
+    "6": "postscriptFontName",
+    "7": "trademark",
+    "8": "openTypeNameManufacturer",
+    "9": "openTypeNameDesigner",
+    "10": "openTypeNameDescription",
+    "11": "openTypeNameManufacturerURL",
+    "12": "openTypeNameDesignerURL",
+    "13": "openTypeNameLicense",
+    "14": "openTypeNameLicenseURL",
+    "16": "openTypeNameWWSFamilyName",
+    "17": "openTypeNamePreferredSubfamilyName",
+    "18": "openTypeNamePreferredFamilyName",
+    "19": "openTypeNameSampleText",
+    "21": "openTypeNameWWSFamilyName",
+    "22": "openTypeNameWWSSubfamilyName"
+}
 
+class Info(object):
+    def __init__(self):
+        for attr in fontInfoAttributesVersion3:
+            setattr(self, attr, None)
 
-def step_merge_glyphs_from_ufo(path):
-    def _merge(instance):
-        ufo = ufoLib2.Font.open(path)
-        print(
-            f"[{instance.info.familyName} {instance.info.styleName}] Merging glyphs from \"{path}\".")
-        for glyph in ufo.glyphOrder:
-            if glyph not in instance.glyphOrder:
-                instance.addGlyph(ufo[glyph])
-    return _merge
+def mergeTtfFiles(ttf_file_list):
+    merger = merge.Merger()
+    merged_tt_font = merger.merge(ttf_file_list)
+    return merged_tt_font
 
+def saveUfoToTtf(ufo_path, ttf_path):
+    ufo = Font(ufo_path)
+    ttf = compileTTF(ufo)
+    ttf.save(ttf_path)
 
-def step_set_feature_file(n):
-    fea = n.read_text()
-
-    def _set(instance):
-        print(
-            f"[{instance.info.familyName} {instance.info.styleName}] Setting feature file from \"{n}\".")
-        instance.features.text = fea
-    return _set
-
-
-def build_font_instance(generator, instance_descriptor, gasp, panose, *steps):
-    instance = generator.generate_instance(instance_descriptor)
-    for step in steps:
-        step(instance)
-    setattr(instance.info, "openTypeOS2FamilyClass", CLASS_CONFIG)
-    setattr(instance.info, "openTypeOS2Panose", panose)
-    instance.info.openTypeGaspRangeRecords = gasp
-    family_name = instance.info.familyName
-    style_name = instance.info.styleName
-    file_name = f"{family_name}-{style_name}.ttf".replace(" ", "")
-    file_path = BUILD_DIR / file_name
-    print(f"[{family_name} {style_name}] Compiling font.")
-    instance_font = ufo2ft.compileTTF(
-        instance, inplace=True, reverseDirection=False, convertCubics=False)
-    print(f"[{family_name} {style_name}] Saving font.")
-    instance_font.save(file_path)
-    print(f"[{family_name} {style_name}] Completed font at \"{file_path}\".")
-
+def updateNames(tt_font, ufo_reader):
+    # Get info from UFO.
+    info = Info()
+    ufo_reader.readInfo(info)
+    # Update name table.
+    tt_name_table = tt_font["name"]
+    for name in tt_name_table.names:
+        name_id_string = str(name.nameID)
+        if name_id_string not in NAME_INFO_MAP:
+            continue
+        info_property = NAME_INFO_MAP[name_id_string]
+        if not hasattr(info, info_property):
+            continue
+        value = getattr(info, info_property)
+        if value == None:
+            continue
+        tt_name_table.setName(value, name.nameID, name.platformID, name.platEncID, name.langID)
 
 if __name__ == "__main__":
+    # Perform startup tasks.
+    print("Setting up directories.")
+    BUILD_DIR.mkdir(parents=True, exist_ok=True)
+    TEMP_DIR.mkdir(parents=True, exist_ok=True)
     for config in STYLE_CONFIGS:
-        # Set up temp directory
-        TEMP_DIR.mkdir(parents=True, exist_ok=True)
-        shutil.copyfile(SOURCES_DIR / config["designspace"],
-                        TEMP_DIR / config["designspace"])
-        # Load Designspace and filter out instances that are marked as non-exportable.
-        designspace = fontTools.designspaceLib.DesignSpaceDocument.fromfile(
-            SOURCES_DIR / config["designspace"])
-        designspace.instances = [
-            s
-            for s in designspace.instances
-            if s.lib.get("com.schriftgestaltung.export", True)
-        ]
-        # Prepare masters.
-        generator = fontmake.instantiator.Instantiator.from_designspace(
-            designspace)
-        BUILD_DIR.mkdir(parents=True, exist_ok=True)
-        step_add_features = step_set_feature_file(SOURCES_DIR / "features.fea")
-        for instance_descriptor in designspace.instances:
-            print(f"Starting style \"{instance_descriptor.styleName}\".")
-            input_file = config["input"]
-            print(f"Attempting to extract UFO from \"{input_file}\".")
-            if os.path.exists(INPUT_DIR / input_file):
-                ufo = defcon.Font()
-                extractor.extractUFO(
-                    (INPUT_DIR / input_file), ufo)
-                ufo.save(TEMP_DIR / input_file)
-                print(f"UFO extracted successfully.")
-            else:
-                print(f"Input font file is missing. Skipping.")
-                continue
-            print(
-                f"Beginning build for style \"{instance_descriptor.styleName}\".")
-            # Define steps
-            step_merge_consolas = step_merge_glyphs_from_ufo(
-                TEMP_DIR / input_file)
-            # Build font
-            build_font_instance(generator, instance_descriptor, config["gasp"],
-                                config["panose"], step_merge_consolas, step_add_features)
-            print(
-                f"Completed build for style \"{instance_descriptor.styleName}\".")
-            print(
-                "*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***")
-    shutil.rmtree(TEMP_DIR)
+        # Get properties from config.
+        feature_file_path = SOURCES_DIR / config["featureFile"]
+        input_file_path = INPUT_DIR / config["inputFile"]
+        output_file_path = BUILD_DIR / (config["fileName"] + ".ttf")
+        source_file_path = SOURCES_DIR / (config["fileName"] + ".ufo")
+        temp_file_path = TEMP_DIR / (config["fileName"] + ".ttf")
+        print(f"Processing UFO source at \"{source_file_path}\".")
+        if path.exists(input_file_path):
+            # Convert Consolig to TTF.
+            print(f"Converting UFO to TTF.")
+            saveUfoToTtf(source_file_path, temp_file_path)
+            # Merge TTF fonts.
+            print(f"Merging TrueType data.")
+            merged_tt_font = mergeTtfFiles([
+                input_file_path,
+                temp_file_path
+            ])
+            # Set up substitution functionality.
+            print(f"Writing TrueType features.")
+            addOpenTypeFeatures(merged_tt_font, feature_file_path)
+            # Update font names.
+            print(f"Updating TrueType names from UFO information.")
+            consolig_ufo_reader = UFOReader(source_file_path)
+            updateNames(merged_tt_font, consolig_ufo_reader)
+            # Save font.
+            print(f"Saving to TTF file.")
+            merged_tt_font.save(output_file_path)
+            merged_tt_font.close()
+            print(f"Completed font \"{output_file_path}\".")
+        else:
+            print(f"Could not find input file \"{input_file_path}\". Skipping.")
+        print("*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***")
+    # Perform cleanup tasks.
+    print("Cleaning up directories.")
+    rmtree(TEMP_DIR)
     print("All build tasks are complete.")

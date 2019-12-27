@@ -15,14 +15,14 @@ Because Consolas cannot be redistributed, this project provides the tools to app
    - `consolaz.ttf` - Bold Italic
 2. Make sure that you have Python 3 and Python 3 PIP installed.
 3. Install the required Python libraries.<br>
-    `pip3 install defcon fontmake ufo-extractor`
+   `pip3 install defcon fontTools ufo2ft`
 4. Execute the build script.
    - Linux<br>
-    `python3 build.py`
+     `python3 build.py`
    - Windows<br>
-    `py build.py`
+     `py build.py`
 5. If everything goes well, you should now have Consolig font files in your `/build` directory.
 
 ## Credits
 
-- Glyph substitution and font build logic was taken from [Cascadia Code](https://github.com/microsoft/cascadia-code).
+- Glyph substitution logic was taken from [Cascadia Code](https://github.com/microsoft/cascadia-code).

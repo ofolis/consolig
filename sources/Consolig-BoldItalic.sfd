@@ -4,7 +4,7 @@ FullName: Consolig Bold Italic
 FamilyName: Consolig
 Weight: Bold
 Copyright: (c) 2019 Schism Studios
-Version: 0.2
+Version: 0.3
 ItalicAngle: -11
 UnderlinePosition: -314
 UnderlineWidth: 194
@@ -60,7 +60,7 @@ OS2CodePages: 6000019f.dfd70000
 OS2UnicodeRanges: e00006ff.0000fcff.00000001.00000000
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "+AKkA 2019 Schism Studios" "" "Bold Italic" "" "" "0.2" "" "Consolig is not trademarked. It is a not-so-clever combination of two other words, one of which is a trademark of Microsoft." "Schism Studios" "Josh Jones" "" "http://www.schism.co" "http://josh-jones.com" "SIL OPEN FONT LICENSE (OFL-1.1)" "https://opensource.org/licenses/OFL-1.1"
+LangName: 1033 "+AKkA 2019 Schism Studios" "" "Bold Italic" "" "" "0.3" "" "Consolig is not trademarked. It is a not-so-clever combination of two other words, one of which is a trademark of Microsoft." "Schism Studios" "Josh Jones" "" "http://www.schism.co" "http://josh-jones.com" "SIL OPEN FONT LICENSE (OFL-1.1)" "https://opensource.org/licenses/OFL-1.1"
 GaspTable: 3 10 10 14 7 65535 15 1
 PickledDataWithLists: "(dp0
 Vpublic.glyphOrder\\u000d\\u000d

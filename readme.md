@@ -15,7 +15,7 @@ Because Consolas cannot be redistributed, this project provides the tools to app
    - `consolaz.ttf` - Bold Italic
 2. Make sure that you have Python 3 and Python 3 PIP installed.
 3. Install the required Python libraries.<br>
-   `pip3 install defcon fontTools ufo2ft`
+   `pip3 install defcon ufo2ft`
 4. Execute the build script.
    - Linux<br>
      `python3 build.py`

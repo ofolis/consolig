@@ -13,14 +13,12 @@ Because Consolas cannot be redistributed, this project provides the tools to app
    - `consolab.ttf` - Bold
    - `consolai.ttf` - Italic
    - `consolaz.ttf` - Bold Italic
-2. Make sure that you have Python 3 and Python 3 PIP installed.
+2. Make sure that you have Python 3 with PIP installed.
+   - I have verified with the [Python 3.8 installation in the Windows Store](https://www.microsoft.com/store/productId/9MSSZTT1N39L).
 3. Install the required Python libraries.<br>
-   `pip3 install defcon fontTools ufo2ft`
+   `pip install defcon ufo2ft`
 4. Execute the build script.
-   - Linux<br>
-     `python3 build.py`
-   - Windows<br>
-     `py build.py`
+   `python build.py`
 5. If everything goes well, you should now have Consolig font files in your `/build` directory.
 
 ## Credits

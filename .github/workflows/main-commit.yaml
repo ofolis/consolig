@@ -1,0 +1,40 @@
+jobs:
+  main-ci:
+    name: Main CI
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout files
+        uses: actions/checkout@v2
+      - name: Setup NodeJS
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - env:
+          GITHUB_TOKEN: ${{ secrets.CI_ACCESS_TOKEN }}
+        id: semantic
+        name: Run Semantic Release
+        uses: cycjimmy/semantic-release-action@v2
+        with:
+          branches: |
+            [
+              'main'
+            ]
+          extra_plugins: |
+            @semantic-release/commit-analyzer@8.0.1
+            @semantic-release/changelog@5.0.1
+            @semantic-release/git@9.0.0
+            @semantic-release/github@7.0.7
+            @semantic-release/release-notes-generator@9.0.1
+          semantic_version: 17
+      - if: steps.semantic.outputs.new_release_published == 'true'
+        name: Set up Google Cloud SDK
+        uses: google-github-actions/setup-gcloud@master
+        with:
+          export_default_credentials: true
+          service_account_key: ${{ env.GCP_SA_KEY }}
+          version: "311.0.0"
+name: Main Commit
+on:
+  push:
+    branches:
+      - main

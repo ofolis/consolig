@@ -1,0 +1,17 @@
+{
+    "plugins": [
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/github",
+        "@semantic-release/release-notes-generator"
+    ],
+    "prepare": [
+        "@semantic-release/changelog",
+        {
+            "path": "@semantic-release/git",
+            "assets": [
+                "CHANGELOG.md"
+            ],
+            "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        }
+    ]
+}

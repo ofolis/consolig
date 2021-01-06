@@ -70,7 +70,7 @@ feature calt {
   lookup numbersign_numbersign_numbersign_numbersign {
     ignore sub numbersign numbersign' numbersign numbersign numbersign;
     ignore sub numbersign' numbersign numbersign numbersign numbersign;
-    sub LIG LIG LIG numbersign' by num_num_num_num.liga;
+    sub LIG LIG LIG numbersign' by numbersign_numbersign_numbersign_numbersign.liga;
     sub LIG LIG numbersign' numbersign by LIG;
     sub LIG numbersign' numbersign numbersign by LIG;
     sub numbersign' numbersign numbersign numbersign by LIG;
@@ -392,14 +392,14 @@ feature calt {
   lookup numbersign_numbersign_numbersign {
     ignore sub numbersign numbersign' numbersign numbersign;
     ignore sub numbersign' numbersign numbersign numbersign;
-    sub LIG LIG numbersign' by num_num_num.liga;
+    sub LIG LIG numbersign' by numbersign_numbersign_numbersign.liga;
     sub LIG numbersign' numbersign by LIG;
     sub numbersign' numbersign numbersign by LIG;
   } numbersign_numbersign_numbersign;
   lookup numbersign_underscore_parenleft {
     ignore sub numbersign numbersign' underscore parenleft;
     ignore sub numbersign' underscore parenleft parenleft;
-    sub LIG LIG parenleft' by num_under_parenleft.liga;
+    sub LIG LIG parenleft' by numbersign_underscore_parenleft.liga;
     sub LIG underscore' parenleft by LIG;
     sub numbersign' underscore parenleft by LIG;
   } numbersign_underscore_parenleft;
@@ -947,42 +947,42 @@ feature locl {
 } locl;
 
 feature subs {
-  sub zero by zeroinferior;
-  sub one by oneinferior;
-  sub two by twoinferior;
-  sub three by threeinferior;
-  sub four by fourinferior;
-  sub five by fiveinferior;
-  sub six by sixinferior;
-  sub seven by seveninferior;
-  sub eight by eightinferior;
-  sub nine by nineinferior;
+  sub zero by uni2080;
+  sub one by uni2081;
+  sub two by uni2082;
+  sub three by uni2083;
+  sub four by uni2084;
+  sub five by uni2085;
+  sub six by uni2086;
+  sub seven by uni2087;
+  sub eight by uni2088;
+  sub nine by uni2089;
 } subs;
 
 feature sinf {
-  sub zero by zeroinferior;
-  sub one by oneinferior;
-  sub two by twoinferior;
-  sub three by threeinferior;
-  sub four by fourinferior;
-  sub five by fiveinferior;
-  sub six by sixinferior;
-  sub seven by seveninferior;
-  sub eight by eightinferior;
-  sub nine by nineinferior;
+  sub zero by uni2080;
+  sub one by uni2081;
+  sub two by uni2082;
+  sub three by uni2083;
+  sub four by uni2084;
+  sub five by uni2085;
+  sub six by uni2086;
+  sub seven by uni2087;
+  sub eight by uni2088;
+  sub nine by uni2089;
 } sinf;
 
 feature sups {
-  sub zero by zerosuperior;
-  sub one by onesuperior;
-  sub two by twosuperior;
-  sub three by threesuperior;
-  sub four by foursuperior;
-  sub five by fivesuperior;
-  sub six by sixsuperior;
-  sub seven by sevensuperior;
-  sub eight by eightsuperior;
-  sub nine by ninesuperior;
+  sub zero by uni2070;
+  sub one by uni00B9;
+  sub two by uni00B2;
+  sub three by uni00B3;
+  sub four by uni2074;
+  sub five by uni2075;
+  sub six by uni2076;
+  sub seven by uni2077;
+  sub eight by uni2078;
+  sub nine by uni2079;
 } sups;
 
 feature numr {

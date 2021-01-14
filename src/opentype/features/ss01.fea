@@ -1,0 +1,3 @@
+# Name: Serif lowercase f and r
+sub f by f1.salt;
+sub r by r1.salt;

@@ -1,55 +1,54 @@
-from fontTools.feaLib.builder import addOpenTypeFeatures
+from fontTools.feaLib.builder import addOpenTypeFeaturesFromString
 from fontTools.ttLib import TTFont
 from os import getcwd, path
 from pathlib import Path
 from shutil import rmtree
 from xml.etree import ElementTree
+import json
+import re
 
 # Directories
 CWD = Path(getcwd())
 BUILD_DIR = Path(CWD / "build/")
 INPUT_DIR = Path(CWD / "input/")
-SOURCES_DIR = Path(CWD / "sources/")
+SOURCE_DIR = Path(CWD / "src/")
 TEMP_DIR = Path(CWD / "temp/")
+INDEX_DIR = Path(SOURCE_DIR / "indexes/")
+OPENTYPE_DIR = Path(SOURCE_DIR / "opentype/")
 # Configs
 STYLE_CONFIGS = [
     {
         "featureFile": "features.fea",
         "inputFile": "consola.ttf",
-        "outputFile": "Consolig-Regular.ttf",
-        "sourceFile": "consolig-regular.ttf",
+        "sourceFile": "Consolig-Regular.ttf",
     },
     {
         "featureFile": "features.fea",
         "inputFile": "consolab.ttf",
-        "outputFile": "Consolig-Bold.ttf",
-        "sourceFile": "consolig-bold.ttf",
+        "sourceFile": "Consolig-Bold.ttf",
     },
     {
         "featureFile": "features.fea",
         "inputFile": "consolai.ttf",
-        "outputFile": "Consolig-Italic.ttf",
-        "sourceFile": "consolig-italic.ttf",
+        "sourceFile": "Consolig-Italic.ttf",
     },
     {
         "featureFile": "features.fea",
         "inputFile": "consolaz.ttf",
-        "outputFile": "Consolig-BoldItalic.ttf",
-        "sourceFile": "consolig-bold-italic.ttf",
+        "sourceFile": "Consolig-BoldItalic.ttf",
     }
 ]
 
 if __name__ == "__main__":
-    # Perform startup tasks.
+    # Perform startup tasks
     print("Setting up directories")
     BUILD_DIR.mkdir(parents=True, exist_ok=True)
     TEMP_DIR.mkdir(parents=True, exist_ok=True)
     for config in STYLE_CONFIGS:
-        # Get properties from config.
-        feature_file_path = SOURCES_DIR / config["featureFile"]
+        # Get properties from config
         input_file_path = INPUT_DIR / config["inputFile"]
-        output_file_path = BUILD_DIR / config["outputFile"]
-        source_file_path = SOURCES_DIR / config["sourceFile"]
+        output_file_path = BUILD_DIR / config["sourceFile"]
+        source_file_path = SOURCE_DIR / config["sourceFile"]
         print(f"Processing source at \"{source_file_path}\"")
         if path.exists(source_file_path) and path.exists(input_file_path):
             # Output TTX (XML) files for fonts
@@ -179,7 +178,7 @@ if __name__ == "__main__":
                 if tt_glyph_element_name in glyph_whitelist:
                     input_glyf_element.append(tt_glyph_element)
             # Append new fpgm data
-            print("  Appending new raster hint programming")
+            print("  Appending new raster hinting")
             input_fpgm_assembly_element = input_et.getroot().find('fpgm').find('assembly')
             if input_fpgm_assembly_element == None:
                 raise ValueError('Could not find "assembly" element in input XML')
@@ -212,20 +211,73 @@ if __name__ == "__main__":
             if source_extra_names_element == None:
                 raise ValueError('Could not find "extraNames" element in source XML')
             input_post_element.append(source_extra_names_element)
+            # Import output font as its own instance
+            print("  Instantiating output font")
             input_et.write(TEMP_DIR / 'output.ttx')
             output_font = TTFont(input_file_path)
             output_font.importXML(TEMP_DIR / 'output.ttx')
-            # Set up substitution functionality.
-            print("  Adding ligature substitution functionality")
-            addOpenTypeFeatures(output_font, feature_file_path)
-            # Save font.
-            print("  Saving revised font to TTF file")
+            # Build features string
+            print("  Building features set")
+            classes_directory = Path(OPENTYPE_DIR / "classes")
+            features_directory = Path(OPENTYPE_DIR / "features")
+            prefix_file = Path(OPENTYPE_DIR / "prefix.fea")
+            features_string = ""
+            output_glyph_names = output_font.getGlyphNames()
+            features_string += "@NotSpace = [\n"
+            for glyph_name in output_glyph_names:
+                if glyph_name != "space":
+                    features_string += f"  {glyph_name}\n"
+            features_string += "];\n"
+            for directory_item in classes_directory.iterdir():
+                if directory_item.is_file():
+                    with open(directory_item, "r") as file:
+                        features_string += file.read() + "\n"
+            with open(prefix_file, "r") as file:
+                features_string += file.read() + "\n"
+            features = {}
+            for directory_item in features_directory.iterdir():
+                if directory_item.is_file():
+                    feature_name = path.splitext(directory_item.name)[0]
+                    with open(directory_item, "r") as file:
+                        features[feature_name] = file.read()
+            features_string += "feature aalt {\n"
+            for feature_name in sorted(features.keys()):
+                features_string += f"  feature {feature_name};\n"
+            features_string += "} aalt;\n"
+            for feature_name, feature_text in sorted(features.items()):
+                features_string += f"feature {feature_name} {{\n"
+                features_text_lines = feature_text.splitlines(True)
+                for features_text_line in features_text_lines:
+                    if features_text_line.isspace():
+                        features_string += features_text_line
+                    else:
+                        features_string += f"  {features_text_line}"
+                features_string += f"\n}} {feature_name};\n"
+            # Rename glyphs within features string to match target set
+            print("  Renaming features glyphs")
+            with open(Path(INDEX_DIR / f"{config['inputFile']}.json"), "r") as file:
+                glyph_id_map = json.load(file)
+            glyph_id_map_keys = sorted(glyph_id_map.keys(), reverse=True)
+            for glyph_name in glyph_id_map_keys:
+                if re.search(rf"(^|\s|\{{|\[|\\)({glyph_name})(\s|\}}|\]|\'|\;|$)", features_string) is not None:
+                    glyph_id = glyph_id_map[glyph_name]
+                    new_glyph_name = input_font.getGlyphName(glyph_id)
+                    #print(f"    Replacing \"{glyph_name}\" with \"{new_glyph_name}\"")
+                    features_string = re.sub(rf"(^|\s|\{{|\[|\\)({glyph_name})(\s|\}}|\]|\'|\;|$)", f"\g<1>{new_glyph_name}\g<3>", features_string)
+                    #features_string = features_string.replace(glyph_name, new_glyph_name)
+            with open(Path(TEMP_DIR / "features.fea"), "w") as features_file:
+                features_file.write(features_string)
+            # Set up substitution functionality
+            print("  Adding features set to output font")
+            addOpenTypeFeaturesFromString(output_font, features_string)
+            # Save font
+            print("  Saving output font to TTF file")
             output_font.save(output_file_path)
             output_font.close()
             print(f"Completed font \"{output_file_path}\"")
         else:
             print(f"Skipping missing input file \"{input_file_path}\"")
-    # Perform cleanup tasks.
+    # Perform cleanup tasks
     print("Cleaning up directories")
     rmtree(TEMP_DIR)
     print("All build tasks are complete")

@@ -1,0 +1,5 @@
+@OpeningBracket = [
+  braceleft
+  bracketleft
+  parenleft
+];

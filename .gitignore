@@ -337,3 +337,9 @@ converter.py
 buildTest.py
 build/
 input/*.ttf
+
+# Project temporary files
+*.backup/
+src/fontlab/Consolig
+temp/
+*.vfj.json

@@ -1,0 +1,13 @@
+@DigitOnum = [
+  eight.onum
+  five.onum
+  four.onum
+  nine.onum
+  one.onum
+  seven.onum
+  six.onum
+  three.onum
+  two.onum
+  zero.onum
+  zero1onum.salt
+];

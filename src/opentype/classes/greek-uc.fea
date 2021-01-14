@@ -1,0 +1,33 @@
+@GreekUC = [
+  Alpha
+  Alphatonos
+  Beta
+  Chi
+  Epsilon
+  Epsilontonos
+  Eta
+  Etatonos
+  Gamma
+  Iota
+  Iotadieresis
+  Iotatonos
+  Kappa
+  Lambda
+  Mu
+  Nu
+  Omegatonos
+  Omicron
+  Omicrontonos
+  Phi
+  Pi
+  Psi
+  Rho
+  Sigma
+  Tau
+  Theta
+  Upsilon
+  Upsilondieresis
+  Upsilontonos
+  Xi
+  Zeta
+];

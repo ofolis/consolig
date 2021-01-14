@@ -1,0 +1,4 @@
+# Name: Traditional At sign
+sub at by at.case;
+sub asciitilde.spacer' asciitilde_at.liga by asciitilde;
+sub asciitilde asciitilde_at.liga' by at.case;

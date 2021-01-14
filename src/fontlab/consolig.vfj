@@ -1,7 +1,7 @@
 {
   "version":8,
   "font":{
-    "glyphsCount":139,
+    "glyphsCount":223,
     "upm":2048,
     "glyphs":[
       {
@@ -10,31 +10,48 @@
         "advanceWidth":512
       },
       {
+        "name":"NULL",
+        "unicode":"0000",
+        "lastModified":"2021-01-13 12:14:26"
+      },
+      {
+        "name":"CR",
+        "unicode":"000d",
+        "lastModified":"2021-01-13 12:14:26",
+        "advanceWidth":512
+      },
+      {
+        "name":"space",
+        "unicode":"0020",
+        "lastModified":"2021-01-13 12:14:26",
+        "advanceWidth":512
+      },
+      {
         "name":"ampersand_ampersand.liga",
-        "lastModified":"2021-01-10 12:08:49",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -42,30 +59,30 @@
       },
       {
         "name":"ampersand.before.ss03",
-        "lastModified":"2021-01-10 12:11:56",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -73,7 +90,38 @@
       },
       {
         "name":"ampersand.spacer",
-        "lastModified":"2021-01-10 12:12:04",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"asciicircum_equal.liga",
+        "lastModified":"2021-01-13 18:58:05",
         "layers":[
           {
             "name":"BoldItalic",
@@ -96,7 +144,100 @@
           {
             "name":"Regular",
             "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"asciicircum.spacer",
+        "lastModified":"2021-01-13 18:57:14",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
             "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"asciitilde_asciitilde_greater.liga",
+        "lastModified":"2021-01-13 18:29:08",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"asciitilde_asciitilde.liga",
+        "lastModified":"2021-01-13 19:22:57",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -104,7 +245,38 @@
       },
       {
         "name":"asciitilde_at.liga",
-        "lastModified":"2021-01-10 12:12:41",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"asciitilde_greater.liga",
+        "lastModified":"2021-01-13 19:23:49",
         "layers":[
           {
             "name":"BoldItalic",
@@ -127,7 +299,38 @@
           {
             "name":"Regular",
             "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"asciitilde_hyphen.liga",
+        "lastModified":"2021-01-13 19:24:42",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
             "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -135,30 +338,30 @@
       },
       {
         "name":"asciitilde.spacer",
-        "lastModified":"2021-01-10 12:12:56",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -166,30 +369,30 @@
       },
       {
         "name":"asterisk_asterisk_asterisk.liga",
-        "lastModified":"2021-01-10 12:13:10",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -197,30 +400,30 @@
       },
       {
         "name":"asterisk_asterisk_asterisk.liga.cv16",
-        "lastModified":"2021-01-10 12:13:27",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -228,30 +431,30 @@
       },
       {
         "name":"asterisk_asterisk.liga",
-        "lastModified":"2021-01-10 12:13:41",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -259,30 +462,30 @@
       },
       {
         "name":"asterisk_asterisk.liga.cv16",
-        "lastModified":"2021-01-10 12:13:58",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -290,30 +493,30 @@
       },
       {
         "name":"asterisk_greater.liga",
-        "lastModified":"2021-01-10 12:14:07",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -321,30 +524,30 @@
       },
       {
         "name":"asterisk_greater.liga.cv16",
-        "lastModified":"2021-01-10 12:14:20",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -352,30 +555,30 @@
       },
       {
         "name":"asterisk_slash.liga",
-        "lastModified":"2021-01-10 12:14:30",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -383,30 +586,30 @@
       },
       {
         "name":"asterisk_slash.liga.cv16",
-        "lastModified":"2021-01-10 12:14:40",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -414,30 +617,30 @@
       },
       {
         "name":"asterisk.cv15",
-        "lastModified":"2021-01-10 12:14:52",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -445,7 +648,38 @@
       },
       {
         "name":"asterisk.lc",
-        "lastModified":"2021-01-10 12:14:58",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"asterisk.spacer",
+        "lastModified":"2021-01-13 18:30:24",
         "layers":[
           {
             "name":"BoldItalic",
@@ -468,7 +702,39 @@
           {
             "name":"Regular",
             "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"asteriskmath",
+        "unicode":"2217",
+        "lastModified":"2021-01-13 17:19:53",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
             "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -476,30 +742,30 @@
       },
       {
         "name":"asteriskmath.cv15",
-        "lastModified":"2021-01-10 12:15:37",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -507,30 +773,30 @@
       },
       {
         "name":"asteriskmath.lc",
-        "lastModified":"2021-01-10 12:15:49",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -538,30 +804,30 @@
       },
       {
         "name":"backslash_slash.liga",
-        "lastModified":"2021-01-10 12:16:20",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -569,30 +835,30 @@
       },
       {
         "name":"backslash.spacer",
-        "lastModified":"2021-01-10 12:16:29",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -600,7 +866,38 @@
       },
       {
         "name":"backslash.ss06",
-        "lastModified":"2021-01-10 12:16:38",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"bar_bar_bar_greater.liga",
+        "lastModified":"2021-01-13 18:13:39",
         "layers":[
           {
             "name":"BoldItalic",
@@ -623,7 +920,38 @@
           {
             "name":"Regular",
             "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"bar_bar_bar.liga",
+        "lastModified":"2021-01-13 18:21:35",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
             "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -631,30 +959,30 @@
       },
       {
         "name":"bar_bar_equal_end.seq",
-        "lastModified":"2021-01-10 12:16:46",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -662,30 +990,30 @@
       },
       {
         "name":"bar_bar_equal_middle.seq",
-        "lastModified":"2021-01-10 12:16:56",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -693,7 +1021,38 @@
       },
       {
         "name":"bar_bar_equal_start.seq",
-        "lastModified":"2021-01-10 12:17:04",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"bar_bar_greater.liga",
+        "lastModified":"2021-01-13 18:16:40",
         "layers":[
           {
             "name":"BoldItalic",
@@ -716,7 +1075,7 @@
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -724,30 +1083,30 @@
       },
       {
         "name":"bar_bar_hyphen_end.seq",
-        "lastModified":"2021-01-10 12:17:14",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -755,30 +1114,30 @@
       },
       {
         "name":"bar_bar_hyphen_middle.seq",
-        "lastModified":"2021-01-10 12:17:26",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -786,30 +1145,30 @@
       },
       {
         "name":"bar_bar_hyphen_start.seq",
-        "lastModified":"2021-01-10 12:17:43",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -817,7 +1176,38 @@
       },
       {
         "name":"bar_bar.liga",
-        "lastModified":"2021-01-10 12:17:51",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"bar_braceright.liga",
+        "lastModified":"2021-01-13 19:27:04",
         "layers":[
           {
             "name":"BoldItalic",
@@ -840,7 +1230,38 @@
           {
             "name":"Regular",
             "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"bar_bracketright.liga",
+        "lastModified":"2021-01-13 19:28:06",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
             "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -848,30 +1269,30 @@
       },
       {
         "name":"bar_equal_end.seq",
-        "lastModified":"2021-01-10 12:18:00",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -879,30 +1300,30 @@
       },
       {
         "name":"bar_equal_middle.seq",
-        "lastModified":"2021-01-10 12:18:12",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -910,7 +1331,38 @@
       },
       {
         "name":"bar_equal_start.seq",
-        "lastModified":"2021-01-10 12:18:31",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"bar_greater.liga",
+        "lastModified":"2021-01-13 18:19:22",
         "layers":[
           {
             "name":"BoldItalic",
@@ -933,7 +1385,7 @@
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -941,30 +1393,30 @@
       },
       {
         "name":"bar_hyphen_end.seq",
-        "lastModified":"2021-01-10 12:18:42",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -972,30 +1424,30 @@
       },
       {
         "name":"bar_hyphen_middle.seq",
-        "lastModified":"2021-01-10 12:18:54",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1003,30 +1455,30 @@
       },
       {
         "name":"bar_hyphen_start.seq",
-        "lastModified":"2021-01-10 12:19:05",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1034,30 +1486,30 @@
       },
       {
         "name":"bar_underscore_middle.seq",
-        "lastModified":"2021-01-10 12:19:15",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1065,7 +1517,38 @@
       },
       {
         "name":"bar.spacer",
-        "lastModified":"2021-01-10 12:19:25",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"braceleft_bar.liga",
+        "lastModified":"2021-01-13 19:31:58",
         "layers":[
           {
             "name":"BoldItalic",
@@ -1088,7 +1571,69 @@
           {
             "name":"Regular",
             "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"braceleft.spacer",
+        "lastModified":"2021-01-13 19:29:49",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
             "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"bracketleft_bar.liga",
+        "lastModified":"2021-01-13 19:34:21",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1096,30 +1641,30 @@
       },
       {
         "name":"bracketleft_bracketright.cv27",
-        "lastModified":"2021-01-10 12:19:39",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1127,7 +1672,38 @@
       },
       {
         "name":"bracketleft.spacer",
-        "lastModified":"2021-01-10 12:19:49",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"bracketright_numbersign.liga",
+        "lastModified":"2021-01-13 20:26:44",
         "layers":[
           {
             "name":"BoldItalic",
@@ -1150,7 +1726,131 @@
           {
             "name":"Regular",
             "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"bracketright.spacer",
+        "lastModified":"2021-01-13 20:25:37",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
             "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"colon_colon_colon.liga",
+        "lastModified":"2021-01-13 18:33:04",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"colon_colon_equal.liga",
+        "lastModified":"2021-01-13 18:33:58",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"colon_colon.liga",
+        "lastModified":"2021-01-13 20:27:51",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1158,7 +1858,38 @@
       },
       {
         "name":"colon_equal_middle.seq",
-        "lastModified":"2021-01-10 12:20:04",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"colon_equal.liga",
+        "lastModified":"2021-01-13 20:29:08",
         "layers":[
           {
             "name":"BoldItalic",
@@ -1181,7 +1912,7 @@
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1189,30 +1920,30 @@
       },
       {
         "name":"colon_hyphen.cv26",
-        "lastModified":"2021-01-10 12:20:14",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1220,30 +1951,30 @@
       },
       {
         "name":"colon.center",
-        "lastModified":"2021-01-10 12:20:24",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1251,30 +1982,30 @@
       },
       {
         "name":"colon.spacer",
-        "lastModified":"2021-01-10 12:20:30",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1282,30 +2013,30 @@
       },
       {
         "name":"colon.uc",
-        "lastModified":"2021-01-10 12:20:36",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1313,30 +2044,30 @@
       },
       {
         "name":"dollar_greater.liga",
-        "lastModified":"2021-01-10 12:20:41",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1344,7 +2075,38 @@
       },
       {
         "name":"dollar_greater.liga.ss04",
-        "lastModified":"2021-01-10 12:20:51",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"dollar.spacer",
+        "lastModified":"2021-01-13 18:39:43",
         "layers":[
           {
             "name":"BoldItalic",
@@ -1367,7 +2129,7 @@
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1375,30 +2137,30 @@
       },
       {
         "name":"dollar.ss04",
-        "lastModified":"2021-01-10 12:20:57",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1406,30 +2168,30 @@
       },
       {
         "name":"equal_asciitilde.ss07",
-        "lastModified":"2021-01-10 12:21:13",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1437,30 +2199,30 @@
       },
       {
         "name":"equal_end.seq",
-        "lastModified":"2021-01-10 12:21:20",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1468,30 +2230,30 @@
       },
       {
         "name":"equal_equal_equal.liga",
-        "lastModified":"2021-01-10 12:21:48",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1499,30 +2261,30 @@
       },
       {
         "name":"equal_equal_equal.ss08",
-        "lastModified":"2021-01-10 12:21:58",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1530,30 +2292,30 @@
       },
       {
         "name":"equal_equal.liga",
-        "lastModified":"2021-01-10 12:22:06",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1561,30 +2323,30 @@
       },
       {
         "name":"equal_equal.ss08",
-        "lastModified":"2021-01-10 12:22:14",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1592,30 +2354,30 @@
       },
       {
         "name":"equal_middle.seq",
-        "lastModified":"2021-01-10 12:22:21",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1623,30 +2385,30 @@
       },
       {
         "name":"equal_start.seq",
-        "lastModified":"2021-01-10 12:22:29",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1654,30 +2416,30 @@
       },
       {
         "name":"equal.spacer",
-        "lastModified":"2021-01-10 12:22:34",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1685,30 +2447,30 @@
       },
       {
         "name":"exclam_asciitilde.ss07",
-        "lastModified":"2021-01-10 12:22:51",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1716,30 +2478,30 @@
       },
       {
         "name":"exclam_equal_equal.liga",
-        "lastModified":"2021-01-10 12:23:14",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1747,30 +2509,30 @@
       },
       {
         "name":"exclam_equal_equal.ss08",
-        "lastModified":"2021-01-10 12:23:28",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1778,30 +2540,30 @@
       },
       {
         "name":"exclam_equal_middle.seq",
-        "lastModified":"2021-01-10 12:24:05",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1809,30 +2571,30 @@
       },
       {
         "name":"exclam_equal.liga",
-        "lastModified":"2021-01-10 12:24:28",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1840,7 +2602,38 @@
       },
       {
         "name":"exclam_equal.ss08",
-        "lastModified":"2021-01-10 12:24:39",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"exclam_exclam_period.liga",
+        "lastModified":"2021-01-13 18:35:13",
         "layers":[
           {
             "name":"BoldItalic",
@@ -1863,7 +2656,38 @@
           {
             "name":"Regular",
             "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"exclam_exclam.liga",
+        "lastModified":"2021-01-13 20:30:07",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
             "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1871,30 +2695,30 @@
       },
       {
         "name":"exclam.spacer",
-        "lastModified":"2021-01-10 12:24:58",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1902,30 +2726,30 @@
       },
       {
         "name":"f_i.liga.ss10",
-        "lastModified":"2021-01-10 12:25:13",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1933,30 +2757,30 @@
       },
       {
         "name":"f_j.liga.ss10",
-        "lastModified":"2021-01-10 12:25:27",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1964,30 +2788,30 @@
       },
       {
         "name":"F_l.liga.ss10",
-        "lastModified":"2021-01-10 12:25:36",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -1995,30 +2819,30 @@
       },
       {
         "name":"f_l.liga.ss10",
-        "lastModified":"2021-01-10 12:25:46",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2026,30 +2850,30 @@
       },
       {
         "name":"f_t.liga.ss10",
-        "lastModified":"2021-01-10 12:25:55",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2057,30 +2881,30 @@
       },
       {
         "name":"F.spacer",
-        "lastModified":"2021-01-10 12:26:01",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2088,30 +2912,30 @@
       },
       {
         "name":"f.spacer",
-        "lastModified":"2021-01-10 12:26:04",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2119,30 +2943,30 @@
       },
       {
         "name":"greater_equal_end.seq",
-        "lastModified":"2021-01-10 12:26:12",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2150,30 +2974,30 @@
       },
       {
         "name":"greater_equal_middle.seq",
-        "lastModified":"2021-01-10 12:26:53",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2181,30 +3005,30 @@
       },
       {
         "name":"greater_equal_start.seq",
-        "lastModified":"2021-01-10 12:27:01",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2212,30 +3036,30 @@
       },
       {
         "name":"greater_equal.liga",
-        "lastModified":"2021-01-10 12:27:07",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2243,30 +3067,30 @@
       },
       {
         "name":"greater_equal.ss02",
-        "lastModified":"2021-01-10 12:27:14",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2274,30 +3098,30 @@
       },
       {
         "name":"greater_greater_equal_end.seq",
-        "lastModified":"2021-01-10 12:27:37",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2305,30 +3129,30 @@
       },
       {
         "name":"greater_greater_equal_middle.seq",
-        "lastModified":"2021-01-10 12:27:43",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2336,7 +3160,38 @@
       },
       {
         "name":"greater_greater_equal_start.seq",
-        "lastModified":"2021-01-10 12:27:49",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"greater_greater_greater.liga",
+        "lastModified":"2021-01-13 18:22:43",
         "layers":[
           {
             "name":"BoldItalic",
@@ -2359,7 +3214,7 @@
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2367,30 +3222,30 @@
       },
       {
         "name":"greater_greater_hyphen_end.seq",
-        "lastModified":"2021-01-10 12:28:07",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2398,30 +3253,30 @@
       },
       {
         "name":"greater_greater_hyphen_middle.seq",
-        "lastModified":"2021-01-10 12:28:13",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2429,30 +3284,30 @@
       },
       {
         "name":"greater_greater_hyphen_start.seq",
-        "lastModified":"2021-01-10 12:28:22",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2460,30 +3315,30 @@
       },
       {
         "name":"greater_greater.liga",
-        "lastModified":"2021-01-10 12:28:31",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2491,30 +3346,30 @@
       },
       {
         "name":"greater_hyphen_end.seq",
-        "lastModified":"2021-01-10 12:28:38",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2522,30 +3377,30 @@
       },
       {
         "name":"greater_hyphen_middle.seq",
-        "lastModified":"2021-01-10 12:28:50",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2553,30 +3408,30 @@
       },
       {
         "name":"greater_hyphen_start.seq",
-        "lastModified":"2021-01-10 12:28:58",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2584,30 +3439,30 @@
       },
       {
         "name":"greater.center",
-        "lastModified":"2021-01-10 12:29:06",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2615,7 +3470,38 @@
       },
       {
         "name":"greater.spacer",
-        "lastModified":"2021-01-10 12:29:12",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"hyphen_asciitilde.liga",
+        "lastModified":"2021-01-13 20:31:17",
         "layers":[
           {
             "name":"BoldItalic",
@@ -2638,7 +3524,7 @@
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2646,7 +3532,38 @@
       },
       {
         "name":"hyphen_end.seq",
-        "lastModified":"2021-01-10 12:29:30",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"hyphen_hyphen_hyphen.liga",
+        "lastModified":"2021-01-13 18:36:17",
         "layers":[
           {
             "name":"BoldItalic",
@@ -2669,7 +3586,38 @@
           {
             "name":"Regular",
             "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"hyphen_hyphen.liga",
+        "lastModified":"2021-01-13 20:32:44",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
             "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2677,30 +3625,30 @@
       },
       {
         "name":"hyphen_middle.seq",
-        "lastModified":"2021-01-10 12:29:36",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2708,30 +3656,30 @@
       },
       {
         "name":"hyphen_start.seq",
-        "lastModified":"2021-01-10 12:29:41",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2739,7 +3687,38 @@
       },
       {
         "name":"hyphen.lc",
-        "lastModified":"2021-01-10 12:29:52",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"hyphen.spacer",
+        "lastModified":"2021-01-13 18:25:46",
         "layers":[
           {
             "name":"BoldItalic",
@@ -2762,7 +3741,7 @@
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2770,30 +3749,30 @@
       },
       {
         "name":"i.salt_low",
-        "lastModified":"2021-01-10 12:30:44",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2801,30 +3780,30 @@
       },
       {
         "name":"j.salt_low",
-        "lastModified":"2021-01-10 12:30:51",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2832,7 +3811,38 @@
       },
       {
         "name":"l.salt_low",
-        "lastModified":"2021-01-10 12:31:02",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"less_asciitilde_asciitilde.liga",
+        "lastModified":"2021-01-13 18:37:16",
         "layers":[
           {
             "name":"BoldItalic",
@@ -2855,7 +3865,69 @@
           {
             "name":"Regular",
             "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"less_asciitilde_greater.liga",
+        "lastModified":"2021-01-13 18:38:35",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
             "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"less_asciitilde.liga",
+        "lastModified":"2021-01-13 20:33:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2863,30 +3935,30 @@
       },
       {
         "name":"less_asterisk_greater.liga",
-        "lastModified":"2021-01-10 12:31:26",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2894,30 +3966,30 @@
       },
       {
         "name":"less_asterisk_greater.liga.cv16",
-        "lastModified":"2021-01-10 12:31:43",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2925,30 +3997,30 @@
       },
       {
         "name":"less_asterisk.liga",
-        "lastModified":"2021-01-10 12:31:50",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2956,7 +4028,38 @@
       },
       {
         "name":"less_asterisk.liga.cv16",
-        "lastModified":"2021-01-10 12:32:02",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"less_bar_bar_bar.liga",
+        "lastModified":"2021-01-13 18:15:03",
         "layers":[
           {
             "name":"BoldItalic",
@@ -2979,7 +4082,100 @@
           {
             "name":"Regular",
             "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"less_bar_bar.liga",
+        "lastModified":"2021-01-13 18:17:53",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
             "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"less_bar_greater.liga",
+        "lastModified":"2021-01-13 18:11:57",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"less_bar.liga",
+        "lastModified":"2021-01-13 18:20:27",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -2987,30 +4183,30 @@
       },
       {
         "name":"less_dollar_greater.liga",
-        "lastModified":"2021-01-10 12:32:17",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3018,7 +4214,38 @@
       },
       {
         "name":"less_dollar_greater.liga.ss04",
-        "lastModified":"2021-01-10 12:32:30",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"less_dollar.liga",
+        "lastModified":"2021-01-13 17:17:14",
         "layers":[
           {
             "name":"BoldItalic",
@@ -3041,7 +4268,38 @@
           {
             "name":"Regular",
             "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"less_dollar.liga.ss04",
+        "lastModified":"2021-01-13 17:17:14",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
             "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3049,30 +4307,30 @@
       },
       {
         "name":"less_equal_end.seq",
-        "lastModified":"2021-01-10 12:32:37",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3080,30 +4338,30 @@
       },
       {
         "name":"less_equal_middle.seq",
-        "lastModified":"2021-01-10 12:33:02",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3111,30 +4369,30 @@
       },
       {
         "name":"less_equal_start.seq",
-        "lastModified":"2021-01-10 12:33:11",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3142,30 +4400,30 @@
       },
       {
         "name":"less_equal.liga",
-        "lastModified":"2021-01-10 12:33:18",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3173,7 +4431,38 @@
       },
       {
         "name":"less_equal.ss02",
-        "lastModified":"2021-01-10 12:33:26",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"less_exclam_hyphen_hyphen.liga",
+        "lastModified":"2021-01-13 18:27:32",
         "layers":[
           {
             "name":"BoldItalic",
@@ -3196,7 +4485,38 @@
           {
             "name":"Regular",
             "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"less_greater.liga",
+        "lastModified":"2021-01-13 20:34:56",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
             "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3204,30 +4524,30 @@
       },
       {
         "name":"less_hyphen_end.seq",
-        "lastModified":"2021-01-10 12:33:41",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3235,30 +4555,30 @@
       },
       {
         "name":"less_hyphen_middle.seq",
-        "lastModified":"2021-01-10 12:33:47",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3266,30 +4586,30 @@
       },
       {
         "name":"less_hyphen_start.seq",
-        "lastModified":"2021-01-10 12:33:56",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3297,30 +4617,30 @@
       },
       {
         "name":"less_less_equal_end.seq",
-        "lastModified":"2021-01-10 12:34:09",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3328,30 +4648,30 @@
       },
       {
         "name":"less_less_equal_middle.seq",
-        "lastModified":"2021-01-10 12:34:27",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3359,30 +4679,30 @@
       },
       {
         "name":"less_less_equal_start.seq",
-        "lastModified":"2021-01-10 12:34:32",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3390,30 +4710,30 @@
       },
       {
         "name":"less_less_hyphen_end.seq",
-        "lastModified":"2021-01-10 12:35:05",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3421,30 +4741,30 @@
       },
       {
         "name":"less_less_hyphen_middle.seq",
-        "lastModified":"2021-01-10 12:35:10",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3452,7 +4772,38 @@
       },
       {
         "name":"less_less_hyphen_start.seq",
-        "lastModified":"2021-01-10 12:35:16",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"less_less_less.liga",
+        "lastModified":"2021-01-13 18:23:52",
         "layers":[
           {
             "name":"BoldItalic",
@@ -3475,7 +4826,7 @@
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3483,7 +4834,38 @@
       },
       {
         "name":"less_less.liga",
-        "lastModified":"2021-01-10 12:35:56",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"less_plus_greater.liga",
+        "lastModified":"2021-01-13 18:43:41",
         "layers":[
           {
             "name":"BoldItalic",
@@ -3506,7 +4888,100 @@
           {
             "name":"Regular",
             "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"less_plus.liga",
+        "lastModified":"2021-01-13 20:35:54",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
             "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"less_slash_greater.liga",
+        "lastModified":"2021-01-13 18:44:57",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"less_slash.liga",
+        "lastModified":"2021-01-13 20:36:45",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3514,30 +4989,30 @@
       },
       {
         "name":"less.center",
-        "lastModified":"2021-01-10 12:36:05",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3545,7 +5020,38 @@
       },
       {
         "name":"less.spacer",
-        "lastModified":"2021-01-10 12:36:14",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"multiply.onum",
+        "lastModified":"2021-01-13 17:22:25",
         "layers":[
           {
             "name":"BoldItalic",
@@ -3568,7 +5074,100 @@
           {
             "name":"Regular",
             "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"numbersign_braceleft.liga",
+        "lastModified":"2021-01-13 20:37:44",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
             "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"numbersign_bracketleft.liga",
+        "lastModified":"2021-01-13 20:42:06",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"numbersign_colon.liga",
+        "lastModified":"2021-01-13 20:43:13",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3576,7 +5175,38 @@
       },
       {
         "name":"numbersign_end.seq",
-        "lastModified":"2021-01-10 12:36:24",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"numbersign_equal.liga",
+        "lastModified":"2021-01-13 20:44:48",
         "layers":[
           {
             "name":"BoldItalic",
@@ -3599,7 +5229,38 @@
           {
             "name":"Regular",
             "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"numbersign_exclam.liga",
+        "lastModified":"2021-01-13 20:46:10",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
             "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3607,7 +5268,38 @@
       },
       {
         "name":"numbersign_middle.seq",
-        "lastModified":"2021-01-10 12:36:29",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"numbersign_parenleft.liga",
+        "lastModified":"2021-01-13 20:47:39",
         "layers":[
           {
             "name":"BoldItalic",
@@ -3630,7 +5322,38 @@
           {
             "name":"Regular",
             "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"numbersign_question.liga",
+        "lastModified":"2021-01-13 20:48:41",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
             "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3638,7 +5361,38 @@
       },
       {
         "name":"numbersign_start.seq",
-        "lastModified":"2021-01-10 12:36:40",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"numbersign_underscore_parenleft.liga",
+        "lastModified":"2021-01-13 18:47:50",
         "layers":[
           {
             "name":"BoldItalic",
@@ -3661,7 +5415,162 @@
           {
             "name":"Regular",
             "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"numbersign_underscore.liga",
+        "lastModified":"2021-01-13 20:49:35",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
             "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"numbersign.spacer",
+        "lastModified":"2021-01-13 18:46:02",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"percent_percent.liga",
+        "lastModified":"2021-01-13 20:52:04",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"percent.spacer",
+        "lastModified":"2021-01-13 20:51:02",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"period_equal.liga",
+        "lastModified":"2021-01-13 20:52:55",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3669,7 +5578,38 @@
       },
       {
         "name":"period_hyphen.cv25",
-        "lastModified":"2021-01-10 12:36:57",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"period_period_equal.liga",
+        "lastModified":"2021-01-13 18:49:24",
         "layers":[
           {
             "name":"BoldItalic",
@@ -3692,7 +5632,131 @@
           {
             "name":"Regular",
             "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"period_period_less.liga",
+        "lastModified":"2021-01-13 18:50:52",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
             "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"period_period_period.liga",
+        "lastModified":"2021-01-13 18:51:40",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"period_period.liga",
+        "lastModified":"2021-01-13 20:53:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"period_question.liga",
+        "lastModified":"2021-01-13 20:55:05",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3700,7 +5764,38 @@
       },
       {
         "name":"period.spacer",
-        "lastModified":"2021-01-10 12:37:01",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"plus_greater.liga",
+        "lastModified":"2021-01-13 20:57:30",
         "layers":[
           {
             "name":"BoldItalic",
@@ -3723,7 +5818,69 @@
           {
             "name":"Regular",
             "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"plus_plus_plus.liga",
+        "lastModified":"2021-01-13 18:52:46",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
             "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"plus_plus.liga",
+        "lastModified":"2021-01-13 20:58:34",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3731,7 +5888,38 @@
       },
       {
         "name":"plus.lc",
-        "lastModified":"2021-01-10 12:37:05",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"plus.spacer",
+        "lastModified":"2021-01-13 18:42:30",
         "layers":[
           {
             "name":"BoldItalic",
@@ -3754,7 +5942,193 @@
           {
             "name":"Regular",
             "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"question_equal.liga",
+        "lastModified":"2021-01-13 21:00:49",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
             "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"question_period.liga",
+        "lastModified":"2021-01-13 21:18:08",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"question_question.liga",
+        "lastModified":"2021-01-13 21:19:30",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"question.spacer",
+        "lastModified":"2021-01-13 20:59:52",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"semicolon_semicolon.liga",
+        "lastModified":"2021-01-13 21:31:06",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"semicolon.spacer",
+        "lastModified":"2021-01-13 21:27:43",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3762,30 +6136,30 @@
       },
       {
         "name":"slash_asterisk.liga",
-        "lastModified":"2021-01-10 12:37:17",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3793,30 +6167,30 @@
       },
       {
         "name":"slash_asterisk.liga.cv16",
-        "lastModified":"2021-01-10 12:37:27",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3824,30 +6198,30 @@
       },
       {
         "name":"slash_backslash.liga",
-        "lastModified":"2021-01-10 12:37:34",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3855,30 +6229,30 @@
       },
       {
         "name":"slash_equal_end.seq",
-        "lastModified":"2021-01-10 12:37:45",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3886,30 +6260,30 @@
       },
       {
         "name":"slash_equal_middle.seq",
-        "lastModified":"2021-01-10 12:37:55",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3917,7 +6291,38 @@
       },
       {
         "name":"slash_equal_start.seq",
-        "lastModified":"2021-01-10 12:38:03",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"slash_greater.liga",
+        "lastModified":"2021-01-13 21:36:31",
         "layers":[
           {
             "name":"BoldItalic",
@@ -3940,7 +6345,7 @@
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3948,30 +6353,30 @@
       },
       {
         "name":"slash_slash_equal_end.seq",
-        "lastModified":"2021-01-10 12:38:17",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -3979,30 +6384,30 @@
       },
       {
         "name":"slash_slash_equal_middle.seq",
-        "lastModified":"2021-01-10 12:38:25",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -4010,7 +6415,38 @@
       },
       {
         "name":"slash_slash_equal_start.seq",
-        "lastModified":"2021-01-10 12:38:29",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"slash_slash_slash.liga",
+        "lastModified":"2021-01-13 18:53:31",
         "layers":[
           {
             "name":"BoldItalic",
@@ -4033,7 +6469,7 @@
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -4041,30 +6477,30 @@
       },
       {
         "name":"slash.spacer",
-        "lastModified":"2021-01-10 12:38:40",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -4072,30 +6508,30 @@
       },
       {
         "name":"T_l.liga.ss10",
-        "lastModified":"2021-01-10 12:38:57",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -4103,30 +6539,30 @@
       },
       {
         "name":"T.spacer",
-        "lastModified":"2021-01-10 12:39:02",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -4135,30 +6571,30 @@
       {
         "name":"threeemdash",
         "unicode":"2e3b",
-        "lastModified":"2021-01-10 12:39:13",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -4167,30 +6603,30 @@
       {
         "name":"twoemdash",
         "unicode":"2e3a",
-        "lastModified":"2021-01-10 12:40:08",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -4198,30 +6634,30 @@
       },
       {
         "name":"underscore_end.seq",
-        "lastModified":"2021-01-10 12:40:24",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -4229,30 +6665,30 @@
       },
       {
         "name":"underscore_middle.seq",
-        "lastModified":"2021-01-10 12:40:31",
+        "lastModified":"2021-01-12 21:24:48",
         "layers":[
           {
             "name":"BoldItalic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
             "flags":0,
-            "advanceWidth":1024,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -4260,7 +6696,38 @@
       },
       {
         "name":"underscore_start.seq",
-        "lastModified":"2021-01-10 12:40:37",
+        "lastModified":"2021-01-12 21:24:48",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"underscore.spacer",
+        "lastModified":"2021-01-13 18:46:54",
         "layers":[
           {
             "name":"BoldItalic",
@@ -4283,7 +6750,69 @@
           {
             "name":"Regular",
             "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"w_w_w.liga",
+        "lastModified":"2021-01-13 18:55:47",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
             "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"w.spacer",
+        "lastModified":"2021-01-13 18:54:54",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "flags":0,
+            "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
           }
@@ -4294,6 +6823,12 @@
     "currentMaster":"Regular",
     "interpolationFlags":0,
     "hinting":{
+      "gasp":[
+        7,
+        10,
+        15,
+        65535
+      ]
     },
     "info":{
       "tfn":"Consolig",

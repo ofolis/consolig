@@ -29,7 +29,6 @@ sub period period period by period_period_period.liga;
 sub plus plus plus by plus_plus_plus.liga;
 sub slash slash slash by slash_slash_slash.liga;
 sub w w w by w_w_w.liga;
-sub ampersand ampersand by ampersand_ampersand.liga;
 sub asciicircum equal by asciicircum_equal.liga;
 sub asciitilde asciitilde by asciitilde_asciitilde.liga;
 sub asciitilde at by asciitilde_at.liga;

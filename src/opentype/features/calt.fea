@@ -311,8 +311,7 @@ lookup w_w_w {
 lookup ampersand_ampersand {
   ignore sub ampersand ampersand' ampersand;
   ignore sub ampersand' ampersand ampersand;
-  sub ampersand.spacer ampersand' by ampersand_ampersand.liga;
-  sub ampersand'       ampersand  by ampersand.spacer;
+  sub ampersand'       ampersand  by ampersand.before;
 } ampersand_ampersand;
 
 lookup asciicircum_equal {

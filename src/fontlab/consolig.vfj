@@ -1,118 +1,791 @@
 {
   "version":8,
   "font":{
-    "glyphsCount":211,
+    "glyphsCount":212,
     "upm":2048,
     "glyphs":[
       {
         "name":".notdef",
-        "lastModified":"2021-01-10 15:30:49",
+        "lastModified":"2021-01-15 18:00:57",
+        "colorFlag":121,
         "advanceWidth":512
       },
       {
         "name":"NULL",
         "unicode":"0000",
-        "lastModified":"2021-01-13 12:14:26"
+        "lastModified":"2021-01-15 18:00:57",
+        "colorFlag":121
       },
       {
         "name":"CR",
         "unicode":"000d",
-        "lastModified":"2021-01-13 12:14:26",
+        "lastModified":"2021-01-15 18:00:57",
+        "colorFlag":121,
         "advanceWidth":512
       },
       {
         "name":"space",
         "unicode":"0020",
-        "lastModified":"2021-01-13 12:14:26",
+        "lastModified":"2021-01-15 18:00:57",
+        "colorFlag":121,
         "advanceWidth":512
       },
       {
-        "name":"ampersand_ampersand.liga",
-        "lastModified":"2021-01-12 21:24:48",
+        "name":"ampersand_ampersand.liga.ss03",
+        "lastModified":"2021-01-15 16:34:17",
+        "openTypeGlyphClass":2,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.1",
+                      "nodes":[
+                        "-539 674 s {n:'dv05'}",
+                        "-611 674 o",
+                        "-733 640 o",
+                        "-822 571 o",
+                        "-872 468 o",
+                        "-872 399 s {n:'dh02'}",
+                        "-872 344 o",
+                        "-837 248 o",
+                        "-765 178 o",
+                        "-658 137 o",
+                        "-586 137 s {n:'dv02'}",
+                        "-513 137 o",
+                        "-400 178 o",
+                        "-323 255 o",
+                        "-283 363 o",
+                        "-283 430 s {n:'dh03'}",
+                        "-283 674"
+                      ]
+                    },
+                    {
+                      "id":"contour",
+                      "nodes":[
+                        "-283 821 {n:'sv13'}",
+                        "-283 1010",
+                        "-102 1057",
+                        "-102 442 s {n:'dh04'}",
+                        "-102 349 o",
+                        "-160 184 o",
+                        "-281 59 o",
+                        "-468 -14 o",
+                        "-596 -14 s {n:'dv01'}",
+                        "-707 -14 o",
+                        "-879 44 o",
+                        "-996 149 o",
+                        "-1057 296 o",
+                        "-1057 385 s {n:'dh01'}",
+                        "-1057 452 o",
+                        "-1020 574 o",
+                        "-954 670 o",
+                        "-863 737 o",
+                        "-809 750 {n:'iv01'}",
+                        "-899 787 o",
+                        "-995 925 o",
+                        "-995 1028 s {n:'ih01'}",
+                        "-995 1197 o",
+                        "-774 1384 o",
+                        "-563 1384 s {n:'dv04'}",
+                        "-517 1384 o",
+                        "-422 1379 o",
+                        "-379 1374 {n:'sv01'}",
+                        "-379 1223 {n:'sv02'}",
+                        "-428 1228 o",
+                        "-529 1233 o",
+                        "-577 1233 s {n:'dv03'}",
+                        "-628 1233 o",
+                        "-714 1207 o",
+                        "-776 1158 o",
+                        "-811 1085 o",
+                        "-811 1038 s {n:'sh02'}",
+                        "-811 979 o",
+                        "-771 897 o",
+                        "-699 845 o",
+                        "-600 821 o",
+                        "-541 821 s {n:'dv06'}"
+                      ]
+                    },
+                    {
+                      "id":"contour.3",
+                      "nodes":[
+                        "563 674 s {n:'sv03'}",
+                        "491 674 o",
+                        "369 640 o",
+                        "280 571 o",
+                        "230 468 o",
+                        "230 399 s {n:'dh06'}",
+                        "230 344 o",
+                        "265 248 o",
+                        "337 178 o",
+                        "444 137 o",
+                        "516 137 s {n:'sv04'}",
+                        "589 137 o",
+                        "702 178 o",
+                        "779 255 o",
+                        "819 363 o",
+                        "819 430 s {n:'dh07'}",
+                        "819 674"
+                      ]
+                    },
+                    {
+                      "id":"contour.2",
+                      "nodes":[
+                        "819 821 {n:'sv05'}",
+                        "819 1010",
+                        "1000 1057",
+                        "1000 442 s {n:'dh08'}",
+                        "1000 349 o",
+                        "942 184 o",
+                        "821 59 o",
+                        "634 -14 o",
+                        "506 -14 s {n:'sv06'}",
+                        "395 -14 o",
+                        "223 44 o",
+                        "106 149 o",
+                        "45 296 o",
+                        "45 385 s {n:'dh05'}",
+                        "45 452 o",
+                        "82 574 o",
+                        "148 670 o",
+                        "239 737 o",
+                        "293 750 {n:'iv02'}",
+                        "203 787 o",
+                        "107 925 o",
+                        "107 1028 s {n:'ih02'}",
+                        "107 1197 o",
+                        "328 1384 o",
+                        "539 1384 s {n:'sv07'}",
+                        "585 1384 o",
+                        "680 1379 o",
+                        "723 1374 {n:'sv08'}",
+                        "723 1223 {n:'sv09'}",
+                        "674 1228 o",
+                        "573 1233 o",
+                        "525 1233 s {n:'sv10'}",
+                        "474 1233 o",
+                        "388 1207 o",
+                        "326 1158 o",
+                        "291 1085 o",
+                        "291 1038 s {n:'sh03'}",
+                        "291 979 o",
+                        "331 897 o",
+                        "403 845 o",
+                        "502 821 o",
+                        "561 821 s"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "-283 821",
+                        "390 821",
+                        "390 674 {n:'sv12'}",
+                        "-283 674"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-1057 385",
+                    "contour":"contour",
+                    "index":13,
+                    "element":"element"
+                  }
+                },
+                "thickness":185,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-872 399",
+                    "contour":"contour.1",
+                    "index":5,
+                    "element":"element"
+                  }
+                }
+              },
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-995 1028",
+                    "contour":"contour",
+                    "index":21,
+                    "element":"element"
+                  }
+                },
+                "thickness":184,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-811 1038",
+                    "contour":"contour",
+                    "index":36,
+                    "element":"element"
+                  }
+                }
+              },
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-283 430",
+                    "contour":"contour.1",
+                    "index":15,
+                    "element":"element"
+                  }
+                },
+                "thickness":181,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-102 442",
+                    "contour":"contour",
+                    "index":3,
+                    "element":"element"
+                  }
+                }
+              },
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"45 385",
+                    "contour":"contour.2",
+                    "index":13,
+                    "element":"element"
+                  }
+                },
+                "thickness":185,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"230 399",
+                    "contour":"contour.3",
+                    "index":5,
+                    "element":"element"
+                  }
+                }
+              },
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"107 1028",
+                    "contour":"contour.2",
+                    "index":21,
+                    "element":"element"
+                  }
+                },
+                "thickness":184,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"291 1038",
+                    "contour":"contour.2",
+                    "index":36,
+                    "element":"element"
+                  }
+                }
+              },
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"819 430",
+                    "contour":"contour.3",
+                    "index":15,
+                    "element":"element"
+                  }
+                },
+                "thickness":181,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"1000 442",
+                    "contour":"contour.2",
+                    "index":3,
+                    "element":"element"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-596 -14",
+                    "contour":"contour",
+                    "index":8,
+                    "element":"element"
+                  }
+                },
+                "thickness":151,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-586 137",
+                    "contour":"contour.1",
+                    "index":10,
+                    "element":"element"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-539 674",
+                    "contour":"contour.1",
+                    "index":0,
+                    "element":"element"
+                  }
+                },
+                "thickness":147,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-541 821",
+                    "contour":"contour",
+                    "index":41,
+                    "element":"element"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-577 1233",
+                    "contour":"contour",
+                    "index":31,
+                    "element":"element"
+                  }
+                },
+                "thickness":151,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-563 1384",
+                    "contour":"contour",
+                    "index":24,
+                    "element":"element"
+                  }
+                }
+              }
+            ],
             "color":"#fe4a46",
+            "tth":[
+              "doublev dv01, dv02 .round",
+              "doublev dv03, dv04 .round",
+              "doublev dv05, dv06 .round",
+              "interpolatev iv01 dv05, dv06",
+              "singlev dv04, sv01 .none round",
+              "singlev dv03, sv02 .none round",
+              "singlev dv05, sv03 .none",
+              "singlev dv02, sv04 .none",
+              "singlev dv06, sv05 .none",
+              "singlev dv01, sv06 .none",
+              "interpolatev iv02 dv05, dv06",
+              "singlev dv04, sv07 .none",
+              "singlev dv04, sv08 .none round",
+              "singlev dv03, sv09 .none round",
+              "singlev dv03, sv10 .none",
+              "singlev dv06, sv13 .none",
+              "singlev dv05, sv12 .none",
+              "doubleh dh01, dh02 .round",
+              "doubleh dh03, dh04 .round",
+              "doubleh dh05, dh06 .round",
+              "doubleh dh07, dh08 .round",
+              "mdeltah dh02 9-21 -2",
+              "mdeltah dh02 22-23 -3",
+              "singleh dh03, sv11 .none",
+              "interpolateh iv01 dh01, dh08",
+              "interpolateh ih01 dh01, dh02 round",
+              "singleh ih01, sh02 .round",
+              "singleh dh07, sv05 .none",
+              "mdeltah dh05 22-23 3",
+              "mdeltah dh05 9-21 2",
+              "interpolateh iv02 dh01, dh08",
+              "interpolateh ih02 dh05, dh06 round",
+              "mdeltah ih02 22-23 3",
+              "mdeltah ih02 9-21 2",
+              "singleh ih02, sh03 .round",
+              "singleh dh03, sv13 .none"
+            ],
             "active":true
           }
         ]
       },
       {
-        "name":"ampersand.before.ss03",
-        "lastModified":"2021-01-12 21:24:48",
+        "name":"ampersand.before",
+        "lastModified":"2021-01-15 16:34:19",
+        "openTypeGlyphClass":1,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.1",
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "1126 0 {n:'sv01'}",
+                        "895 0",
+                        "807 109",
+                        "736 49 o",
+                        "561 -14 o",
+                        "459 -14 s {n:'dv01'}",
+                        "362 -14 o",
+                        "212 40 o",
+                        "110 137 o",
+                        "57 271 o",
+                        "57 352 s {n:'dh01'}",
+                        "57 428 o",
+                        "97 547 o",
+                        "165 640 o",
+                        "254 711 o",
+                        "303 741",
+                        "281 772",
+                        "225 841 o",
+                        "170 983 o",
+                        "170 1051 s {n:'ih01'}",
+                        "170 1123 o",
+                        "216 1245 o",
+                        "305 1334 o",
+                        "436 1384 o",
+                        "520 1384 s {n:'dv04'}",
+                        "601 1384 o",
+                        "723 1338 o",
+                        "805 1258 o",
+                        "846 1153 o",
+                        "846 1094 s {n:'dh04'}",
+                        "846 1019 o",
+                        "795 906 o",
+                        "712 819 o",
+                        "605 751 o",
+                        "549 719"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "238 373 s {n:'dh02'}",
+                        "238 320 o",
+                        "272 232 o",
+                        "335 169 o",
+                        "426 135 o",
+                        "483 135 s {n:'dv02'}",
+                        "613 135 o",
+                        "711 231",
+                        "393 629",
+                        "359 606 o",
+                        "302 554 o",
+                        "261 492 o",
+                        "238 418 o"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "670 1077 s {n:'dh03'}",
+                        "670 1152 o",
+                        "586 1237 o",
+                        "514 1237 s {n:'dv03'}",
+                        "474 1237 o",
+                        "413 1211 o",
+                        "371 1165 o",
+                        "350 1103 o",
+                        "350 1067 s {n:'sh01'}",
+                        "350 1013 o",
+                        "390 920 o",
+                        "434 864 s",
+                        "461 829",
+                        "504 853 o",
+                        "580 902 o",
+                        "637 961 o",
+                        "670 1032 o"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"57 352",
+                    "contour":{
+                      "id":"contour.4",
+                      "nodes":[
+                        "1126 0 {n:'sv01'}",
+                        "895 0",
+                        "807 109",
+                        "736 49 o",
+                        "561 -14 o",
+                        "459 -14 s {n:'dv01'}",
+                        "362 -14 o",
+                        "212 40 o",
+                        "110 137 o",
+                        "57 271 o",
+                        "57 352 s {n:'dh01'}",
+                        "57 428 o",
+                        "97 547 o",
+                        "165 640 o",
+                        "254 711 o",
+                        "303 741",
+                        "281 772",
+                        "225 841 o",
+                        "170 983 o",
+                        "170 1051 s {n:'ih01'}",
+                        "170 1123 o",
+                        "216 1245 o",
+                        "305 1334 o",
+                        "436 1384 o",
+                        "520 1384 s {n:'dv04'}",
+                        "601 1384 o",
+                        "723 1338 o",
+                        "805 1258 o",
+                        "846 1153 o",
+                        "846 1094 s {n:'dh04'}",
+                        "846 1019 o",
+                        "795 906 o",
+                        "712 819 o",
+                        "605 751 o",
+                        "549 719"
+                      ]
+                    },
+                    "index":10,
+                    "element":"element.1"
+                  }
+                },
+                "thickness":181,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"238 373",
+                    "contour":{
+                      "id":"contour.6",
+                      "nodes":[
+                        "238 373 s {n:'dh02'}",
+                        "238 320 o",
+                        "272 232 o",
+                        "335 169 o",
+                        "426 135 o",
+                        "483 135 s {n:'dv02'}",
+                        "613 135 o",
+                        "711 231",
+                        "393 629",
+                        "359 606 o",
+                        "302 554 o",
+                        "261 492 o",
+                        "238 418 o"
+                      ]
+                    },
+                    "index":0,
+                    "element":"element.1"
+                  }
+                }
+              },
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"170 1051",
+                    "contour":"contour.4",
+                    "index":19,
+                    "element":"element.1"
+                  }
+                },
+                "thickness":180,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"350 1067",
+                    "contour":{
+                      "id":"contour.5",
+                      "nodes":[
+                        "670 1077 s {n:'dh03'}",
+                        "670 1152 o",
+                        "586 1237 o",
+                        "514 1237 s {n:'dv03'}",
+                        "474 1237 o",
+                        "413 1211 o",
+                        "371 1165 o",
+                        "350 1103 o",
+                        "350 1067 s {n:'sh01'}",
+                        "350 1013 o",
+                        "390 920 o",
+                        "434 864 s",
+                        "461 829",
+                        "504 853 o",
+                        "580 902 o",
+                        "637 961 o",
+                        "670 1032 o"
+                      ]
+                    },
+                    "index":8,
+                    "element":"element.1"
+                  }
+                }
+              },
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"670 1077",
+                    "contour":"contour.5",
+                    "index":0,
+                    "element":"element.1"
+                  }
+                },
+                "thickness":176,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"846 1094",
+                    "contour":"contour.4",
+                    "index":29,
+                    "element":"element.1"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"459 -14",
+                    "contour":"contour.4",
+                    "index":5,
+                    "element":"element.1"
+                  }
+                },
+                "thickness":149,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"483 135",
+                    "contour":"contour.6",
+                    "index":5,
+                    "element":"element.1"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"514 1237",
+                    "contour":"contour.5",
+                    "index":3,
+                    "element":"element.1"
+                  }
+                },
+                "thickness":147,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"520 1384",
+                    "contour":"contour.4",
+                    "index":24,
+                    "element":"element.1"
+                  }
+                }
+              }
+            ],
             "color":"#fe4a46",
+            "tth":[
+              "doublev dv01, dv02 .round",
+              "doublev dv03, dv04 .round",
+              "singlev dv01, sv01 .none round",
+              "doubleh dh01, dh02 .round",
+              "doubleh dh03, dh04 .round",
+              "mdeltah dh02 9-21 -2",
+              "mdeltah dh02 22-23 -3",
+              "interpolateh ih01 dh01, dh02 round",
+              "mdeltah dh03 22-23 3",
+              "mdeltah dh03 9-21 2",
+              "singleh ih01, sh01 .round"
+            ],
             "active":true
           }
         ]
       },
       {
-        "name":"ampersand.spacer",
-        "lastModified":"2021-01-12 21:24:48",
+        "name":"ampersand.spacer.ss03",
+        "lastModified":"2021-01-15 16:34:20",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -121,60 +794,169 @@
       },
       {
         "name":"asciicircum_equal.liga",
-        "lastModified":"2021-01-13 18:58:05",
+        "lastModified":"2021-01-15 18:00:32",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.2",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.8",
+                      "nodes":[
+                        "-60 646",
+                        "-234 646 {n:'dv03'}",
+                        "-536 1169",
+                        "-808 668",
+                        "-966 668 {n:'iv01'}",
+                        "-600 1307 {n:'av01'}",
+                        "-458 1307"
+                      ]
+                    },
+                    {
+                      "id":"contour.9",
+                      "nodes":[
+                        "933 646 {n:'sv01'}",
+                        "-234 646",
+                        "-234 793 {n:'dv04'}",
+                        "933 793"
+                      ]
+                    },
+                    {
+                      "id":"contour.7",
+                      "nodes":[
+                        "933 298 {n:'dv01'}",
+                        "-234 298",
+                        "-234 445",
+                        "933 445 {n:'dv02'}"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"933 298",
+                    "contour":"contour.7",
+                    "index":0,
+                    "element":"element.2"
+                  }
+                },
+                "thickness":147,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"933 445",
+                    "contour":"contour.7",
+                    "index":3,
+                    "element":"element.2"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-234 646",
+                    "contour":"contour.8",
+                    "index":1,
+                    "element":"element.2"
+                  }
+                },
+                "thickness":147,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-234 793",
+                    "contour":"contour.9",
+                    "index":2,
+                    "element":"element.2"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-600 1307",
+                    "contour":"contour.8",
+                    "index":5,
+                    "element":"element.2"
+                  }
+                },
+                "thickness":-20
+              }
+            ],
             "color":"#fe4a46",
+            "tth":[
+              "alignv av01 round",
+              "doublev dv01, dv02 .round",
+              "doublev dv03, dv04 .round",
+              "interpolatev iv01 dv03, dv04",
+              "singlev dv03, sv01 .none"
+            ],
             "active":true
           }
         ]
       },
       {
         "name":"asciicircum.spacer",
-        "lastModified":"2021-01-13 18:57:14",
+        "lastModified":"2021-01-15 18:00:34",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -187,25 +969,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -218,25 +999,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -249,25 +1029,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -280,25 +1059,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -311,25 +1089,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -338,29 +1115,33 @@
       },
       {
         "name":"asciitilde.spacer",
-        "lastModified":"2021-01-12 21:24:48",
+        "lastModified":"2021-01-15 18:00:49",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -373,25 +1154,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -404,25 +1184,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -435,25 +1214,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -466,25 +1244,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -497,25 +1274,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -524,29 +1300,33 @@
       },
       {
         "name":"asterisk.spacer",
-        "lastModified":"2021-01-13 18:30:24",
+        "lastModified":"2021-01-15 18:00:49",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -560,25 +1340,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -591,25 +1370,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -622,25 +1400,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -649,29 +1426,33 @@
       },
       {
         "name":"backslash.spacer",
-        "lastModified":"2021-01-12 21:24:48",
+        "lastModified":"2021-01-15 18:00:49",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -684,25 +1465,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -715,25 +1495,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -746,25 +1525,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -777,25 +1555,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -808,25 +1585,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -839,25 +1615,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -870,25 +1645,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -901,25 +1675,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -932,25 +1705,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -963,25 +1735,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -994,25 +1765,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1025,25 +1795,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1056,25 +1825,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1087,25 +1855,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1118,25 +1885,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1149,25 +1915,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1180,25 +1945,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1211,25 +1975,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1242,25 +2005,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1273,25 +2035,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1304,25 +2065,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1331,29 +2091,33 @@
       },
       {
         "name":"bar.spacer",
-        "lastModified":"2021-01-12 21:24:48",
+        "lastModified":"2021-01-15 18:00:49",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1366,25 +2130,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1393,29 +2156,33 @@
       },
       {
         "name":"braceleft.spacer",
-        "lastModified":"2021-01-13 19:29:49",
+        "lastModified":"2021-01-15 18:00:49",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1428,25 +2195,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1455,29 +2221,33 @@
       },
       {
         "name":"bracketleft.spacer",
-        "lastModified":"2021-01-12 21:24:48",
+        "lastModified":"2021-01-15 18:00:49",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1490,25 +2260,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1517,29 +2286,33 @@
       },
       {
         "name":"bracketright.spacer",
-        "lastModified":"2021-01-13 20:25:37",
+        "lastModified":"2021-01-15 18:00:49",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1552,25 +2325,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1583,25 +2355,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1614,25 +2385,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1645,25 +2415,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1676,25 +2445,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1707,25 +2475,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1734,29 +2501,33 @@
       },
       {
         "name":"colon.spacer",
-        "lastModified":"2021-01-12 21:24:48",
+        "lastModified":"2021-01-15 18:00:49",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1769,25 +2540,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1800,25 +2570,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1831,25 +2600,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1858,29 +2626,33 @@
       },
       {
         "name":"dollar.spacer",
-        "lastModified":"2021-01-13 18:39:43",
+        "lastModified":"2021-01-15 18:00:49",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1893,25 +2665,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1924,25 +2695,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1955,25 +2725,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -1986,25 +2755,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2017,25 +2785,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2048,25 +2815,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2079,25 +2845,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2110,25 +2875,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2141,25 +2905,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2168,29 +2931,33 @@
       },
       {
         "name":"equal.spacer",
-        "lastModified":"2021-01-12 21:24:48",
+        "lastModified":"2021-01-15 18:00:49",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2203,25 +2970,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2234,25 +3000,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2265,25 +3030,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2296,25 +3060,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2327,25 +3090,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2358,25 +3120,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2389,25 +3150,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2420,25 +3180,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2447,29 +3206,33 @@
       },
       {
         "name":"exclam.spacer",
-        "lastModified":"2021-01-12 21:24:48",
+        "lastModified":"2021-01-15 18:00:49",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2482,25 +3245,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2513,25 +3275,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2544,25 +3305,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2575,25 +3335,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2606,25 +3365,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2633,29 +3391,33 @@
       },
       {
         "name":"F.spacer",
-        "lastModified":"2021-01-12 21:24:48",
+        "lastModified":"2021-01-15 18:00:49",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2664,29 +3426,33 @@
       },
       {
         "name":"f.spacer",
-        "lastModified":"2021-01-12 21:24:48",
+        "lastModified":"2021-01-15 18:00:49",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2699,25 +3465,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2730,25 +3495,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2761,25 +3525,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2792,25 +3555,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2823,25 +3585,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2854,25 +3615,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2885,25 +3645,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2916,25 +3675,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2947,25 +3705,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -2978,25 +3735,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3009,25 +3765,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3040,25 +3795,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3071,25 +3825,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3102,25 +3855,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3133,25 +3885,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3164,25 +3915,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3195,25 +3945,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3222,29 +3971,33 @@
       },
       {
         "name":"greater.spacer",
-        "lastModified":"2021-01-12 21:24:48",
+        "lastModified":"2021-01-15 18:00:49",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3257,25 +4010,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3288,25 +4040,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3319,25 +4070,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3350,25 +4100,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3381,25 +4130,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3412,25 +4160,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3443,25 +4190,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3470,29 +4216,33 @@
       },
       {
         "name":"hyphen.spacer",
-        "lastModified":"2021-01-13 18:25:46",
+        "lastModified":"2021-01-15 18:00:49",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3505,25 +4255,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3536,25 +4285,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3567,25 +4315,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3598,25 +4345,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3629,25 +4375,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3660,25 +4405,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3691,25 +4435,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3722,25 +4465,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3753,25 +4495,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3784,25 +4525,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3815,25 +4555,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3846,25 +4585,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3877,25 +4615,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3908,25 +4645,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3939,25 +4675,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -3970,25 +4705,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4001,25 +4735,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4032,25 +4765,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4063,25 +4795,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4094,25 +4825,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4125,25 +4855,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4156,25 +4885,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4187,25 +4915,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4218,25 +4945,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4249,25 +4975,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4280,25 +5005,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4311,25 +5035,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4342,25 +5065,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4373,25 +5095,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4404,25 +5125,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4435,25 +5155,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4466,25 +5185,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4497,25 +5215,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4528,25 +5245,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4559,25 +5275,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4590,25 +5305,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4621,25 +5335,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4652,25 +5365,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4683,25 +5395,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4710,29 +5421,33 @@
       },
       {
         "name":"less.spacer",
-        "lastModified":"2021-01-12 21:24:48",
+        "lastModified":"2021-01-15 18:00:49",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4745,25 +5460,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4776,25 +5490,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4807,25 +5520,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4838,25 +5550,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4869,25 +5580,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4900,25 +5610,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4931,25 +5640,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4962,25 +5670,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -4993,25 +5700,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5024,25 +5730,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5055,25 +5760,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5086,25 +5790,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5117,25 +5820,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5144,29 +5846,33 @@
       },
       {
         "name":"numbersign.spacer",
-        "lastModified":"2021-01-13 18:46:02",
+        "lastModified":"2021-01-15 18:00:49",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5179,25 +5885,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5206,29 +5911,33 @@
       },
       {
         "name":"percent.spacer",
-        "lastModified":"2021-01-13 20:51:02",
+        "lastModified":"2021-01-15 18:00:49",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5241,25 +5950,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5272,25 +5980,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5303,25 +6010,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5334,25 +6040,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5365,25 +6070,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5396,25 +6100,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5423,29 +6126,33 @@
       },
       {
         "name":"period.spacer",
-        "lastModified":"2021-01-12 21:24:48",
+        "lastModified":"2021-01-15 18:00:49",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5458,25 +6165,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5489,25 +6195,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5520,25 +6225,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5551,25 +6255,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5578,29 +6281,33 @@
       },
       {
         "name":"plus.spacer",
-        "lastModified":"2021-01-13 18:42:30",
+        "lastModified":"2021-01-15 18:00:49",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5613,25 +6320,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5644,25 +6350,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5675,25 +6380,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5702,29 +6406,33 @@
       },
       {
         "name":"question.spacer",
-        "lastModified":"2021-01-13 20:59:52",
+        "lastModified":"2021-01-15 18:00:49",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5737,25 +6445,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5764,29 +6471,33 @@
       },
       {
         "name":"semicolon.spacer",
-        "lastModified":"2021-01-13 21:27:43",
+        "lastModified":"2021-01-15 18:00:49",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5799,25 +6510,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5830,25 +6540,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5861,25 +6570,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5892,25 +6600,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5923,25 +6630,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5954,25 +6660,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -5985,25 +6690,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -6016,25 +6720,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -6047,25 +6750,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -6078,25 +6780,54 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "advanceWidth":1126,
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"slash_slash.liga",
+        "lastModified":"2021-01-15 15:35:15",
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "flags":2,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "flags":2,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "flags":2,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -6105,29 +6836,33 @@
       },
       {
         "name":"slash.spacer",
-        "lastModified":"2021-01-12 21:24:48",
+        "lastModified":"2021-01-15 18:00:49",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -6140,25 +6875,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -6167,29 +6901,33 @@
       },
       {
         "name":"T.spacer",
-        "lastModified":"2021-01-12 21:24:48",
+        "lastModified":"2021-01-15 18:00:49",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -6203,25 +6941,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -6235,25 +6972,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -6266,25 +7002,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -6297,25 +7032,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -6328,25 +7062,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -6355,29 +7088,33 @@
       },
       {
         "name":"underscore.spacer",
-        "lastModified":"2021-01-13 18:46:54",
+        "lastModified":"2021-01-15 18:00:49",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -6390,25 +7127,24 @@
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -6417,29 +7153,33 @@
       },
       {
         "name":"w.spacer",
-        "lastModified":"2021-01-13 18:54:54",
+        "lastModified":"2021-01-15 18:00:49",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
-            "flags":0,
+            "colorFlag":121,
+            "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
-            "flags":0,
+            "colorFlag":121,
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true
@@ -6552,6 +7292,24 @@
           "kerning":{
           },
           "measurements":{
+            "STEM_H_X":"180",
+            "STEM_O_X":"185",
+            "STEM_O_H_X":"2.8",
+            "STEM_H_Y":"152",
+            "STEM_O_Y":"155",
+            "STEM_O_H_Y":"2",
+            "stem_h_X":"159",
+            "stem_o_X":"178",
+            "stem_o_h_X":"11.9",
+            "stem_h_Y":"146",
+            "stem_o_Y":"147",
+            "stem_o_h_Y":"0.7",
+            "Contrast_h_v":"84.4",
+            "COUNTER":"549",
+            "OVERSHOOT":"18",
+            "overshoot":"18",
+            "SERIF":"152",
+            "serif":"145",
             "ItalicAngle":"0",
             "Tension":"62",
             "Ascender":"1521",
@@ -6629,6 +7387,24 @@
           "kerning":{
           },
           "measurements":{
+            "STEM_H_X":"250",
+            "STEM_O_X":"260",
+            "STEM_O_H_X":"4",
+            "STEM_H_Y":"211",
+            "STEM_O_Y":"222",
+            "STEM_O_H_Y":"5.2",
+            "stem_h_X":"214",
+            "stem_o_X":"254",
+            "stem_o_h_X":"18.7",
+            "stem_h_Y":"190",
+            "stem_o_Y":"211",
+            "stem_o_h_Y":"11.1",
+            "Contrast_h_v":"84.4",
+            "COUNTER":"444",
+            "OVERSHOOT":"22",
+            "overshoot":"22",
+            "SERIF":"203",
+            "serif":"190",
             "ItalicAngle":"0",
             "Tension":"63",
             "Ascender":"1521",
@@ -6708,6 +7484,20 @@
           "kerning":{
           },
           "measurements":{
+            "STEM_H_X":"181",
+            "STEM_H_Y":"152",
+            "STEM_O_Y":"155",
+            "STEM_O_H_Y":"2",
+            "stem_h_X":"174",
+            "stem_h_Y":"146",
+            "stem_o_Y":"147",
+            "stem_o_h_Y":"0.7",
+            "Contrast_h_v":"84",
+            "counter":"460",
+            "OVERSHOOT":"18",
+            "overshoot":"18",
+            "SERIF":"152",
+            "serif":"145",
             "ItalicAngle":"-11",
             "Tension":"65",
             "Ascender":"1521",
@@ -6788,6 +7578,20 @@
           "kerning":{
           },
           "measurements":{
+            "STEM_H_X":"250",
+            "STEM_H_Y":"211",
+            "STEM_O_Y":"221",
+            "STEM_O_H_Y":"4.7",
+            "stem_h_X":"244",
+            "stem_h_Y":"190",
+            "stem_o_Y":"211",
+            "stem_o_h_Y":"11.1",
+            "Contrast_h_v":"84.4",
+            "counter":"357",
+            "OVERSHOOT":"22",
+            "overshoot":"22",
+            "SERIF":"202",
+            "serif":"191",
             "ItalicAngle":"-11",
             "Tension":"65",
             "Ascender":"1521",
@@ -6800,7 +7604,6 @@
         }
       }
     ],
-    "searchStorage":"",
     "expressionsUpdated":true
   }
 }

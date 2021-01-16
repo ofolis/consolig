@@ -1,7 +1,7 @@
 {
   "version":8,
   "font":{
-    "glyphsCount":212,
+    "glyphsCount":211,
     "upm":2048,
     "glyphs":[
       {
@@ -1521,7 +1521,7 @@
       },
       {
         "name":"bar_bar_bar.liga",
-        "lastModified":"2021-01-13 18:21:35",
+        "lastModified":"2021-01-15 19:02:48",
         "layers":[
           {
             "name":"BoldItalic",
@@ -1761,7 +1761,7 @@
       },
       {
         "name":"bar_bar.liga",
-        "lastModified":"2021-01-12 21:24:48",
+        "lastModified":"2021-01-15 19:02:57",
         "layers":[
           {
             "name":"BoldItalic",
@@ -5448,36 +5448,6 @@
           {
             "name":"Regular",
             "colorFlag":121,
-            "advanceWidth":1126,
-            "color":"#fe4a46",
-            "active":true
-          }
-        ]
-      },
-      {
-        "name":"multiply.onum",
-        "lastModified":"2021-01-13 17:22:25",
-        "layers":[
-          {
-            "name":"BoldItalic",
-            "flags":2,
-            "advanceWidth":1024,
-            "color":"#bac000"
-          },
-          {
-            "name":"Italic",
-            "flags":2,
-            "advanceWidth":1024,
-            "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":2,
-            "advanceWidth":1024,
-            "color":"#ff34ff"
-          },
-          {
-            "name":"Regular",
             "advanceWidth":1126,
             "color":"#fe4a46",
             "active":true

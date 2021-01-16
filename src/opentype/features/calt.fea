@@ -744,12 +744,10 @@ lookup backslash_slash {
 
 lookup hexadecimal_x {
   ### 0xFF
-  sub [zero zero1.salt] x' [@Digit @HexDigit] by multiply;
-  sub [zero.onum zero1onum.salt] x' [@DigitOnum @HexDigit] by multiply.onum;
+  sub [zero zero1.salt zero.onum zero1onum.salt] x' [@Digit @HexDigit @DigitOnum @HexDigit] by multiply;
 
   ### 800x600
-  sub @Digit x' @Digit by multiply; 
-  sub @DigitOnum x' @DigitOnum by multiply.onum;
+  sub [@Digit @DigitOnum] x' [@Digit @DigitOnum] by multiply;
 } hexadecimal_x;
 
 ### Long dashes

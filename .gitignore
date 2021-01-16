@@ -340,6 +340,6 @@ input/*.ttf
 
 # Project temporary files
 *.backup/
-src/fontlab/Consolig
+src/fontlab/**/*.ttf
 temp/
 *.vfj.json

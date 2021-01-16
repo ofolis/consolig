@@ -9,17 +9,25 @@ lookup F_l {
 } F_l;
 lookup f_i {
   sub f.spacer [i i.salt_low]' by f_i.liga.ss10;
+  sub f.spacer.ss01 [i i.salt_low]' by f_i.liga.ss10.ss01;
   sub f' [i i.salt_low] by f.spacer;
+  sub f1.salt' [i i.salt_low] by f.spacer.ss01;
 } f_i;
 lookup f_j {
   sub f.spacer [j j.salt_low]' by f_j.liga.ss10;
+  sub f.spacer.ss01 [j j.salt_low]' by f_j.liga.ss10.ss01;
   sub f' [j j.salt_low] by f.spacer;
+  sub f1.salt' [j j.salt_low] by f.spacer.ss01;
 } f_j;
 lookup f_l {
   sub f.spacer l' by f_l.liga.ss10;
+  sub f.spacer.ss01 l' by f_l.liga.ss10.ss01;
   sub f' l by f.spacer;
+  sub f1.salt' l by f.spacer.ss01;
 } f_l;
 lookup f_t {
   sub f.spacer t' by f_t.liga.ss10;
+  sub f.spacer.ss01 t' by f_t.liga.ss10.ss01;
   sub f' t by f.spacer;
+  sub f1.salt' t by f.spacer.ss01;
 } f_t;

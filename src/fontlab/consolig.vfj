@@ -6,21 +6,23 @@
     "glyphs":[
       {
         "name":".notdef",
-        "lastModified":"2021-01-15 18:00:57",
+        "lastModified":"2021-01-18 23:56:14",
         "colorFlag":121,
         "advanceWidth":512
       },
       {
         "name":"CR",
         "unicode":"000d",
-        "lastModified":"2021-01-15 18:00:57",
+        "lastModified":"2021-01-19 00:06:32",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "advanceWidth":512
       },
       {
         "name":"space",
         "unicode":"0020",
-        "lastModified":"2021-01-15 18:00:57",
+        "lastModified":"2021-01-19 00:07:14",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "advanceWidth":512
       },
@@ -673,7 +675,8 @@
       },
       {
         "name":"ampersand.spacer.ss03",
-        "lastModified":"2021-01-15 16:34:20",
+        "lastModified":"2021-01-19 00:06:14",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -708,7 +711,8 @@
       },
       {
         "name":"asciicircum_equal.liga",
-        "lastModified":"2021-01-16 19:04:49",
+        "lastModified":"2021-01-19 00:06:08",
+        "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
           {
@@ -836,7 +840,8 @@
       },
       {
         "name":"asciicircum.spacer",
-        "lastModified":"2021-01-15 18:00:34",
+        "lastModified":"2021-01-19 00:06:11",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -871,7 +876,8 @@
       },
       {
         "name":"asciitilde_asciitilde_greater.liga",
-        "lastModified":"2021-01-16 19:04:49",
+        "lastModified":"2021-01-19 00:06:00",
+        "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
           {
@@ -1026,7 +1032,8 @@
       },
       {
         "name":"asciitilde_asciitilde.liga",
-        "lastModified":"2021-01-16 19:04:49",
+        "lastModified":"2021-01-19 00:06:03",
+        "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
           {
@@ -1190,7 +1197,8 @@
       },
       {
         "name":"asciitilde_at.liga",
-        "lastModified":"2021-01-16 19:04:49",
+        "lastModified":"2021-01-19 00:05:58",
+        "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
           {
@@ -1459,7 +1467,8 @@
       },
       {
         "name":"asciitilde_greater.liga",
-        "lastModified":"2021-01-16 19:04:49",
+        "lastModified":"2021-01-19 00:05:55",
+        "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
           {
@@ -1619,7 +1628,8 @@
       },
       {
         "name":"asciitilde_hyphen.liga",
-        "lastModified":"2021-01-16 19:04:49",
+        "lastModified":"2021-01-19 00:05:52",
+        "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
           {
@@ -1771,7 +1781,8 @@
       },
       {
         "name":"asciitilde.spacer",
-        "lastModified":"2021-01-15 18:00:49",
+        "lastModified":"2021-01-19 00:06:06",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -1806,127 +1817,8 @@
       },
       {
         "name":"asterisk_asterisk_asterisk.liga",
-        "lastModified":"2021-01-12 21:24:48",
-        "layers":[
-          {
-            "name":"BoldItalic",
-            "flags":2,
-            "advanceWidth":1126,
-            "color":"#bac000"
-          },
-          {
-            "name":"Italic",
-            "flags":2,
-            "advanceWidth":1126,
-            "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":2,
-            "advanceWidth":1126,
-            "color":"#ff34ff"
-          },
-          {
-            "name":"Regular",
-            "advanceWidth":1126,
-            "color":"#fe4a46",
-            "active":true
-          }
-        ]
-      },
-      {
-        "name":"asterisk_asterisk.liga",
-        "lastModified":"2021-01-12 21:24:48",
-        "layers":[
-          {
-            "name":"BoldItalic",
-            "flags":2,
-            "advanceWidth":1126,
-            "color":"#bac000"
-          },
-          {
-            "name":"Italic",
-            "flags":2,
-            "advanceWidth":1126,
-            "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":2,
-            "advanceWidth":1126,
-            "color":"#ff34ff"
-          },
-          {
-            "name":"Regular",
-            "advanceWidth":1126,
-            "color":"#fe4a46",
-            "active":true
-          }
-        ]
-      },
-      {
-        "name":"asterisk_greater.liga",
-        "lastModified":"2021-01-12 21:24:48",
-        "layers":[
-          {
-            "name":"BoldItalic",
-            "flags":2,
-            "advanceWidth":1126,
-            "color":"#bac000"
-          },
-          {
-            "name":"Italic",
-            "flags":2,
-            "advanceWidth":1126,
-            "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":2,
-            "advanceWidth":1126,
-            "color":"#ff34ff"
-          },
-          {
-            "name":"Regular",
-            "advanceWidth":1126,
-            "color":"#fe4a46",
-            "active":true
-          }
-        ]
-      },
-      {
-        "name":"asterisk_slash.liga",
-        "lastModified":"2021-01-12 21:24:48",
-        "layers":[
-          {
-            "name":"BoldItalic",
-            "flags":2,
-            "advanceWidth":1126,
-            "color":"#bac000"
-          },
-          {
-            "name":"Italic",
-            "flags":2,
-            "advanceWidth":1126,
-            "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":2,
-            "advanceWidth":1126,
-            "color":"#ff34ff"
-          },
-          {
-            "name":"Regular",
-            "advanceWidth":1126,
-            "color":"#fe4a46",
-            "active":true
-          }
-        ]
-      },
-      {
-        "name":"asterisk.lc",
-        "lastModified":"2021-01-16 19:04:49",
+        "lastModified":"2021-01-19 00:51:28",
+        "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
           {
@@ -1961,6 +1853,532 @@
                   "contours":[
                     {
                       "id":"contour.14",
+                      "nodes":[
+                        "797 840",
+                        "729 721",
+                        "448 907 {n:'iv01'}",
+                        "471 565 {n:'av01'}",
+                        "328 565",
+                        "350 907 {n:'iv02'}",
+                        "63 721",
+                        "0 838",
+                        "307 989 {n:'iv03'}",
+                        "0 1143",
+                        "69 1260",
+                        "352 1071 {n:'iv04'}",
+                        "328 1413",
+                        "471 1413",
+                        "446 1071 {n:'iv05'}",
+                        "729 1262",
+                        "799 1139",
+                        "491 987 {n:'iv06'}"
+                      ]
+                    },
+                    {
+                      "id":"contour.15",
+                      "nodes":[
+                        "-165 1065",
+                        "-233 946",
+                        "-514 1132 {n:'iv07'}",
+                        "-491 790",
+                        "-634 790",
+                        "-612 1132 {n:'iv08'}",
+                        "-899 946",
+                        "-962 1063",
+                        "-655 1214 {n:'iv09'}",
+                        "-962 1368",
+                        "-893 1485",
+                        "-610 1296 {n:'iv10'}",
+                        "-634 1638 {n:'av03'}",
+                        "-491 1638",
+                        "-516 1296 {n:'iv11'}",
+                        "-233 1487",
+                        "-163 1364",
+                        "-471 1212 {n:'iv12'}"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "-1127 840",
+                        "-1195 721",
+                        "-1476 907 {n:'iv13'}",
+                        "-1453 565 {n:'av02'}",
+                        "-1596 565",
+                        "-1574 907 {n:'iv14'}",
+                        "-1861 721",
+                        "-1924 838",
+                        "-1617 989 {n:'iv15'}",
+                        "-1924 1143",
+                        "-1855 1260",
+                        "-1572 1071 {n:'iv16'}",
+                        "-1596 1413",
+                        "-1453 1413",
+                        "-1478 1071 {n:'iv17'}",
+                        "-1195 1262",
+                        "-1125 1139",
+                        "-1433 987 {n:'iv18'}"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "vertical":true,
+                "position":-1585,
+                "thickness":120.5
+              },
+              {
+                "vertical":true,
+                "position":-623,
+                "thickness":120.5
+              },
+              {
+                "vertical":true,
+                "position":339,
+                "thickness":120.5
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"471 565",
+                    "contour":"contour.14",
+                    "index":3,
+                    "element":"element.8"
+                  }
+                },
+                "thickness":21
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-634 1638",
+                    "contour":"contour.15",
+                    "index":12,
+                    "element":"element.8"
+                  }
+                },
+                "thickness":-20
+              }
+            ],
+            "color":"#fe4a46",
+            "tth":[
+              "alignv av01 round",
+              "alignv av02 round",
+              "alignv av03 round",
+              "interpolatev iv01 av01, av03",
+              "interpolatev iv02 av01, av03",
+              "interpolatev iv03 av01, av03",
+              "interpolatev iv04 av01, av03",
+              "interpolatev iv05 av01, av03",
+              "interpolatev iv06 av01, av03",
+              "interpolatev iv07 av01, av03",
+              "interpolatev iv08 av01, av03",
+              "interpolatev iv09 av01, av03",
+              "interpolatev iv10 av01, av03",
+              "interpolatev iv11 av01, av03",
+              "interpolatev iv12 av01, av03",
+              "interpolatev iv13 av01, av03",
+              "interpolatev iv14 av01, av03",
+              "interpolatev iv15 av01, av03",
+              "interpolatev iv16 av01, av03",
+              "interpolatev iv17 av01, av03",
+              "interpolatev iv18 av01, av03"
+            ],
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"asterisk_asterisk.liga",
+        "lastModified":"2021-01-19 00:40:41",
+        "openTypeGlyphClass":2,
+        "colorFlag":121,
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "colorFlag":66,
+            "flags":2,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "colorFlag":66,
+            "flags":2,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "colorFlag":66,
+            "flags":2,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "colorFlag":121,
+            "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.9",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.16",
+                      "nodes":[
+                        "877 840",
+                        "809 721",
+                        "528 907 {n:'iv01'}",
+                        "551 565 {n:'av01'}",
+                        "408 565",
+                        "430 907 {n:'iv02'}",
+                        "143 721",
+                        "80 838",
+                        "387 989 {n:'iv03'}",
+                        "80 1143",
+                        "149 1260",
+                        "432 1071 {n:'iv04'}",
+                        "408 1413 {n:'av03'}",
+                        "551 1413",
+                        "526 1071 {n:'iv05'}",
+                        "809 1262",
+                        "879 1139",
+                        "571 987 {n:'iv06'}"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "-82 840",
+                        "-150 721",
+                        "-431 907 {n:'iv07'}",
+                        "-408 565 {n:'av02'}",
+                        "-551 565",
+                        "-529 907 {n:'iv08'}",
+                        "-816 721",
+                        "-879 838",
+                        "-572 989 {n:'iv09'}",
+                        "-879 1143",
+                        "-810 1260",
+                        "-527 1071 {n:'iv10'}",
+                        "-551 1413 {n:'av04'}",
+                        "-408 1413",
+                        "-433 1071 {n:'iv11'}",
+                        "-150 1262",
+                        "-80 1139",
+                        "-388 987 {n:'iv12'}"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "vertical":true,
+                "position":-540,
+                "thickness":120.5
+              },
+              {
+                "vertical":true,
+                "position":419,
+                "thickness":120.5
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"551 565",
+                    "contour":"contour.16",
+                    "index":3,
+                    "element":"element.9"
+                  }
+                },
+                "thickness":21
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"408 1413",
+                    "contour":"contour.16",
+                    "index":12,
+                    "element":"element.9"
+                  }
+                },
+                "thickness":-20
+              }
+            ],
+            "color":"#fe4a46",
+            "tth":[
+              "alignv av01 round",
+              "alignv av02 round",
+              "alignv av03 round",
+              "alignv av04 round",
+              "interpolatev iv01 av01, av03",
+              "interpolatev iv02 av01, av03",
+              "interpolatev iv03 av01, av03",
+              "interpolatev iv04 av01, av03",
+              "interpolatev iv05 av01, av03",
+              "interpolatev iv06 av01, av03",
+              "interpolatev iv07 av01, av03",
+              "interpolatev iv08 av01, av03",
+              "interpolatev iv09 av01, av03",
+              "interpolatev iv10 av01, av03",
+              "interpolatev iv11 av01, av03",
+              "interpolatev iv12 av01, av03"
+            ],
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"asterisk_greater.liga",
+        "lastModified":"2021-01-19 00:51:53",
+        "openTypeGlyphClass":2,
+        "colorFlag":121,
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "colorFlag":121,
+            "flags":2,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "colorFlag":121,
+            "flags":2,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "colorFlag":121,
+            "flags":2,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "colorFlag":121,
+            "advanceWidth":1126,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "-2 396",
+                        "-70 277",
+                        "-351 463",
+                        "-328 121",
+                        "-471 121",
+                        "-449 463",
+                        "-736 277",
+                        "-799 394",
+                        "-492 545",
+                        "-799 699",
+                        "-730 816",
+                        "-447 627",
+                        "-471 969",
+                        "-328 969",
+                        "-353 627",
+                        "-70 818",
+                        "0 695",
+                        "-308 543"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "80 995",
+                        "188 1106",
+                        "860 545",
+                        "188 -16",
+                        "80 94",
+                        "625 543"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "vertical":true,
+                "position":-460,
+                "thickness":120.5
+              }
+            ],
+            "color":"#fe4a46",
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"asterisk_slash.liga",
+        "lastModified":"2021-01-19 00:52:32",
+        "colorFlag":121,
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "colorFlag":121,
+            "flags":2,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "colorFlag":121,
+            "flags":2,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "colorFlag":121,
+            "flags":2,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "colorFlag":121,
+            "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.10",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.18",
+                      "nodes":[
+                        "-2 840",
+                        "-70 721",
+                        "-351 907 {n:'iv01'}",
+                        "-328 565",
+                        "-471 565",
+                        "-449 907 {n:'iv02'}",
+                        "-736 721",
+                        "-799 838",
+                        "-492 989 {n:'iv03'}",
+                        "-799 1143",
+                        "-730 1260",
+                        "-447 1071 {n:'iv04'}",
+                        "-471 1413 {n:'av02'}",
+                        "-328 1413",
+                        "-353 1071 {n:'iv05'}",
+                        "-70 1262",
+                        "0 1139",
+                        "-308 987 {n:'iv06'}"
+                      ]
+                    },
+                    {
+                      "id":"contour.17",
+                      "nodes":[
+                        "769 1413 {n:'av03'}",
+                        "83 -215 {n:'av01'}",
+                        "-83 -215",
+                        "603 1413"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "vertical":true,
+                "position":-460,
+                "thickness":120.5
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"83 -215",
+                    "contour":"contour.17",
+                    "index":1,
+                    "element":"element.10"
+                  }
+                },
+                "thickness":21
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-471 1413",
+                    "contour":"contour.18",
+                    "index":12,
+                    "element":"element.10"
+                  }
+                },
+                "thickness":-20
+              }
+            ],
+            "color":"#fe4a46",
+            "tth":[
+              "alignv av01 round",
+              "alignv av02 round",
+              "alignv av03 round",
+              "interpolatev iv01 av01, av02",
+              "interpolatev iv02 av01, av02",
+              "interpolatev iv03 av01, av02",
+              "interpolatev iv04 av01, av02",
+              "interpolatev iv05 av01, av02",
+              "interpolatev iv06 av01, av02"
+            ],
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"asterisk.lc",
+        "lastModified":"2021-01-19 00:05:46",
+        "openTypeGlyphClass":1,
+        "colorFlag":121,
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "colorFlag":121,
+            "flags":2,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "colorFlag":121,
+            "flags":2,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "colorFlag":121,
+            "flags":2,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "colorFlag":121,
+            "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.11",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.19",
                       "nodes":[
                         "961 551",
                         "893 432",
@@ -1998,9 +2416,9 @@
                 "node0":{
                   "nodeNode":{
                     "point":"635 276",
-                    "contour":"contour.14",
+                    "contour":"contour.19",
                     "index":3,
-                    "element":"element.8"
+                    "element":"element.11"
                   }
                 },
                 "thickness":21
@@ -2010,9 +2428,9 @@
                 "node0":{
                   "nodeNode":{
                     "point":"492 1124",
-                    "contour":"contour.14",
+                    "contour":"contour.19",
                     "index":12,
-                    "element":"element.8"
+                    "element":"element.11"
                   }
                 },
                 "thickness":-20
@@ -2035,7 +2453,8 @@
       },
       {
         "name":"asterisk.spacer",
-        "lastModified":"2021-01-15 18:00:49",
+        "lastModified":"2021-01-19 00:05:49",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -2070,37 +2489,98 @@
       },
       {
         "name":"backslash_slash.liga",
-        "lastModified":"2021-01-12 21:24:48",
+        "lastModified":"2021-01-19 01:09:02",
+        "openTypeGlyphClass":2,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "colorFlag":121,
             "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.12",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.20",
+                      "nodes":[
+                        "486.341 1307.02 {n:'av02'}",
+                        "0.5 154.029 {n:'iv01'}",
+                        "-485.34 1307.01 {n:'av03'}",
+                        "-651.351 1307.04",
+                        "-100.672 0.181 {n:'av01'}",
+                        "101.672 0.181",
+                        "652.346 1307.03"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-100.672 0.181",
+                    "contour":"contour.20",
+                    "index":4,
+                    "element":"element.12"
+                  }
+                },
+                "thickness":21
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-485.34 1307.01",
+                    "contour":"contour.20",
+                    "index":2,
+                    "element":"element.12"
+                  }
+                },
+                "thickness":-20
+              }
+            ],
             "color":"#fe4a46",
+            "tth":[
+              "alignv av01 round",
+              "alignv av02 round",
+              "alignv av03 round",
+              "interpolatev iv01 av01, av03"
+            ],
             "active":true
           }
         ]
       },
       {
         "name":"backslash.spacer",
-        "lastModified":"2021-01-15 18:00:49",
+        "lastModified":"2021-01-19 00:06:43",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -2135,90 +2615,447 @@
       },
       {
         "name":"backslash.ss06",
-        "lastModified":"2021-01-12 21:24:48",
+        "lastModified":"2021-01-19 00:55:00",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "colorFlag":121,
             "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.13",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.21",
+                      "nodes":[
+                        "971 -215 {n:'av01'}",
+                        "887 -215",
+                        "201 1413 {n:'av02'}",
+                        "285 1413"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"971 -215",
+                    "contour":"contour.21",
+                    "index":0,
+                    "element":"element.13"
+                  }
+                },
+                "thickness":21
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"201 1413",
+                    "contour":"contour.21",
+                    "index":2,
+                    "element":"element.13"
+                  }
+                },
+                "thickness":-20
+              }
+            ],
             "color":"#fe4a46",
+            "tth":[
+              "alignv av01 round",
+              "alignv av02 round"
+            ],
             "active":true
           }
         ]
       },
       {
         "name":"bar_bar_bar_greater.liga",
-        "lastModified":"2021-01-13 18:13:39",
+        "lastModified":"2021-01-19 03:53:13",
+        "openTypeGlyphClass":2,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "colorFlag":121,
             "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.14",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.24",
+                      "nodes":[
+                        "235 545",
+                        "-676 1306.52 {n:'dh01'}",
+                        "-676 -215.522 {n:'av01'}"
+                      ]
+                    },
+                    {
+                      "id":"contour.25",
+                      "nodes":[
+                        "0 543",
+                        "-512 121.187 {n:'iv01'}",
+                        "-512 967.631 {n:'dh02'}"
+                      ]
+                    },
+                    {
+                      "id":"contour.23",
+                      "nodes":[
+                        "-1382 -216 {n:'av02'}",
+                        "-1546 -216 {n:'sh02'}",
+                        "-1546 1307 {n:'av04'}",
+                        "-1382 1307"
+                      ]
+                    },
+                    {
+                      "id":"contour.22",
+                      "nodes":[
+                        "-2252 -216 {n:'av03'}",
+                        "-2416 -216 {n:'sh01'}",
+                        "-2416 1307 {n:'av05'}",
+                        "-2252 1307"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-2416 -216",
+                    "contour":"contour.22",
+                    "index":1,
+                    "element":"element.14"
+                  }
+                },
+                "thickness":164,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-2252 -216",
+                    "contour":"contour.22",
+                    "index":0,
+                    "element":"element.14"
+                  }
+                }
+              },
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-1546 -216",
+                    "contour":"contour.23",
+                    "index":1,
+                    "element":"element.14"
+                  }
+                },
+                "thickness":164,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-1382 -216",
+                    "contour":"contour.23",
+                    "index":0,
+                    "element":"element.14"
+                  }
+                }
+              },
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-676 1306.52",
+                    "contour":"contour.24",
+                    "index":1,
+                    "element":"element.14"
+                  }
+                },
+                "thickness":164,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-512 967.631",
+                    "contour":"contour.25",
+                    "index":2,
+                    "element":"element.14"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-1382 -216",
+                    "contour":"contour.23",
+                    "index":0,
+                    "element":"element.14"
+                  }
+                },
+                "thickness":21
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-1546 1307",
+                    "contour":"contour.23",
+                    "index":2,
+                    "element":"element.14"
+                  }
+                },
+                "thickness":-20
+              }
+            ],
             "color":"#fe4a46",
+            "tth":[
+              "alignv av01 round",
+              "alignv av02 round",
+              "alignv av03 round",
+              "alignv dh01 round",
+              "alignv av04 round",
+              "alignv av05 round",
+              "interpolatev iv01 av02, av04",
+              "interpolatev dh02 av02, av04",
+              "alignh lsb round",
+              "singleh sh01, sh02 .round",
+              "mdeltah sh02 13-13 -8",
+              "singleh sh02, dh01 .round",
+              "mdeltah dh01 13-13 -8",
+              "singleh dh01, dh02 .round",
+              "singleh sh02, av02 .round",
+              "singleh sh01, av03 .round"
+            ],
             "active":true
           }
         ]
       },
       {
         "name":"bar_bar_bar.liga",
-        "lastModified":"2021-01-15 19:02:48",
+        "lastModified":"2021-01-19 01:19:45",
+        "openTypeGlyphClass":2,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "colorFlag":121,
             "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.15",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.28",
+                      "nodes":[
+                        "645 -410 {n:'av01'}",
+                        "481 -410 {n:'sh03'}",
+                        "481 1638 {n:'av04'}",
+                        "645 1638"
+                      ]
+                    },
+                    {
+                      "id":"contour.27",
+                      "nodes":[
+                        "-481 -410 {n:'av02'}",
+                        "-645 -410 {n:'sh02'}",
+                        "-645 1638 {n:'av05'}",
+                        "-481 1638"
+                      ]
+                    },
+                    {
+                      "id":"contour.26",
+                      "nodes":[
+                        "-1607 -410 {n:'av03'}",
+                        "-1771 -410 {n:'sh01'}",
+                        "-1771 1638 {n:'av06'}",
+                        "-1607 1638"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-1771 -410",
+                    "contour":"contour.26",
+                    "index":1,
+                    "element":"element.15"
+                  }
+                },
+                "thickness":164,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-1607 -410",
+                    "contour":"contour.26",
+                    "index":0,
+                    "element":"element.15"
+                  }
+                }
+              },
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-645 -410",
+                    "contour":"contour.27",
+                    "index":1,
+                    "element":"element.15"
+                  }
+                },
+                "thickness":164,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-481 -410",
+                    "contour":"contour.27",
+                    "index":0,
+                    "element":"element.15"
+                  }
+                }
+              },
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"481 -410",
+                    "contour":"contour.28",
+                    "index":1,
+                    "element":"element.15"
+                  }
+                },
+                "thickness":164,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"645 -410",
+                    "contour":"contour.28",
+                    "index":0,
+                    "element":"element.15"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"645 -410",
+                    "contour":"contour.28",
+                    "index":0,
+                    "element":"element.15"
+                  }
+                },
+                "thickness":21
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"481 1638",
+                    "contour":"contour.28",
+                    "index":2,
+                    "element":"element.15"
+                  }
+                },
+                "thickness":-20
+              }
+            ],
             "color":"#fe4a46",
+            "tth":[
+              "alignv av01 round",
+              "alignv av02 round",
+              "alignv av03 round",
+              "alignv av04 round",
+              "alignv av05 round",
+              "alignv av06 round",
+              "alignh lsb round",
+              "singleh sh01, sh02 .round",
+              "mdeltah sh02 19-19 8",
+              "mdeltah sh02 12-12 -8",
+              "mdeltah sh02 21-21 -8",
+              "singleh sh02, sh03 .round",
+              "mdeltah sh03 19-19 8",
+              "mdeltah sh03 12-12 -8",
+              "mdeltah sh03 21-21 -8",
+              "singleh sh03, av01 .round",
+              "singleh sh02, av02 .round",
+              "singleh sh01, av03 .round"
+            ],
             "active":true
           }
         ]
@@ -2315,30 +3152,120 @@
       },
       {
         "name":"bar_bar_greater.liga",
-        "lastModified":"2021-01-13 18:16:40",
+        "lastModified":"2021-01-19 03:53:13",
+        "openTypeGlyphClass":2,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "colorFlag":121,
             "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.16",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.30",
+                      "nodes":[
+                        "372 545",
+                        "-539 1306.52 {n:'dh01'}",
+                        "-539 -215.522 {n:'av01'}"
+                      ]
+                    },
+                    {
+                      "id":"contour.31",
+                      "nodes":[
+                        "137 543",
+                        "-375 121.187 {n:'iv01'}",
+                        "-375 967.631 {n:'dh02'}"
+                      ]
+                    },
+                    {
+                      "id":"contour.29",
+                      "nodes":[
+                        "-1245 -216 {n:'av02'}",
+                        "-1409 -216 {n:'sh02'}",
+                        "-1409 1307 {n:'av04'}",
+                        "-1245 1307"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-1409 -216",
+                    "contour":"contour.29",
+                    "index":1,
+                    "element":"element.16"
+                  }
+                },
+                "thickness":164,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-1245 -216",
+                    "contour":"contour.29",
+                    "index":0,
+                    "element":"element.16"
+                  }
+                }
+              },
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-539 1306.52",
+                    "contour":"contour.30",
+                    "index":1,
+                    "element":"element.16"
+                  }
+                },
+                "thickness":164,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-375 967.631",
+                    "contour":"contour.31",
+                    "index":2,
+                    "element":"element.16"
+                  }
+                }
+              }
+            ],
             "color":"#fe4a46",
+            "tth":[
+              "alignh lsb round",
+              "alignh dh01 round",
+              "singleh dh01, dh02 .round",
+              "singleh lsb, sh02 .none round",
+              "singleh sh02, av02 .round"
+            ],
             "active":true
           }
         ]
@@ -2435,30 +3362,141 @@
       },
       {
         "name":"bar_bar.liga",
-        "lastModified":"2021-01-15 19:02:57",
+        "lastModified":"2021-01-19 01:17:55",
+        "openTypeGlyphClass":2,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "colorFlag":121,
             "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.17",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.33",
+                      "nodes":[
+                        "464 -410 {n:'av01'}",
+                        "300 -410 {n:'ah01'}",
+                        "300 1638 {n:'av03'}",
+                        "464 1638"
+                      ]
+                    },
+                    {
+                      "id":"contour.32",
+                      "nodes":[
+                        "-300 -410 {n:'av02'}",
+                        "-464 -410 {n:'sh01'}",
+                        "-464 1638 {n:'av04'}",
+                        "-300 1638"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-464 -410",
+                    "contour":"contour.32",
+                    "index":1,
+                    "element":"element.17"
+                  }
+                },
+                "thickness":164,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-300 -410",
+                    "contour":"contour.32",
+                    "index":0,
+                    "element":"element.17"
+                  }
+                }
+              },
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"300 -410",
+                    "contour":"contour.33",
+                    "index":1,
+                    "element":"element.17"
+                  }
+                },
+                "thickness":164,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"464 -410",
+                    "contour":"contour.33",
+                    "index":0,
+                    "element":"element.17"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"464 -410",
+                    "contour":"contour.33",
+                    "index":0,
+                    "element":"element.17"
+                  }
+                },
+                "thickness":21
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"300 1638",
+                    "contour":"contour.33",
+                    "index":2,
+                    "element":"element.17"
+                  }
+                },
+                "thickness":-20
+              }
+            ],
             "color":"#fe4a46",
+            "tth":[
+              "alignv av01 round",
+              "alignv av02 round",
+              "alignv av03 round",
+              "alignv av04 round",
+              "alignh lsb round",
+              "alignh ah01 round",
+              "singleh ah01, av01 .round",
+              "singleh lsb, sh01 .none round",
+              "singleh sh01, av02 .round"
+            ],
             "active":true
           }
         ]
@@ -2615,30 +3653,87 @@
       },
       {
         "name":"bar_greater.liga",
-        "lastModified":"2021-01-13 18:19:22",
+        "lastModified":"2021-01-19 03:53:13",
+        "openTypeGlyphClass":2,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "colorFlag":121,
             "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.18",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.34",
+                      "nodes":[
+                        "510 545",
+                        "-401 1306.52 {n:'dh01'}",
+                        "-401 -215.522"
+                      ]
+                    },
+                    {
+                      "id":"contour.35",
+                      "nodes":[
+                        "275 543",
+                        "-237 121.187",
+                        "-237 967.631 {n:'dh02'}"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-401 1306.52",
+                    "contour":"contour.34",
+                    "index":1,
+                    "element":"element.18"
+                  }
+                },
+                "thickness":164,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-237 967.631",
+                    "contour":"contour.35",
+                    "index":2,
+                    "element":"element.18"
+                  }
+                }
+              }
+            ],
             "color":"#fe4a46",
+            "tth":[
+              "doubleh dh01, dh02 .round"
+            ],
             "active":true
           }
         ]
@@ -2765,7 +3860,8 @@
       },
       {
         "name":"bar.spacer",
-        "lastModified":"2021-01-15 18:00:49",
+        "lastModified":"2021-01-19 00:06:43",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -2830,7 +3926,8 @@
       },
       {
         "name":"braceleft.spacer",
-        "lastModified":"2021-01-15 18:00:49",
+        "lastModified":"2021-01-19 00:07:14",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -2895,7 +3992,8 @@
       },
       {
         "name":"bracketleft.spacer",
-        "lastModified":"2021-01-15 18:00:49",
+        "lastModified":"2021-01-19 00:07:14",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -2960,7 +4058,8 @@
       },
       {
         "name":"bracketright.spacer",
-        "lastModified":"2021-01-15 18:00:49",
+        "lastModified":"2021-01-19 00:07:14",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -3175,7 +4274,8 @@
       },
       {
         "name":"colon.spacer",
-        "lastModified":"2021-01-15 18:00:49",
+        "lastModified":"2021-01-19 00:07:14",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -3300,7 +4400,8 @@
       },
       {
         "name":"dollar.spacer",
-        "lastModified":"2021-01-15 18:00:49",
+        "lastModified":"2021-01-19 00:07:14",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -3605,7 +4706,8 @@
       },
       {
         "name":"equal.spacer",
-        "lastModified":"2021-01-15 18:00:49",
+        "lastModified":"2021-01-19 00:07:14",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -3880,7 +4982,8 @@
       },
       {
         "name":"exclam.spacer",
-        "lastModified":"2021-01-15 18:00:49",
+        "lastModified":"2021-01-19 00:07:14",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -3915,129 +5018,8 @@
       },
       {
         "name":"f_i.liga.ss10",
-        "lastModified":"2021-01-12 21:24:48",
-        "layers":[
-          {
-            "name":"BoldItalic",
-            "flags":2,
-            "advanceWidth":1126,
-            "color":"#bac000"
-          },
-          {
-            "name":"Italic",
-            "flags":2,
-            "advanceWidth":1126,
-            "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":2,
-            "advanceWidth":1126,
-            "color":"#ff34ff"
-          },
-          {
-            "name":"Regular",
-            "advanceWidth":1126,
-            "color":"#fe4a46",
-            "active":true
-          }
-        ]
-      },
-      {
-        "name":"f_i.liga.ss10.ss01",
-        "lastModified":"2021-01-16 19:24:05",
-        "layers":[
-          {
-            "name":"BoldItalic",
-            "flags":0,
-            "advanceWidth":1024,
-            "color":"#bac000"
-          },
-          {
-            "name":"Italic",
-            "flags":0,
-            "advanceWidth":1024,
-            "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1024,
-            "color":"#ff34ff"
-          },
-          {
-            "name":"Regular",
-            "flags":0,
-            "advanceWidth":1126,
-            "color":"#fe4a46",
-            "active":true
-          }
-        ]
-      },
-      {
-        "name":"f_j.liga.ss10",
-        "lastModified":"2021-01-12 21:24:48",
-        "layers":[
-          {
-            "name":"BoldItalic",
-            "flags":2,
-            "advanceWidth":1126,
-            "color":"#bac000"
-          },
-          {
-            "name":"Italic",
-            "flags":2,
-            "advanceWidth":1126,
-            "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":2,
-            "advanceWidth":1126,
-            "color":"#ff34ff"
-          },
-          {
-            "name":"Regular",
-            "advanceWidth":1126,
-            "color":"#fe4a46",
-            "active":true
-          }
-        ]
-      },
-      {
-        "name":"f_j.liga.ss10.ss01",
-        "lastModified":"2021-01-16 19:24:09",
-        "layers":[
-          {
-            "name":"BoldItalic",
-            "flags":0,
-            "advanceWidth":1024,
-            "color":"#bac000"
-          },
-          {
-            "name":"Italic",
-            "flags":0,
-            "advanceWidth":1024,
-            "color":"#00cce5"
-          },
-          {
-            "name":"Bold",
-            "flags":0,
-            "advanceWidth":1024,
-            "color":"#ff34ff"
-          },
-          {
-            "name":"Regular",
-            "flags":0,
-            "advanceWidth":1126,
-            "color":"#fe4a46",
-            "active":true
-          }
-        ]
-      },
-      {
-        "name":"F_l.liga.ss10",
-        "lastModified":"2021-01-16 19:04:49",
+        "lastModified":"2021-01-19 03:08:34",
+        "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
           {
@@ -4067,11 +5049,939 @@
             "advanceWidth":1126,
             "elements":[
               {
-                "id":"element.9",
+                "id":"element.19",
                 "elementData":{
                   "contours":[
                     {
-                      "id":"contour.15",
+                      "id":"contour.36",
+                      "nodes":[
+                        "-311 1280 s {n:'dv03'}",
+                        "-212 1280 o",
+                        "-75 1251",
+                        "-75 1401",
+                        "-201 1425 o",
+                        "-305 1425 s {n:'dv04'}",
+                        "-723 1425 o",
+                        "-723 1024 s {n:'sh01'}",
+                        "-723 858",
+                        "-1046 858 {n:'dv06'}",
+                        "-1046 713 {n:'dv05'}",
+                        "-723 713 {n:'sh02'}",
+                        "-723 0 {n:'sv01'}",
+                        "-546 0 {n:'sh04'}",
+                        "-546 713 {n:'sv02'}",
+                        "502 713 {n:'ah01'}",
+                        "502 145",
+                        "172 145 {n:'dv02'}",
+                        "172 0 {n:'dv01'}",
+                        "977 0",
+                        "977 145 {n:'sv03'}",
+                        "678 145",
+                        "678 858 {n:'sv04'}",
+                        "-546 858",
+                        "-546 1034 s {n:'sh03'}",
+                        "-546 1280 o"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "617 1015.5 s",
+                        "642 1026 o",
+                        "679 1064 o",
+                        "700 1114 o",
+                        "700 1142 s",
+                        "700 1171 o",
+                        "679 1220 o",
+                        "642 1258 o",
+                        "592 1279 o",
+                        "534 1279 o",
+                        "484 1258 o",
+                        "447 1220 o",
+                        "426 1171 o",
+                        "426 1142 s",
+                        "426 1114 o",
+                        "447 1064 o",
+                        "484 1026 o",
+                        "534 1005 o",
+                        "592 1005 o"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-723 1024",
+                    "contour":"contour.36",
+                    "index":7,
+                    "element":"element.19"
+                  }
+                },
+                "thickness":177,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-546 1034",
+                    "contour":"contour.36",
+                    "index":24,
+                    "element":"element.19"
+                  }
+                }
+              },
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"502 713",
+                    "contour":"contour.36",
+                    "index":15,
+                    "element":"element.19"
+                  }
+                },
+                "thickness":176,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"678 858",
+                    "contour":"contour.36",
+                    "index":22,
+                    "element":"element.19"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"172 0",
+                    "contour":"contour.36",
+                    "index":18,
+                    "element":"element.19"
+                  }
+                },
+                "thickness":145,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"172 145",
+                    "contour":"contour.36",
+                    "index":17,
+                    "element":"element.19"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-1046 713",
+                    "contour":"contour.36",
+                    "index":10,
+                    "element":"element.19"
+                  }
+                },
+                "thickness":145,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-1046 858",
+                    "contour":"contour.36",
+                    "index":9,
+                    "element":"element.19"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-311 1280",
+                    "contour":"contour.36",
+                    "index":0,
+                    "element":"element.19"
+                  }
+                },
+                "thickness":145,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-305 1425",
+                    "contour":"contour.36",
+                    "index":5,
+                    "element":"element.19"
+                  }
+                }
+              }
+            ],
+            "color":"#fe4a46",
+            "tth":[
+              "doublev dv01, dv02 .round",
+              "doublev dv03, dv04 .round",
+              "doublev dv05, dv06 .round",
+              "singlev dv01, sv01 .none",
+              "singlev dv05, sv02 .none",
+              "singlev dv02, sv03 .none",
+              "singlev dv06, sv04 .none",
+              "alignh lsb round",
+              "alignh ah01 round",
+              "singleh lsb, sh01 .none round",
+              "singleh sh01, sh02 .none",
+              "singleh sh01, sh03 .round",
+              "singleh sh03, sh04 .none",
+              "singleh ah01, sv04 .round"
+            ],
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"f_i.liga.ss10.ss01",
+        "lastModified":"2021-01-19 03:08:34",
+        "openTypeGlyphClass":2,
+        "colorFlag":121,
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "colorFlag":121,
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "colorFlag":121,
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "colorFlag":121,
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "colorFlag":121,
+            "flags":0,
+            "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.20",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.37",
+                      "nodes":[
+                        "-311 1280 s {n:'dv03'}",
+                        "-212 1280 o",
+                        "-75 1251",
+                        "-75 1401",
+                        "-201 1425 o",
+                        "-305 1425 s {n:'dv04'}",
+                        "-723 1425 o",
+                        "-723 1024 s {n:'sh01'}",
+                        "-723 858",
+                        "-1046 858 {n:'dv06'}",
+                        "-1046 713 {n:'dv05'}",
+                        "-723 713 {n:'sh02'}",
+                        "-723 141",
+                        "-1013 141 {n:'dv02'}",
+                        "-1013 0 {n:'dv01'}",
+                        "-215 0",
+                        "-215 141 {n:'sv01'}",
+                        "-546 141 {n:'sh04'}",
+                        "-546 713 {n:'sv02'}",
+                        "502 713 {n:'ah01'}",
+                        "502 145 {n:'sv03'}",
+                        "172 145",
+                        "172 0 {n:'sv04'}",
+                        "977 0",
+                        "977 145 {n:'sv05'}",
+                        "678 145",
+                        "678 858 {n:'sv06'}",
+                        "-546 858",
+                        "-546 1034 s {n:'sh03'}",
+                        "-546 1280 o"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "617 1015.5 s",
+                        "642 1026 o",
+                        "679 1064 o",
+                        "700 1114 o",
+                        "700 1142 s",
+                        "700 1171 o",
+                        "679 1220 o",
+                        "642 1258 o",
+                        "592 1279 o",
+                        "534 1279 o",
+                        "484 1258 o",
+                        "447 1220 o",
+                        "426 1171 o",
+                        "426 1142 s",
+                        "426 1114 o",
+                        "447 1064 o",
+                        "484 1026 o",
+                        "534 1005 o",
+                        "592 1005 o"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-723 1024",
+                    "contour":"contour.37",
+                    "index":7,
+                    "element":"element.20"
+                  }
+                },
+                "thickness":177,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-546 1034",
+                    "contour":"contour.37",
+                    "index":28,
+                    "element":"element.20"
+                  }
+                }
+              },
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"502 713",
+                    "contour":"contour.37",
+                    "index":19,
+                    "element":"element.20"
+                  }
+                },
+                "thickness":176,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"678 858",
+                    "contour":"contour.37",
+                    "index":26,
+                    "element":"element.20"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-1013 0",
+                    "contour":"contour.37",
+                    "index":14,
+                    "element":"element.20"
+                  }
+                },
+                "thickness":141,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-1013 141",
+                    "contour":"contour.37",
+                    "index":13,
+                    "element":"element.20"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-1046 713",
+                    "contour":"contour.37",
+                    "index":10,
+                    "element":"element.20"
+                  }
+                },
+                "thickness":145,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-1046 858",
+                    "contour":"contour.37",
+                    "index":9,
+                    "element":"element.20"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-311 1280",
+                    "contour":"contour.37",
+                    "index":0,
+                    "element":"element.20"
+                  }
+                },
+                "thickness":145,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-305 1425",
+                    "contour":"contour.37",
+                    "index":5,
+                    "element":"element.20"
+                  }
+                }
+              }
+            ],
+            "color":"#fe4a46",
+            "tth":[
+              "doublev dv01, dv02 .round",
+              "doublev dv03, dv04 .round",
+              "doublev dv05, dv06 .round",
+              "singlev dv02, sv01 .none",
+              "singlev dv05, sv02 .none",
+              "singlev dv02, sv03 .none round",
+              "singlev dv01, sv04 .none",
+              "singlev dv02, sv05 .none round",
+              "singlev dv06, sv06 .none",
+              "alignh lsb round",
+              "alignh ah01 round",
+              "singleh lsb, sh01 .none round",
+              "singleh sh01, sh02 .none",
+              "singleh sh01, sh03 .round",
+              "singleh sh03, sh04 .none",
+              "singleh ah01, sv06 .round"
+            ],
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"f_j.liga.ss10",
+        "lastModified":"2021-01-19 03:08:34",
+        "openTypeGlyphClass":2,
+        "colorFlag":121,
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "colorFlag":121,
+            "flags":2,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "colorFlag":121,
+            "flags":2,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "colorFlag":121,
+            "flags":2,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "colorFlag":121,
+            "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.21",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.38",
+                      "nodes":[
+                        "-311 1280 s {n:'dv03'}",
+                        "-212 1280 o",
+                        "-75 1251",
+                        "-75 1401",
+                        "-201 1425 o",
+                        "-305 1425 s {n:'dv04'}",
+                        "-723 1425 o",
+                        "-723 1024 s {n:'sh01'}",
+                        "-723 858",
+                        "-1046 858 {n:'dv06'}",
+                        "-1046 713 {n:'dv05'}",
+                        "-723 713 {n:'sh02'}",
+                        "-723 0",
+                        "-546 0 {n:'sh04'}",
+                        "-546 713 {n:'sv01'}",
+                        "664 713 {n:'ah01'}",
+                        "664 12 s",
+                        "664 -128 o",
+                        "534 -272 o",
+                        "420 -272 s {n:'dv02'}",
+                        "384 -272 o",
+                        "308 -263 o",
+                        "233 -245 o",
+                        "162 -219 o",
+                        "131 -203 {n:'ih01'}",
+                        "131 -369",
+                        "188 -393 o",
+                        "329 -420 o",
+                        "403 -420 s {n:'dv01'}",
+                        "505 -420 o",
+                        "668 -362 o",
+                        "780 -250 o",
+                        "840 -87 o",
+                        "840 18 s",
+                        "840 858 {n:'sv02'}",
+                        "-546 858",
+                        "-546 1034 s {n:'sh03'}",
+                        "-546 1280 o"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "789 1015.5 s",
+                        "814 1026 o",
+                        "851 1064 o",
+                        "872 1113 o",
+                        "872 1142 s",
+                        "872 1170 o",
+                        "851 1220 o",
+                        "814 1258 o",
+                        "764 1279 o",
+                        "706 1279 o",
+                        "656 1258 o",
+                        "619 1220 o",
+                        "598 1170 o",
+                        "598 1142 s",
+                        "598 1113 o",
+                        "619 1064 o",
+                        "656 1026 o",
+                        "706 1005 o",
+                        "764 1005 o"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-723 1024",
+                    "contour":"contour.38",
+                    "index":7,
+                    "element":"element.21"
+                  }
+                },
+                "thickness":177,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-546 1034",
+                    "contour":"contour.38",
+                    "index":36,
+                    "element":"element.21"
+                  }
+                }
+              },
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"664 713",
+                    "contour":"contour.38",
+                    "index":15,
+                    "element":"element.21"
+                  }
+                },
+                "thickness":176,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"840 858",
+                    "contour":"contour.38",
+                    "index":34,
+                    "element":"element.21"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"403 -420",
+                    "contour":"contour.38",
+                    "index":28,
+                    "element":"element.21"
+                  }
+                },
+                "thickness":148,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"420 -272",
+                    "contour":"contour.38",
+                    "index":19,
+                    "element":"element.21"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-1046 713",
+                    "contour":"contour.38",
+                    "index":10,
+                    "element":"element.21"
+                  }
+                },
+                "thickness":145,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-1046 858",
+                    "contour":"contour.38",
+                    "index":9,
+                    "element":"element.21"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-311 1280",
+                    "contour":"contour.38",
+                    "index":0,
+                    "element":"element.21"
+                  }
+                },
+                "thickness":145,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-305 1425",
+                    "contour":"contour.38",
+                    "index":5,
+                    "element":"element.21"
+                  }
+                }
+              }
+            ],
+            "color":"#fe4a46",
+            "tth":[
+              "doublev dv01, dv02 .round",
+              "doublev dv03, dv04 .round",
+              "doublev dv05, dv06 .round",
+              "singlev dv05, sv01 .none",
+              "singlev dv06, sv02 .none",
+              "alignh lsb round",
+              "alignh ah01 round",
+              "singleh lsb, sh01 .none round",
+              "singleh sh01, sh02 .none",
+              "singleh sh01, sh03 .round",
+              "singleh sh03, sh04 .none",
+              "singleh ah01, sv02 .round",
+              "interpolateh ih01 sh01, sv02"
+            ],
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"f_j.liga.ss10.ss01",
+        "lastModified":"2021-01-19 03:08:34",
+        "openTypeGlyphClass":2,
+        "colorFlag":121,
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "colorFlag":121,
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "colorFlag":121,
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "colorFlag":121,
+            "flags":0,
+            "advanceWidth":1024,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "colorFlag":121,
+            "flags":0,
+            "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.22",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.39",
+                      "nodes":[
+                        "-311 1280 s {n:'dv03'}",
+                        "-212 1280 o",
+                        "-75 1251",
+                        "-75 1401",
+                        "-201 1425 o",
+                        "-305 1425 s {n:'dv04'}",
+                        "-723 1425 o",
+                        "-723 1024 s {n:'sh01'}",
+                        "-723 858",
+                        "-1046 858 {n:'dv08'}",
+                        "-1046 713 {n:'dv07'}",
+                        "-723 713 {n:'sh02'}",
+                        "-723 141",
+                        "-1013 141 {n:'dv06'}",
+                        "-1013 0 {n:'dv05'}",
+                        "-215 0",
+                        "-215 141 {n:'sv01'}",
+                        "-546 141 {n:'sh04'}",
+                        "-546 713 {n:'sv02'}",
+                        "664 713 {n:'ah01'}",
+                        "664 12 s",
+                        "664 -128 o",
+                        "534 -272 o",
+                        "420 -272 s {n:'dv02'}",
+                        "384 -272 o",
+                        "308 -263 o",
+                        "233 -245 o",
+                        "162 -219 o",
+                        "131 -203 {n:'ih01'}",
+                        "131 -369",
+                        "188 -393 o",
+                        "329 -420 o",
+                        "403 -420 s {n:'dv01'}",
+                        "505 -420 o",
+                        "668 -362 o",
+                        "780 -250 o",
+                        "840 -87 o",
+                        "840 18 s",
+                        "840 858 {n:'sv03'}",
+                        "-546 858",
+                        "-546 1034 s {n:'sh03'}",
+                        "-546 1280 o"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "789 1015.5 s",
+                        "814 1026 o",
+                        "851 1064 o",
+                        "872 1113 o",
+                        "872 1142 s",
+                        "872 1170 o",
+                        "851 1220 o",
+                        "814 1258 o",
+                        "764 1279 o",
+                        "706 1279 o",
+                        "656 1258 o",
+                        "619 1220 o",
+                        "598 1170 o",
+                        "598 1142 s",
+                        "598 1113 o",
+                        "619 1064 o",
+                        "656 1026 o",
+                        "706 1005 o",
+                        "764 1005 o"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-723 1024",
+                    "contour":"contour.39",
+                    "index":7,
+                    "element":"element.22"
+                  }
+                },
+                "thickness":177,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-546 1034",
+                    "contour":"contour.39",
+                    "index":40,
+                    "element":"element.22"
+                  }
+                }
+              },
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"664 713",
+                    "contour":"contour.39",
+                    "index":19,
+                    "element":"element.22"
+                  }
+                },
+                "thickness":176,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"840 858",
+                    "contour":"contour.39",
+                    "index":38,
+                    "element":"element.22"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"403 -420",
+                    "contour":"contour.39",
+                    "index":32,
+                    "element":"element.22"
+                  }
+                },
+                "thickness":148,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"420 -272",
+                    "contour":"contour.39",
+                    "index":23,
+                    "element":"element.22"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-1013 0",
+                    "contour":"contour.39",
+                    "index":14,
+                    "element":"element.22"
+                  }
+                },
+                "thickness":141,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-1013 141",
+                    "contour":"contour.39",
+                    "index":13,
+                    "element":"element.22"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-1046 713",
+                    "contour":"contour.39",
+                    "index":10,
+                    "element":"element.22"
+                  }
+                },
+                "thickness":145,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-1046 858",
+                    "contour":"contour.39",
+                    "index":9,
+                    "element":"element.22"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-311 1280",
+                    "contour":"contour.39",
+                    "index":0,
+                    "element":"element.22"
+                  }
+                },
+                "thickness":145,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-305 1425",
+                    "contour":"contour.39",
+                    "index":5,
+                    "element":"element.22"
+                  }
+                }
+              }
+            ],
+            "color":"#fe4a46",
+            "tth":[
+              "doublev dv01, dv02 .round",
+              "doublev dv03, dv04 .round",
+              "doublev dv05, dv06 .round",
+              "doublev dv07, dv08 .round",
+              "singlev dv06, sv01 .none",
+              "singlev dv07, sv02 .none",
+              "singlev dv08, sv03 .none",
+              "alignh lsb round",
+              "alignh ah01 round",
+              "singleh lsb, sh01 .none round",
+              "singleh sh01, sh02 .none",
+              "singleh sh01, sh03 .round",
+              "singleh sh03, sh04 .none",
+              "singleh ah01, sv03 .round",
+              "interpolateh ih01 sh01, sv03"
+            ],
+            "active":true
+          }
+        ]
+      },
+      {
+        "name":"F_l.liga.ss10",
+        "lastModified":"2021-01-19 00:06:24",
+        "openTypeGlyphClass":2,
+        "colorFlag":121,
+        "layers":[
+          {
+            "name":"BoldItalic",
+            "colorFlag":121,
+            "flags":2,
+            "advanceWidth":1126,
+            "color":"#bac000"
+          },
+          {
+            "name":"Italic",
+            "colorFlag":121,
+            "flags":2,
+            "advanceWidth":1126,
+            "color":"#00cce5"
+          },
+          {
+            "name":"Bold",
+            "colorFlag":121,
+            "flags":2,
+            "advanceWidth":1126,
+            "color":"#ff34ff"
+          },
+          {
+            "name":"Regular",
+            "colorFlag":121,
+            "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.23",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.40",
                       "nodes":[
                         "172 145 {n:'dv02'}",
                         "172 0 {n:'dv01'}",
@@ -4102,18 +6012,18 @@
                 "node0":{
                   "nodeNode":{
                     "point":"-921 1307",
-                    "contour":"contour.15",
+                    "contour":"contour.40",
                     "index":6,
-                    "element":"element.9"
+                    "element":"element.23"
                   }
                 },
                 "thickness":182,
                 "nodeThickness":{
                   "nodeNode":{
                     "point":"-739 1155",
-                    "contour":"contour.15",
+                    "contour":"contour.40",
                     "index":13,
-                    "element":"element.9"
+                    "element":"element.23"
                   }
                 }
               },
@@ -4122,18 +6032,18 @@
                 "node0":{
                   "nodeNode":{
                     "point":"502 1155",
-                    "contour":"contour.15",
+                    "contour":"contour.40",
                     "index":14,
-                    "element":"element.9"
+                    "element":"element.23"
                   }
                 },
                 "thickness":176,
                 "nodeThickness":{
                   "nodeNode":{
                     "point":"678 1307",
-                    "contour":"contour.15",
+                    "contour":"contour.40",
                     "index":5,
-                    "element":"element.9"
+                    "element":"element.23"
                   }
                 }
               },
@@ -4142,18 +6052,18 @@
                 "node0":{
                   "nodeNode":{
                     "point":"172 0",
-                    "contour":"contour.15",
+                    "contour":"contour.40",
                     "index":1,
-                    "element":"element.9"
+                    "element":"element.23"
                   }
                 },
                 "thickness":145,
                 "nodeThickness":{
                   "nodeNode":{
                     "point":"172 145",
-                    "contour":"contour.15",
+                    "contour":"contour.40",
                     "index":0,
-                    "element":"element.9"
+                    "element":"element.23"
                   }
                 }
               },
@@ -4162,18 +6072,18 @@
                 "node0":{
                   "nodeNode":{
                     "point":"-739 582",
-                    "contour":"contour.15",
+                    "contour":"contour.40",
                     "index":9,
-                    "element":"element.9"
+                    "element":"element.23"
                   }
                 },
                 "thickness":149,
                 "nodeThickness":{
                   "nodeNode":{
                     "point":"-739 731",
-                    "contour":"contour.15",
+                    "contour":"contour.40",
                     "index":12,
-                    "element":"element.9"
+                    "element":"element.23"
                   }
                 }
               },
@@ -4182,18 +6092,18 @@
                 "node0":{
                   "nodeNode":{
                     "point":"-739 1155",
-                    "contour":"contour.15",
+                    "contour":"contour.40",
                     "index":13,
-                    "element":"element.9"
+                    "element":"element.23"
                   }
                 },
                 "thickness":152,
                 "nodeThickness":{
                   "nodeNode":{
                     "point":"-921 1307",
-                    "contour":"contour.15",
+                    "contour":"contour.40",
                     "index":6,
-                    "element":"element.9"
+                    "element":"element.23"
                   }
                 }
               }
@@ -4218,129 +6128,856 @@
       },
       {
         "name":"f_l.liga.ss10",
-        "lastModified":"2021-01-12 21:24:48",
+        "lastModified":"2021-01-19 03:08:34",
+        "openTypeGlyphClass":2,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "colorFlag":121,
             "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.24",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.41",
+                      "nodes":[
+                        "-723 1024 s {n:'sh01'}",
+                        "-723 858",
+                        "-1046 858 {n:'dv06'}",
+                        "-1046 713 {n:'dv05'}",
+                        "-723 713 {n:'sh02'}",
+                        "-723 0 {n:'sv01'}",
+                        "-546 0 {n:'sh04'}",
+                        "-546 713 {n:'sv02'}",
+                        "-106 713",
+                        "-106 858 {n:'sv03'}",
+                        "-546 858",
+                        "-546 1034 s {n:'sh03'}",
+                        "-546 1279.42 o",
+                        "-311 1280 s {n:'dv03'}",
+                        "502 1282 {n:'ah01'}",
+                        "502 145",
+                        "172 145 {n:'dv02'}",
+                        "172 0 {n:'dv01'}",
+                        "977 0",
+                        "977 145 {n:'sv04'}",
+                        "678 145",
+                        "678 1425 {n:'sh05'}",
+                        "-305 1425 s {n:'dv04'}",
+                        "-723 1425 o"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-723 1024",
+                    "contour":"contour.41",
+                    "index":0,
+                    "element":"element.24"
+                  }
+                },
+                "thickness":177,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-546 1034",
+                    "contour":"contour.41",
+                    "index":11,
+                    "element":"element.24"
+                  }
+                }
+              },
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"502 1282",
+                    "contour":"contour.41",
+                    "index":14,
+                    "element":"element.24"
+                  }
+                },
+                "thickness":176,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"678 1425",
+                    "contour":"contour.41",
+                    "index":21,
+                    "element":"element.24"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"172 0",
+                    "contour":"contour.41",
+                    "index":17,
+                    "element":"element.24"
+                  }
+                },
+                "thickness":145,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"172 145",
+                    "contour":"contour.41",
+                    "index":16,
+                    "element":"element.24"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-1046 713",
+                    "contour":"contour.41",
+                    "index":3,
+                    "element":"element.24"
+                  }
+                },
+                "thickness":145,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-1046 858",
+                    "contour":"contour.41",
+                    "index":2,
+                    "element":"element.24"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-311 1280",
+                    "contour":"contour.41",
+                    "index":13,
+                    "element":"element.24"
+                  }
+                },
+                "thickness":145,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-305 1425",
+                    "contour":"contour.41",
+                    "index":22,
+                    "element":"element.24"
+                  }
+                }
+              }
+            ],
             "color":"#fe4a46",
+            "tth":[
+              "doublev dv01, dv02 .round",
+              "doublev dv03, dv04 .round",
+              "doublev dv05, dv06 .round",
+              "singlev dv01, sv01 .none",
+              "singlev dv05, sv02 .none",
+              "singlev dv06, sv03 .none",
+              "singlev dv02, sv04 .none",
+              "alignh lsb round",
+              "alignh ah01 round",
+              "singleh lsb, sh01 .none round",
+              "singleh sh01, sh02 .none",
+              "singleh sh01, sh03 .round",
+              "singleh sh03, sh04 .none",
+              "singleh ah01, sh05 .round"
+            ],
             "active":true
           }
         ]
       },
       {
         "name":"f_l.liga.ss10.ss01",
-        "lastModified":"2021-01-16 19:24:12",
+        "lastModified":"2021-01-19 03:08:34",
+        "openTypeGlyphClass":2,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":0,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":0,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":0,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "colorFlag":121,
             "flags":0,
             "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.25",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.42",
+                      "nodes":[
+                        "172 145 {n:'sv01'}",
+                        "172 0 {n:'sv02'}",
+                        "977 0",
+                        "977 145 {n:'sv03'}",
+                        "678 145",
+                        "678 1425 {n:'sh01'}",
+                        "-305 1425 s {n:'dv04'}",
+                        "-723 1425 o",
+                        "-723 1024 s {n:'sh02'}",
+                        "-723 858",
+                        "-1046 858 {n:'dv06'}",
+                        "-1046 713 {n:'dv05'}",
+                        "-723 713 {n:'sh03'}",
+                        "-723 141 {n:'sv04'}",
+                        "-1013 141",
+                        "-1013 0",
+                        "-215 0 {n:'dv01'}",
+                        "-215 141 {n:'dv02'}",
+                        "-546 141 {n:'sh05'}",
+                        "-546 713 {n:'sv05'}",
+                        "-106 713",
+                        "-106 858 {n:'sv06'}",
+                        "-546 858",
+                        "-546 1034 s {n:'sh04'}",
+                        "-546 1280 o",
+                        "-311 1280 s {n:'dv03'}",
+                        "502 1280 {n:'ah01'}",
+                        "502 145"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-723 1024",
+                    "contour":"contour.42",
+                    "index":8,
+                    "element":"element.25"
+                  }
+                },
+                "thickness":177,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-546 1034",
+                    "contour":"contour.42",
+                    "index":23,
+                    "element":"element.25"
+                  }
+                }
+              },
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"502 1280",
+                    "contour":"contour.42",
+                    "index":26,
+                    "element":"element.25"
+                  }
+                },
+                "thickness":176,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"678 1425",
+                    "contour":"contour.42",
+                    "index":5,
+                    "element":"element.25"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-215 0",
+                    "contour":"contour.42",
+                    "index":16,
+                    "element":"element.25"
+                  }
+                },
+                "thickness":141,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-215 141",
+                    "contour":"contour.42",
+                    "index":17,
+                    "element":"element.25"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-1046 713",
+                    "contour":"contour.42",
+                    "index":11,
+                    "element":"element.25"
+                  }
+                },
+                "thickness":145,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-1046 858",
+                    "contour":"contour.42",
+                    "index":10,
+                    "element":"element.25"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-311 1280",
+                    "contour":"contour.42",
+                    "index":25,
+                    "element":"element.25"
+                  }
+                },
+                "thickness":145,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-305 1425",
+                    "contour":"contour.42",
+                    "index":6,
+                    "element":"element.25"
+                  }
+                }
+              }
+            ],
             "color":"#fe4a46",
+            "tth":[
+              "doublev dv01, dv02 .round",
+              "doublev dv03, dv04 .round",
+              "doublev dv05, dv06 .round",
+              "singlev dv02, sv01 .none round",
+              "singlev dv01, sv02 .none",
+              "singlev dv02, sv03 .none round",
+              "singlev dv02, sv04 .none",
+              "singlev dv05, sv05 .none",
+              "singlev dv06, sv06 .none",
+              "alignh lsb round",
+              "alignh ah01 round",
+              "singleh ah01, sh01 .round",
+              "singleh lsb, sh02 .none round",
+              "singleh sh02, sh03 .none",
+              "singleh sh02, sh04 .round",
+              "singleh sh04, sh05 .none"
+            ],
             "active":true
           }
         ]
       },
       {
         "name":"f_t.liga.ss10",
-        "lastModified":"2021-01-12 21:24:48",
+        "lastModified":"2021-01-19 03:08:34",
+        "openTypeGlyphClass":2,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "colorFlag":121,
             "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.26",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.43",
+                      "nodes":[
+                        "-311 1280 s {n:'dv03'}",
+                        "-212 1280 o",
+                        "-75 1251",
+                        "-75 1401",
+                        "-201 1425 o",
+                        "-305 1425 s {n:'dv04'}",
+                        "-723 1425 o",
+                        "-723 1024 s {n:'sh01'}",
+                        "-723 858",
+                        "-1046 858 {n:'dv06'}",
+                        "-1046 713 {n:'dv05'}",
+                        "-723 713 {n:'sh02'}",
+                        "-723 0 {n:'sv01'}",
+                        "-546 0 {n:'sh04'}",
+                        "-546 713 {n:'sv02'}",
+                        "344 713 {n:'ah01'}",
+                        "344 334 s",
+                        "344 157 o",
+                        "530 -14 o",
+                        "719 -14 s {n:'dv01'}",
+                        "784 -14 o",
+                        "910 -1 o",
+                        "969 14",
+                        "969 164",
+                        "907 148 o",
+                        "793 133 o",
+                        "745 133 s {n:'dv02'}",
+                        "633 133 o",
+                        "518 240 o",
+                        "518 348 s",
+                        "518 713 {n:'sv03'}",
+                        "969 713",
+                        "969 858 {n:'sv04'}",
+                        "518 858 {n:'sh05'}",
+                        "518 1325 {n:'iv01'}",
+                        "344 1280 {n:'sh06'}",
+                        "344 858 {n:'sv05'}",
+                        "-546 858",
+                        "-546 1034 s {n:'sh03'}",
+                        "-546 1280 o"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-723 1024",
+                    "contour":"contour.43",
+                    "index":7,
+                    "element":"element.26"
+                  }
+                },
+                "thickness":177,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-546 1034",
+                    "contour":"contour.43",
+                    "index":38,
+                    "element":"element.26"
+                  }
+                }
+              },
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"344 713",
+                    "contour":"contour.43",
+                    "index":15,
+                    "element":"element.26"
+                  }
+                },
+                "thickness":174,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"518 713",
+                    "contour":"contour.43",
+                    "index":30,
+                    "element":"element.26"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"719 -14",
+                    "contour":"contour.43",
+                    "index":19,
+                    "element":"element.26"
+                  }
+                },
+                "thickness":147,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"745 133",
+                    "contour":"contour.43",
+                    "index":26,
+                    "element":"element.26"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-1046 713",
+                    "contour":"contour.43",
+                    "index":10,
+                    "element":"element.26"
+                  }
+                },
+                "thickness":145,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-1046 858",
+                    "contour":"contour.43",
+                    "index":9,
+                    "element":"element.26"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-311 1280",
+                    "contour":"contour.43",
+                    "index":0,
+                    "element":"element.26"
+                  }
+                },
+                "thickness":145,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-305 1425",
+                    "contour":"contour.43",
+                    "index":5,
+                    "element":"element.26"
+                  }
+                }
+              }
+            ],
             "color":"#fe4a46",
+            "tth":[
+              "doublev dv01, dv02 .round",
+              "doublev dv03, dv04 .round",
+              "doublev dv05, dv06 .round",
+              "singlev dv01, sv01 .none round",
+              "singlev dv05, sv02 .none",
+              "singlev dv05, sv03 .none",
+              "singlev dv06, sv04 .none",
+              "interpolatev iv01 dv03, dv04",
+              "singlev dv06, sv05 .none",
+              "alignh lsb round",
+              "alignh ah01 round",
+              "singleh lsb, sh01 .none round",
+              "singleh sh01, sh02 .none",
+              "singleh sh01, sh03 .round",
+              "singleh sh03, sh04 .none",
+              "singleh ah01, sv03 .round",
+              "singleh sv03, sh05 .none",
+              "singleh ah01, sh06 .none"
+            ],
             "active":true
           }
         ]
       },
       {
         "name":"f_t.liga.ss10.ss01",
-        "lastModified":"2021-01-16 19:24:15",
+        "lastModified":"2021-01-19 03:08:34",
+        "openTypeGlyphClass":2,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":0,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":0,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":0,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "colorFlag":121,
             "flags":0,
             "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.27",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.44",
+                      "nodes":[
+                        "-311 1280 s {n:'dv03'}",
+                        "-212 1280 o",
+                        "-75 1251",
+                        "-75 1401",
+                        "-201 1425 o",
+                        "-305 1425 s {n:'dv04'}",
+                        "-723 1425 o",
+                        "-723 1024 s {n:'sh01'}",
+                        "-723 858",
+                        "-1046 858 {n:'dv06'}",
+                        "-1046 713 {n:'dv05'}",
+                        "-723 713 {n:'sh02'}",
+                        "-723 141 {n:'sv01'}",
+                        "-1013 141 {n:'sv03'}",
+                        "-1013 0 {n:'sv02'}",
+                        "-215 0",
+                        "-215 141 {n:'sv04'}",
+                        "-546 141 {n:'sv05'}",
+                        "-546 713 {n:'sv06'}",
+                        "344 713 {n:'ah01'}",
+                        "344 334 s",
+                        "344 157 o",
+                        "530 -14 o",
+                        "719 -14 s {n:'dv01'}",
+                        "784 -14 o",
+                        "910 -1 o",
+                        "969 14",
+                        "969 164",
+                        "907 148 o",
+                        "793 133 o",
+                        "745 133 s {n:'dv02'}",
+                        "633 133 o",
+                        "518 240 o",
+                        "518 348 s",
+                        "518 713 {n:'sv07'}",
+                        "969 713",
+                        "969 858 {n:'sv08'}",
+                        "518 858 {n:'sh04'}",
+                        "518 1325 {n:'iv01'}",
+                        "344 1280 {n:'sh05'}",
+                        "344 858 {n:'sv09'}",
+                        "-546 858",
+                        "-546 1034 s {n:'sh03'}",
+                        "-546 1280 o"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-723 1024",
+                    "contour":"contour.44",
+                    "index":7,
+                    "element":"element.27"
+                  }
+                },
+                "thickness":177,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-546 1034",
+                    "contour":"contour.44",
+                    "index":42,
+                    "element":"element.27"
+                  }
+                }
+              },
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"344 713",
+                    "contour":"contour.44",
+                    "index":19,
+                    "element":"element.27"
+                  }
+                },
+                "thickness":174,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"518 713",
+                    "contour":"contour.44",
+                    "index":34,
+                    "element":"element.27"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"719 -14",
+                    "contour":"contour.44",
+                    "index":23,
+                    "element":"element.27"
+                  }
+                },
+                "thickness":147,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"745 133",
+                    "contour":"contour.44",
+                    "index":30,
+                    "element":"element.27"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-1013 0",
+                    "contour":"contour.44",
+                    "index":14,
+                    "element":"element.27"
+                  }
+                },
+                "thickness":141,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-1013 141",
+                    "contour":"contour.44",
+                    "index":13,
+                    "element":"element.27"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-1046 713",
+                    "contour":"contour.44",
+                    "index":10,
+                    "element":"element.27"
+                  }
+                },
+                "thickness":145,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-1046 858",
+                    "contour":"contour.44",
+                    "index":9,
+                    "element":"element.27"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-311 1280",
+                    "contour":"contour.44",
+                    "index":0,
+                    "element":"element.27"
+                  }
+                },
+                "thickness":145,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-305 1425",
+                    "contour":"contour.44",
+                    "index":5,
+                    "element":"element.27"
+                  }
+                }
+              }
+            ],
             "color":"#fe4a46",
+            "tth":[
+              "doublev dv01, dv02 .round",
+              "doublev dv03, dv04 .round",
+              "doublev dv05, dv06 .round",
+              "singlev dv02, sv01 .none round",
+              "singlev dv01, sv02 .none round",
+              "singlev sv02, sv03 .round",
+              "singlev dv02, sv04 .none round",
+              "singlev sv03, sv05 .none",
+              "singlev dv05, sv06 .none",
+              "singlev dv05, sv07 .none",
+              "singlev dv06, sv08 .none",
+              "interpolatev iv01 dv03, dv04",
+              "singlev dv06, sv09 .none",
+              "alignh lsb round",
+              "alignh ah01 round",
+              "singleh lsb, sh01 .none round",
+              "singleh sh01, sh02 .none",
+              "singleh sh01, sh03 .round",
+              "singleh sh03, sv05 .none",
+              "singleh ah01, sv07 .round",
+              "singleh sv07, sh04 .none",
+              "singleh ah01, sh05 .none"
+            ],
             "active":true
           }
         ]
       },
       {
         "name":"F.spacer",
-        "lastModified":"2021-01-15 18:00:49",
+        "lastModified":"2021-01-19 00:06:29",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -4375,7 +7012,8 @@
       },
       {
         "name":"f.spacer",
-        "lastModified":"2021-01-15 18:00:49",
+        "lastModified":"2021-01-19 00:07:14",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -4410,7 +7048,8 @@
       },
       {
         "name":"f.spacer.ss01",
-        "lastModified":"2021-01-16 19:23:08",
+        "lastModified":"2021-01-19 00:07:14",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -4956,7 +7595,8 @@
       },
       {
         "name":"greater.spacer",
-        "lastModified":"2021-01-15 18:00:49",
+        "lastModified":"2021-01-19 00:07:14",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -5201,7 +7841,8 @@
       },
       {
         "name":"hyphen.spacer",
-        "lastModified":"2021-01-15 18:00:49",
+        "lastModified":"2021-01-19 00:07:14",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -5236,90 +7877,474 @@
       },
       {
         "name":"i.salt_low",
-        "lastModified":"2021-01-12 21:24:48",
+        "lastModified":"2021-01-19 04:31:09",
+        "openTypeGlyphClass":1,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "colorFlag":121,
             "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.28",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.45",
+                      "nodes":[
+                        "502 713 {n:'dv03'}",
+                        "205 713",
+                        "205 858",
+                        "678 858 {n:'dv04'}",
+                        "678 145",
+                        "977 145 {n:'dv02'}",
+                        "977 0 {n:'dv01'}",
+                        "172 0",
+                        "172 145 {n:'sv01'}",
+                        "502 145"
+                      ]
+                    },
+                    {
+                      "id":"contour.46",
+                      "nodes":[
+                        "563 1279 s {n:'av01'}",
+                        "592 1279 o",
+                        "642 1258 o",
+                        "679 1220 o",
+                        "700 1171 o",
+                        "700 1142 s",
+                        "700 1114 o",
+                        "679 1064 o",
+                        "642 1026 o",
+                        "592 1005 o",
+                        "563 1005 s",
+                        "534 1005 o",
+                        "484 1026 o",
+                        "447 1064 o",
+                        "426 1114 o",
+                        "426 1142 s",
+                        "426 1171 o",
+                        "447 1220 o",
+                        "484 1258 o",
+                        "534 1279 o"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"502 713",
+                    "contour":"contour.45",
+                    "index":0,
+                    "element":"element.28"
+                  }
+                },
+                "thickness":176,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"678 858",
+                    "contour":"contour.45",
+                    "index":3,
+                    "element":"element.28"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"977 0",
+                    "contour":"contour.45",
+                    "index":6,
+                    "element":"element.28"
+                  }
+                },
+                "thickness":145,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"977 145",
+                    "contour":"contour.45",
+                    "index":5,
+                    "element":"element.28"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"502 713",
+                    "contour":"contour.45",
+                    "index":0,
+                    "element":"element.28"
+                  }
+                },
+                "thickness":145,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"678 858",
+                    "contour":"contour.45",
+                    "index":3,
+                    "element":"element.28"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"563 1279",
+                    "contour":"contour.46",
+                    "index":0,
+                    "element":"element.28"
+                  }
+                },
+                "thickness":-20
+              }
+            ],
             "color":"#fe4a46",
+            "tth":[
+              "alignv av01 round",
+              "doublev dv01, dv02 .round",
+              "doublev dv03, dv04 .round",
+              "singlev dv02, sv01 .none",
+              "doubleh dv03, dv04 .round"
+            ],
             "active":true
           }
         ]
       },
       {
         "name":"j.salt_low",
-        "lastModified":"2021-01-12 21:24:48",
+        "lastModified":"2021-01-19 04:32:32",
+        "openTypeGlyphClass":1,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "colorFlag":121,
             "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.29",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.47",
+                      "nodes":[
+                        "840 858 {n:'dv04'}",
+                        "840 18 s {n:'dh02'}",
+                        "840 -87 o",
+                        "780 -250 o",
+                        "668 -362 o",
+                        "505 -420 o",
+                        "403 -420 s {n:'dv01'}",
+                        "329 -420 o",
+                        "188 -393 o",
+                        "131 -369",
+                        "131 -203",
+                        "162 -219 o",
+                        "233 -245 o",
+                        "308 -263 o",
+                        "384 -272 o",
+                        "420 -272 s {n:'dv02'}",
+                        "534 -272 o",
+                        "664 -128 o",
+                        "664 12 s {n:'dh01'}",
+                        "664 713 {n:'dv03'}",
+                        "172 713",
+                        "172 858"
+                      ]
+                    },
+                    {
+                      "id":"contour.48",
+                      "nodes":[
+                        "735 1279 s {n:'av01'}",
+                        "764 1279 o",
+                        "814 1258 o",
+                        "851 1220 o",
+                        "872 1170 o",
+                        "872 1142 s",
+                        "872 1113 o",
+                        "851 1064 o",
+                        "814 1026 o",
+                        "764 1005 o",
+                        "735 1005 s",
+                        "706 1005 o",
+                        "656 1026 o",
+                        "619 1064 o",
+                        "598 1113 o",
+                        "598 1142 s",
+                        "598 1170 o",
+                        "619 1220 o",
+                        "656 1258 o",
+                        "706 1279 o"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"664 12",
+                    "contour":"contour.47",
+                    "index":18,
+                    "element":"element.29"
+                  }
+                },
+                "thickness":176,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"840 18",
+                    "contour":"contour.47",
+                    "index":1,
+                    "element":"element.29"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"403 -420",
+                    "contour":"contour.47",
+                    "index":6,
+                    "element":"element.29"
+                  }
+                },
+                "thickness":148,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"420 -272",
+                    "contour":"contour.47",
+                    "index":15,
+                    "element":"element.29"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"664 713",
+                    "contour":"contour.47",
+                    "index":19,
+                    "element":"element.29"
+                  }
+                },
+                "thickness":145,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"840 858",
+                    "contour":"contour.47",
+                    "index":0,
+                    "element":"element.29"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"735 1279",
+                    "contour":"contour.48",
+                    "index":0,
+                    "element":"element.29"
+                  }
+                },
+                "thickness":-20
+              }
+            ],
             "color":"#fe4a46",
+            "tth":[
+              "alignv av01 round",
+              "doublev dv01, dv02 .round",
+              "doublev dv03, dv04 .round",
+              "doubleh dh01, dh02 .round"
+            ],
             "active":true
           }
         ]
       },
       {
         "name":"l.salt_low",
-        "lastModified":"2021-01-12 21:24:48",
+        "lastModified":"2021-01-19 04:34:16",
+        "openTypeGlyphClass":1,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "colorFlag":121,
             "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.30",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.49",
+                      "nodes":[
+                        "502 1280 {n:'dv03'}",
+                        "205 1280",
+                        "205 1425",
+                        "678 1425 {n:'dv04'}",
+                        "678 145",
+                        "977 145 {n:'dv02'}",
+                        "977 0 {n:'dv01'}",
+                        "172 0",
+                        "172 145 {n:'sv01'}",
+                        "502 145"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"502 1280",
+                    "contour":"contour.49",
+                    "index":0,
+                    "element":"element.30"
+                  }
+                },
+                "thickness":176,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"678 1425",
+                    "contour":"contour.49",
+                    "index":3,
+                    "element":"element.30"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"977 0",
+                    "contour":"contour.49",
+                    "index":6,
+                    "element":"element.30"
+                  }
+                },
+                "thickness":145,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"977 145",
+                    "contour":"contour.49",
+                    "index":5,
+                    "element":"element.30"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"502 1280",
+                    "contour":"contour.49",
+                    "index":0,
+                    "element":"element.30"
+                  }
+                },
+                "thickness":145,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"678 1425",
+                    "contour":"contour.49",
+                    "index":3,
+                    "element":"element.30"
+                  }
+                }
+              }
+            ],
             "color":"#fe4a46",
+            "tth":[
+              "doublev dv01, dv02 .round",
+              "doublev dv03, dv04 .round",
+              "singlev dv02, sv01 .none",
+              "doubleh dv03, dv04 .round"
+            ],
             "active":true
           }
         ]
@@ -5476,120 +8501,517 @@
       },
       {
         "name":"less_bar_bar_bar.liga",
-        "lastModified":"2021-01-13 18:15:03",
+        "lastModified":"2021-01-19 03:47:43",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "colorFlag":121,
             "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.31",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.51",
+                      "nodes":[
+                        "-2487 545",
+                        "-1576 -215.522 {n:'av01'}",
+                        "-1576 1306.52 {n:'dh01'}"
+                      ]
+                    },
+                    {
+                      "id":"contour.50",
+                      "nodes":[
+                        "-2252 543",
+                        "-1740 967.631 {n:'dh02'}",
+                        "-1740 121.187 {n:'iv01'}"
+                      ]
+                    },
+                    {
+                      "id":"contour.53",
+                      "nodes":[
+                        "-870 -216 {n:'av02'}",
+                        "-870 1307 {n:'av06'}",
+                        "-706 1307 {n:'av04'}",
+                        "-706 -216 {n:'sh02'}"
+                      ]
+                    },
+                    {
+                      "id":"contour.52",
+                      "nodes":[
+                        "0 -216 {n:'av03'}",
+                        "0 1307 {n:'av07'}",
+                        "164 1307 {n:'av05'}",
+                        "164 -216 {n:'sh01'}"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-1740 967.631",
+                    "contour":"contour.50",
+                    "index":1,
+                    "element":"element.31"
+                  }
+                },
+                "thickness":164,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-1576 1306.52",
+                    "contour":"contour.51",
+                    "index":2,
+                    "element":"element.31"
+                  }
+                }
+              },
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"0 -216",
+                    "contour":"contour.52",
+                    "index":0,
+                    "element":"element.31"
+                  }
+                },
+                "thickness":164,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"164 -216",
+                    "contour":"contour.52",
+                    "index":3,
+                    "element":"element.31"
+                  }
+                }
+              },
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-870 -216",
+                    "contour":"contour.53",
+                    "index":0,
+                    "element":"element.31"
+                  }
+                },
+                "thickness":164,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-706 -216",
+                    "contour":"contour.53",
+                    "index":3,
+                    "element":"element.31"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-870 1307",
+                    "contour":"contour.53",
+                    "index":1,
+                    "element":"element.31"
+                  }
+                },
+                "thickness":-20
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-870 -216",
+                    "contour":"contour.53",
+                    "index":0,
+                    "element":"element.31"
+                  }
+                },
+                "thickness":21
+              }
+            ],
             "color":"#fe4a46",
+            "tth":[
+              "alignv dh01 round",
+              "alignv av06 round",
+              "alignv av07 round",
+              "alignv av01 round",
+              "alignv av02 round",
+              "alignv av03 round",
+              "interpolatev dh02 av02, av06",
+              "interpolatev iv01 av02, av06",
+              "alignh lsb round",
+              "singleh dh02, dh01 .round",
+              "singleh dh02, av02 .round",
+              "mdeltah av02 20-20 -8",
+              "mdeltah av02 13-13 -8",
+              "singleh av02, sh02 .round",
+              "singleh av02, av03 .round",
+              "mdeltah av03 20-20 -8",
+              "mdeltah av03 13-13 -8",
+              "singleh av03, sh01 .round"
+            ],
             "active":true
           }
         ]
       },
       {
         "name":"less_bar_bar.liga",
-        "lastModified":"2021-01-13 18:17:53",
+        "lastModified":"2021-01-19 03:47:43",
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "colorFlag":121,
             "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.32",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.55",
+                      "nodes":[
+                        "-1521 545",
+                        "-610 -215.522 {n:'av01'}",
+                        "-610 1306.52 {n:'dh01'}"
+                      ]
+                    },
+                    {
+                      "id":"contour.54",
+                      "nodes":[
+                        "-1286 543",
+                        "-774 967.631 {n:'dh02'}",
+                        "-774 121.187 {n:'iv01'}"
+                      ]
+                    },
+                    {
+                      "id":"contour.56",
+                      "nodes":[
+                        "96 -216 {n:'av02'}",
+                        "96 1307",
+                        "260 1307 {n:'av04'}",
+                        "260 -216 {n:'sh02'}"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-774 967.631",
+                    "contour":"contour.54",
+                    "index":1,
+                    "element":"element.32"
+                  }
+                },
+                "thickness":164,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-610 1306.52",
+                    "contour":"contour.55",
+                    "index":2,
+                    "element":"element.32"
+                  }
+                }
+              },
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"96 -216",
+                    "contour":"contour.56",
+                    "index":0,
+                    "element":"element.32"
+                  }
+                },
+                "thickness":164,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"260 -216",
+                    "contour":"contour.56",
+                    "index":3,
+                    "element":"element.32"
+                  }
+                }
+              }
+            ],
             "color":"#fe4a46",
+            "tth":[
+              "alignh lsb round",
+              "alignh av02 round",
+              "singleh lsb, dh02 .none round",
+              "singleh dh02, dh01 .round",
+              "singleh av02, sh02 .round"
+            ],
             "active":true
           }
         ]
       },
       {
         "name":"less_bar_greater.liga",
-        "lastModified":"2021-01-13 18:11:57",
+        "lastModified":"2021-01-19 04:24:13",
+        "openTypeGlyphClass":2,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "colorFlag":121,
             "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.33",
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "-181 995",
+                        "-73 1106",
+                        "599 545",
+                        "-73 -16",
+                        "-181 94",
+                        "364 543"
+                      ]
+                    },
+                    {
+                      "id":"contour.57",
+                      "nodes":[
+                        "-645 -216 {n:'av03'}",
+                        "-645 1307 {n:'av07'}",
+                        "-481 1307 {n:'av05'}",
+                        "-481 -216 {n:'sh01'}"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "-945 94",
+                        "-1054 -16",
+                        "-1726 545",
+                        "-1054 1106",
+                        "-945 995",
+                        "-1490 547"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-645 -216",
+                    "contour":"contour.57",
+                    "index":0,
+                    "element":"element.33"
+                  }
+                },
+                "thickness":164,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"-481 -216",
+                    "contour":"contour.57",
+                    "index":3,
+                    "element":"element.33"
+                  }
+                }
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-645 1307",
+                    "contour":"contour.57",
+                    "index":1,
+                    "element":"element.33"
+                  }
+                },
+                "thickness":-20
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-645 -216",
+                    "contour":"contour.57",
+                    "index":0,
+                    "element":"element.33"
+                  }
+                },
+                "thickness":21
+              }
+            ],
             "color":"#fe4a46",
+            "tth":[
+              "alignv av07 round",
+              "alignv av03 round",
+              "doubleh av03, sh01 .round"
+            ],
             "active":true
           }
         ]
       },
       {
         "name":"less_bar.liga",
-        "lastModified":"2021-01-13 18:20:27",
+        "lastModified":"2021-01-19 03:47:43",
+        "openTypeGlyphClass":2,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "colorFlag":121,
             "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.34",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.59",
+                      "nodes":[
+                        "-555 545",
+                        "356 -215.522",
+                        "356 1306.52 {n:'dh01'}"
+                      ]
+                    },
+                    {
+                      "id":"contour.58",
+                      "nodes":[
+                        "-320 543",
+                        "192 967.631 {n:'dh02'}",
+                        "192 121.187"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "vertical":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"192 967.631",
+                    "contour":"contour.58",
+                    "index":1,
+                    "element":"element.34"
+                  }
+                },
+                "thickness":164,
+                "nodeThickness":{
+                  "nodeNode":{
+                    "point":"356 1306.52",
+                    "contour":"contour.59",
+                    "index":2,
+                    "element":"element.34"
+                  }
+                }
+              }
+            ],
             "color":"#fe4a46",
+            "tth":[
+              "doubleh dh02, dh01 .round"
+            ],
             "active":true
           }
         ]
@@ -5896,29 +9318,60 @@
       },
       {
         "name":"less_greater.liga",
-        "lastModified":"2021-01-13 20:34:56",
+        "lastModified":"2021-01-19 04:13:18",
+        "openTypeGlyphClass":2,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1024,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "colorFlag":121,
             "advanceWidth":1126,
+            "elements":[
+              {
+                "elementData":{
+                  "contours":[
+                    {
+                      "nodes":[
+                        "-690 547",
+                        "-60 914.35",
+                        "572 543",
+                        "-60 173.35"
+                      ]
+                    },
+                    {
+                      "nodes":[
+                        "869 545",
+                        "-60 1090",
+                        "-989 545",
+                        "-60 0"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
             "color":"#fe4a46",
             "active":true
           }
@@ -6406,7 +9859,8 @@
       },
       {
         "name":"less.spacer",
-        "lastModified":"2021-01-15 18:00:49",
+        "lastModified":"2021-01-19 00:07:14",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -6801,7 +10255,8 @@
       },
       {
         "name":"numbersign.spacer",
-        "lastModified":"2021-01-15 18:00:49",
+        "lastModified":"2021-01-19 00:07:14",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -6866,7 +10321,8 @@
       },
       {
         "name":"percent.spacer",
-        "lastModified":"2021-01-15 18:00:49",
+        "lastModified":"2021-01-19 00:07:14",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -7081,7 +10537,8 @@
       },
       {
         "name":"period.spacer",
-        "lastModified":"2021-01-15 18:00:49",
+        "lastModified":"2021-01-19 00:07:14",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -7236,7 +10693,8 @@
       },
       {
         "name":"plus.spacer",
-        "lastModified":"2021-01-15 18:00:49",
+        "lastModified":"2021-01-19 00:07:14",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -7361,7 +10819,8 @@
       },
       {
         "name":"question.spacer",
-        "lastModified":"2021-01-15 18:00:49",
+        "lastModified":"2021-01-19 00:07:14",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -7426,7 +10885,8 @@
       },
       {
         "name":"semicolon.spacer",
-        "lastModified":"2021-01-15 18:00:49",
+        "lastModified":"2021-01-19 00:07:14",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -7491,30 +10951,90 @@
       },
       {
         "name":"slash_backslash.liga",
-        "lastModified":"2021-01-12 21:24:48",
+        "lastModified":"2021-01-19 01:08:36",
+        "openTypeGlyphClass":2,
+        "colorFlag":121,
         "layers":[
           {
             "name":"BoldItalic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#bac000"
           },
           {
             "name":"Italic",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#00cce5"
           },
           {
             "name":"Bold",
+            "colorFlag":121,
             "flags":2,
             "advanceWidth":1126,
             "color":"#ff34ff"
           },
           {
             "name":"Regular",
+            "colorFlag":121,
             "advanceWidth":1126,
+            "elements":[
+              {
+                "id":"element.35",
+                "elementData":{
+                  "contours":[
+                    {
+                      "id":"contour.60",
+                      "nodes":[
+                        "-484.394 0.0232 {n:'av01'}",
+                        "0.5 1150.76 {n:'iv01'}",
+                        "485.418 -0.0331",
+                        "651.407 -0.0076 {n:'av02'}",
+                        "100.753 1306.79 {n:'av03'}",
+                        "-99.753 1306.79",
+                        "-650.417 -0.0293"
+                      ]
+                    }
+                  ]
+                },
+                "active":true
+              }
+            ],
+            "hints":[
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"-99.753 1306.79",
+                    "contour":"contour.60",
+                    "index":5,
+                    "element":"element.35"
+                  }
+                },
+                "thickness":-20
+              },
+              {
+                "horizontal":true,
+                "node0":{
+                  "nodeNode":{
+                    "point":"651.407 -0.0076",
+                    "contour":"contour.60",
+                    "index":3,
+                    "element":"element.35"
+                  }
+                },
+                "thickness":21
+              }
+            ],
             "color":"#fe4a46",
+            "tth":[
+              "alignv av01 round",
+              "alignv av02 round",
+              "alignv av03 round",
+              "interpolatev iv01 av01, av03"
+            ],
             "active":true
           }
         ]
@@ -7791,7 +11311,8 @@
       },
       {
         "name":"slash.spacer",
-        "lastModified":"2021-01-15 18:00:49",
+        "lastModified":"2021-01-19 00:07:14",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -7826,7 +11347,8 @@
       },
       {
         "name":"T_l.liga.ss10",
-        "lastModified":"2021-01-16 19:04:49",
+        "lastModified":"2021-01-19 00:06:19",
+        "openTypeGlyphClass":2,
         "colorFlag":121,
         "layers":[
           {
@@ -7856,11 +11378,11 @@
             "advanceWidth":1126,
             "elements":[
               {
-                "id":"element.10",
+                "id":"element.36",
                 "elementData":{
                   "contours":[
                     {
-                      "id":"contour.16",
+                      "id":"contour.61",
                       "nodes":[
                         "172 145 {n:'dv02'}",
                         "172 0 {n:'dv01'}",
@@ -7889,18 +11411,18 @@
                 "node0":{
                   "nodeNode":{
                     "point":"-653 1155",
-                    "contour":"contour.16",
+                    "contour":"contour.61",
                     "index":8,
-                    "element":"element.10"
+                    "element":"element.36"
                   }
                 },
                 "thickness":180,
                 "nodeThickness":{
                   "nodeNode":{
                     "point":"-473 1155",
-                    "contour":"contour.16",
+                    "contour":"contour.61",
                     "index":11,
-                    "element":"element.10"
+                    "element":"element.36"
                   }
                 }
               },
@@ -7909,18 +11431,18 @@
                 "node0":{
                   "nodeNode":{
                     "point":"502 1155",
-                    "contour":"contour.16",
+                    "contour":"contour.61",
                     "index":12,
-                    "element":"element.10"
+                    "element":"element.36"
                   }
                 },
                 "thickness":176,
                 "nodeThickness":{
                   "nodeNode":{
                     "point":"678 1307",
-                    "contour":"contour.16",
+                    "contour":"contour.61",
                     "index":5,
-                    "element":"element.10"
+                    "element":"element.36"
                   }
                 }
               },
@@ -7929,18 +11451,18 @@
                 "node0":{
                   "nodeNode":{
                     "point":"172 0",
-                    "contour":"contour.16",
+                    "contour":"contour.61",
                     "index":1,
-                    "element":"element.10"
+                    "element":"element.36"
                   }
                 },
                 "thickness":145,
                 "nodeThickness":{
                   "nodeNode":{
                     "point":"172 145",
-                    "contour":"contour.16",
+                    "contour":"contour.61",
                     "index":0,
-                    "element":"element.10"
+                    "element":"element.36"
                   }
                 }
               },
@@ -7949,18 +11471,18 @@
                 "node0":{
                   "nodeNode":{
                     "point":"-1040 1155",
-                    "contour":"contour.16",
+                    "contour":"contour.61",
                     "index":7,
-                    "element":"element.10"
+                    "element":"element.36"
                   }
                 },
                 "thickness":152,
                 "nodeThickness":{
                   "nodeNode":{
                     "point":"-1040 1307",
-                    "contour":"contour.16",
+                    "contour":"contour.61",
                     "index":6,
-                    "element":"element.10"
+                    "element":"element.36"
                   }
                 }
               }
@@ -7984,7 +11506,8 @@
       },
       {
         "name":"T.spacer",
-        "lastModified":"2021-01-15 18:00:49",
+        "lastModified":"2021-01-19 00:06:21",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -8171,7 +11694,8 @@
       },
       {
         "name":"underscore.spacer",
-        "lastModified":"2021-01-15 18:00:49",
+        "lastModified":"2021-01-19 00:07:14",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {
@@ -8236,7 +11760,8 @@
       },
       {
         "name":"w.spacer",
-        "lastModified":"2021-01-15 18:00:49",
+        "lastModified":"2021-01-19 00:07:14",
+        "openTypeGlyphClass":1,
         "colorFlag":121,
         "layers":[
           {

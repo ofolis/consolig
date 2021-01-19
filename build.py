@@ -49,7 +49,7 @@ if __name__ == "__main__":
         input_file_path = INPUT_DIR / config["inputFile"]
         output_file_path = BUILD_DIR / config["sourceFile"]
         source_file_path = SOURCE_DIR / config["sourceFile"]
-        print(f"Processing source at \"{source_file_path}\"")
+        print(f"Generating {config['sourceFile']} from {config['inputFile']}")
         if path.exists(source_file_path) and path.exists(input_file_path):
             # Output TTX (XML) files for fonts
             print("  Exporting XML from TTF files")
